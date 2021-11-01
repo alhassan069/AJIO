@@ -19,15 +19,25 @@
             grid-template-columns: 15% 12% 40% 10% 15%;
             border-bottom: 1px solid #e0e0e0;
             padding: 20px;
+            position:fixed;
+            background-color: white;
         }
         #dantera>img{
+            margin-top:100px;
             width: 70%;
             margin-left: 15%;
             height: 200px
         }
+        #cart{
+            width: 50%;
+            margin-left: 13%;
+            height: 50px;
+        }
+        #main{
+            border: 1px solid black;
+        }
     </style>
 </head>
-<body>
     <!-- <i class="fa fa-shopping-bag" aria-hidden="true"></i> -->
     <div class="navbar">
         <div>
@@ -35,13 +45,17 @@
         </div>
         <div><img src="https://assets.ajio.com/static/img/Ajio-Logo.svg" alt="logo" width="80%"></div>
         <div id="nav">
-            <img src="./cart-1.png" alt="">
+            <img src="./cart-1.png" id="cart" alt="">
         </div>
         <div>Login/Join Ajio</div>
         <div></div>
     </div>
     <div id="dantera">
         <img src="https://assets.ajio.com/medias/sys_master/images/i…ges/hfa/hc7/45119956189214/Dhanteras-offer-81.jpg" alt="">
+    </div>
+    <div id="main">
+        <div>1</div>
+        <div>2</div>
     </div>
 </body>
 </html>
