@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Shopping Bag | AJIO</title>
     <link rel="icon" href="https://assets.ajio.com/static/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         *{
             box-sizing: border-box;
             padding: 0px;
             margin: 0px;
-            font-family: SourceSansPro;
+            font-family: 'Lora', serif;
         }
+        
         .navbar{
             width: 100%;
             display: grid;
@@ -34,9 +38,6 @@
             height: 50px;
         }
         #prod {
-            width: 70%;
-            margin-left: 15%;
-            margin-top: 2%;
             max-height: 500px;
             overflow-y:scroll;
         }
@@ -60,7 +61,24 @@
         #prodName{
             font-family: lora;
             font-size: 14px;
-            font-weight: 550;
+        }
+        #main{
+            width: 70%;
+            margin-left: 15%;
+            margin-top:2%;
+            display: grid;
+            grid-template-columns:69% 30%;
+            grid-gap: 1%;
+            padding: 1%;
+            border: 1px solid red;
+        }
+        #bill{
+            background-color: #fafafa;
+            padding: 1.5%;
+        }
+        #btn{
+            background-color: #D5a249;
+            padding: 10px 20px 10px 20px;
         }
     </style>
 </head>
@@ -80,7 +98,18 @@
         <img src="https://assets.ajio.com/medias/sys_master/images/i…ges/hfa/hc7/45119956189214/Dhanteras-offer-81.jpg" alt="">
     </div>
     <h2 id="mybag">My Bag &nbsp;<span id="quan"></span>&nbsp;<span id="qu">items)</span></h2>
+    <div id="main">
     <div id="prod">
+    </div>
+    <div id="bill">
+        <h4>Order Details</h4>
+        <br><p>Bag Total</p>
+        <br><p>Bag Discount</p>
+        <br><p>Delivery</p>
+        <br><h4>Total Amount</h4>
+        <button id='btn'>Proceed To Shopping</button>
+    </div>
+
     </div>
 </body>
 </html>
@@ -103,7 +132,7 @@
             mdiv.setAttribute('class','mdiv')
             let img = document.createElement("img");
             img.src=product.img;
-            let p = document.createElement('p');
+            let p = document.createElement('span');
             p.setAttribute('id','prodName')
             p.textContent=product.name;
             mdiv.append(img,p);
