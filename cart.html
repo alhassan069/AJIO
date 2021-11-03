@@ -33,8 +33,34 @@
             margin-left: 13%;
             height: 50px;
         }
-        #main{
+        #prod {
+            width: 70%;
+            margin-left: 15%;
+            margin-top: 2%;
+            max-height: 500px;
+            overflow-y:scroll;
+        }
+        .mdiv{
             border: 1px solid black;
+            display: grid;
+            grid-template-columns: 20% 40% 20% 20%;
+            
+        }
+        .mdiv > img{
+            width: 80%;
+        }
+        #mybag{
+            width: 70%;
+            margin-top: 2%;
+            margin-left: 15%;
+        }
+        #quan,#qu{
+            color: silver;
+        }
+        #prodName{
+            font-family: lora;
+            font-size: 14px;
+            font-weight: 550;
         }
     </style>
 </head>
@@ -53,9 +79,39 @@
     <div id="dantera">
         <img src="https://assets.ajio.com/medias/sys_master/images/i…ges/hfa/hc7/45119956189214/Dhanteras-offer-81.jpg" alt="">
     </div>
-    <div id="main">
-        <div>1</div>
-        <div>2</div>
+    <h2 id="mybag">My Bag &nbsp;<span id="quan"></span>&nbsp;<span id="qu">items)</span></h2>
+    <div id="prod">
     </div>
 </body>
 </html>
+<script>
+    let count=0;
+    let data =[
+        {
+            img :"https://assets.ajio.com/medias/sys_master/root/20210316/NBpk/604fb67baeb26969818651ea/-473Wx593H-441115903-indigo-MODEL.jpg",
+            name : "AVAASA MIX 'N' MATCH Embroidered blue kurthi for women",
+        },{
+            img : 'https://assets.ajio.com/medias/sys_master/root/hb2/h7c/11749319180318/-1117Wx1400H-460229269-khaki-MODEL.jpg',
+            name :"FORT COLLINS Hooded Panelled Bomber Jacket"
+        }
+    ];
+    let parent = document.getElementById('prod');
+    let mybag = document.getElementById('quan');
+    function showProd(data){
+        data.forEach((product)=>{
+            let mdiv = document.createElement('div');
+            mdiv.setAttribute('class','mdiv')
+            let img = document.createElement("img");
+            img.src=product.img;
+            let p = document.createElement('p');
+            p.setAttribute('id','prodName')
+            p.textContent=product.name;
+            mdiv.append(img,p);
+            parent.append(mdiv);
+            count++;
+        })
+    }
+   showProd(data);
+   console.log('count',count);
+   mybag.textContent='('+count;
+</script>
