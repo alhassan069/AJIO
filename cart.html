@@ -38,13 +38,13 @@
             height: 50px;
         }
         #prod {
-            max-height: 500px;
+            max-height: 400px;
             overflow-y:scroll;
         }
         .mdiv{
             border: 1px solid black;
             display: grid;
-            grid-template-columns: 20% 40% 3% 5% 3% 5% 20%;
+            grid-template-columns: 20% 30% 3% 5% 3% 5% 20%;
             
         }
         .mdiv > img{
@@ -59,8 +59,9 @@
             color: silver;
         }
         #prodName{
-            font-family: sans-serif;
+            font-family: lora;
             font-size: 15px;
+            font-weight: 450;
             padding-top: 15px;
         }
         #main{
@@ -71,7 +72,6 @@
             grid-template-columns:69% 30%;
             grid-gap: 1%;
             padding: 1%;
-            border: 1px solid red;
         }
         #bill{
             background-color: #fafafa;
@@ -159,6 +159,9 @@
         },{
             img : 'https://assets.ajio.com/medias/sys_master/root/hb2/h7c/11749319180318/-1117Wx1400H-460229269-khaki-MODEL.jpg',
             name :"FORT COLLINS Hooded Panelled Bomber Jacket"
+        },{
+            img : "https://assets.ajio.com/medias/sys_master/root/20210404/WcBL/606b27afaeb269a9e362ae4a/-1117Wx1400H-461219890-blue-MODEL.jpg",
+            name :"DEYANN Floral Pattern Suit Set with Slits"
         }
     ];
     let parent = document.getElementById('prod');
