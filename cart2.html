@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Shopping Bag | AJIO</title>
+    <title>Checkout | AJIO</title>
     <link rel="icon" href="https://assets.ajio.com/static/img/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         *{
             box-sizing: border-box;
@@ -18,6 +20,7 @@
         }
         
         .navbar{
+            top:0px;
             width: 100%;
             display: grid;
             grid-template-columns: 15% 12% 40% 10% 15%;
@@ -31,28 +34,10 @@
             margin-left: 13%;
             height: 50px;
         }
-        #prod {
-            max-height: 400px;
-            overflow-y:scroll;
+        #main{
+            margin-top: 8%;
         }
-        .mdiv{
-            border: 1px solid black;
-            display: grid;
-            grid-template-columns: 20% 30% 3% 5% 3% 5% 34%;
-            
-        }
-        .mdiv > img{
-            width: 80%;
-        }
-        #quan,#qu{
-            color: silver;
-        }
-        #prodName{
-            font-family: lora;
-            font-size: 15px;
-            font-weight: 450;
-            padding-top: 15px;
-        }
+        
         #main{
             width: 70%;
             margin-left: 15%;
@@ -63,8 +48,9 @@
         }
         #bill{
             background-color: #fafafa;
-            padding: 1.5%;
+            padding: 10px;
             font-weight: 500;
+            font-size: 15px;
         }
         #btn{
             background-color: #D5a249;
@@ -77,63 +63,6 @@
         #btn:hover{
             background-color:  #D5a249;
            border: 1px solid black;
-        }
-        #quantitySel{
-            margin-left: 10px;
-            margin-top: 10px;
-            height:25px;
-            width: 30px;
-            border: none;
-            background-color: white;
-        }
-        #sizeSel{
-            margin-top: 10px;
-            height: 25px;
-            width: 40px;
-            margin-left: 12px;
-            border: none;
-            background-color: white;
-        }
-        .labelClass{
-             margin-top: 10px;
-             margin-left: 7px;
-             font-weight: 600;
-             color: #999999;
-        }
-        .label2Class{
-            color: #999999;
-            margin-top: 10px;
-            margin-left: 2px;
-            font-weight: 600;
-        }
-        .priceDiv{
-            margin-top: 10px;
-            margin-left: 20px;
-            font-weight: 500;
-            
-        }
-        .saving {
-            padding: 10px 0px;
-            padding-left: 22px;
-            font-size: 15px;
-        }
-        .dis{
-            text-decoration: line-through;
-            color: #D5a249;
-            font-size: 15px;
-        }
-        .discount {
-            margin-left: 20px;
-            margin-top: 3px;
-            text-decoration: line-through;
-            color: #D5a249;
-            font-weight: 500;
-            margin-bottom: 5px;
-        }
-        .finalPrice {
-            margin-left: 20px;
-            padding:0 10px;
-            background-color:#e1ecf1;
         }
         #det1{
             padding-left: 200px;
@@ -148,6 +77,57 @@
         }
         #det4{
             padding-left: 160px;
+        }
+        #wallet{
+            margin:25px 0px 25px 30px;
+            background-color: #FEFBE4;
+            padding:10px;
+            color:#176D96;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        #od{
+            margin-top: 15px;
+        }
+        .fa-map-marker,.fa-cube{
+            font-size: 40px;
+        }
+        #first{
+            display: grid;
+            grid-template-columns: 5% 80%;
+        }
+        #first p{
+            margin-top: 5px;
+            color :#666666;
+        }
+        #second {
+            display: grid;
+            grid-template-columns: repeat(2,50%);
+            margin-top: 40px;
+        }
+        #second :nth-child(2){
+            margin:20px 100px 20px 100px;
+            border: 1px dashed black;
+            padding:20px;
+            border-radius: 5px;
+        }
+        #second  h4{
+            color: #176D96;
+            cursor: pointer;
+        }
+        #prodDetails{
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(2,50%);
+        }
+        .detail{
+            padding:10px;
+            display: grid;
+            grid-template-columns: 25% 75%;
+        }
+         img{
+            width: 100%;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -165,9 +145,29 @@
     </div>
     <div id="main">
     <div id="prod">
+        <div id="first">
+            <div><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            <div><h4>Delivery Addresses</h4>
+            <p>We will deliver your order to this address</p>
+            </div>
+        </div>
+        <div id="second">
+            <div> <h4 id="add"> + Add Address</h4> </div>
+            <div>Est Delivery 19 - 22 Nov</div>
+        </div>
+        <div id="first">
+            <div><i class="fa fa-cube" aria-hidden="true"></i></div>
+            <div><h4> Expected Delivery</h4>
+            <p>Estimated delivery dates for your order</p>
+            </div>
+        </div>
+        <div id="prodDetails">
+
+        </div>
     </div>
     <div id="bill">
-        <h4>Order Details</h4>
+        <span id="wallet">What is Ajio's Wallet ?</span>
+        <h4 id="od">Order Details </h4>
         <br><br><p>Bag Total <span id="det1">1</span></p> 
         <br><p>Bag Discount <span id="det2">1</span></p>
         <br><p>Delivery <span id="det3">1</span></p>
@@ -179,7 +179,10 @@
 </body>
 </html>
 <script>
-    let count=0;
+    let address = document.getElementById('add');
+    address.addEventListener('click',()=>{
+        alert("this page in progress!")
+    })
     let data =[
         {
             img :"https://assets.ajio.com/medias/sys_master/root/20210316/NBpk/604fb67baeb26969818651ea/-473Wx593H-441115903-indigo-MODEL.jpg",
@@ -235,51 +238,24 @@
     {
         totalPrice.textContent = bagtotal-bagdiscount;
     }
-    let parent = document.getElementById('prod');
-    let mybag = document.getElementById('quan');
-    function showProd(data){
+    
+    let parent = document.getElementById('prodDetails')
+    function showData(data){
         data.forEach((product)=>{
             let mdiv = document.createElement('div');
-            mdiv.setAttribute('class','mdiv')
-            let img = document.createElement("img");
+            mdiv.setAttribute('class','detail')
+            let div = document.createElement('div');
+            let img = document.createElement('img');
             img.src=product.img;
-            let p = document.createElement('span');
-            p.setAttribute('id','prodName')
-            p.textContent=product.name;
-            let selectQuan = document.createElement('select');
-            selectQuan.setAttribute('id','quantitySel')
-            let label1 = document.createElement('label');
-            label1.setAttribute('class' ,'labelClass')
-            label1.textContent="Qty"
-            selectQuan.innerHTML=`<option>1</option selected><option>2</option><option>3</option><option>4</option><option>5</option><option>More</option>`;
-            let selectSize = document.createElement('select');
-            selectSize.setAttribute('id','sizeSel')
-            let label2 = document.createElement('label');
-            label2.setAttribute('class' ,'label2Class')
-            label2.textContent="Size"
-            selectSize.innerHTML=`<option>XS</option><option>S</option select><option>M</option><option>L</option><option>XL</option><option>XXL</option>`;
-            let pdiv = document.createElement('div');
-            pdiv.setAttribute('class','priceDiv')
-            let saving = document.createElement('span');
-            saving.setAttribute('class','saving')
-            saving.textContent='Savings : ';
-
-            let span = document.createElement('span');
-            span.textContent = "Rs."+product.price;
-            span.setAttribute('class','dis')
-            let discount = document.createElement('p');
-            discount.setAttribute('class','discount');
-            discount.textContent = product.dis+"("+product.per+")";
-            let finalPrice = document.createElement('span');
-            finalPrice.setAttribute('class','finalPrice');
-            finalPrice.textContent="Rs. "+product.finalPrice
-            pdiv.append(saving,span,discount,finalPrice);
-            mdiv.append(img,p,label1,selectQuan,label2,selectSize,pdiv);
-            parent.append(mdiv);
-            count++;
+            let div2 = document.createElement('div');
+            let h3 = document.createElement('p');
+            h3.textContent=product.name;
+            div.append(img);
+            div2.append(h3)
+            mdiv.append(div,div2)
+            parent.append(mdiv)
         })
+
     }
-   showProd(data);
-   console.log('count',count);
-   mybag.textContent='('+count;
+    showData(data)
 </script>
