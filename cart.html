@@ -192,6 +192,7 @@
     </div>
 
     </div>
+    
 </body>
 </html>
 <script>
@@ -204,7 +205,8 @@
             dis : "Rs.1049",
             per : "10%",
             finalPrice :1044
-        },{
+        },
+        {
             img : 'https://assets.ajio.com/medias/sys_master/root/hb2/h7c/11749319180318/-1117Wx1400H-460229269-khaki-MODEL.jpg',
             name :"FORT COLLINS Hooded Panelled Bomber Jacket",
             price : 199,
@@ -266,9 +268,10 @@
             selectQuan.setAttribute('id','quantitySel')
             let label1 = document.createElement('label');
             label1.setAttribute('class' ,'labelClass')
-            label1.textContent="Qty"
-            selectQuan.innerHTML=`<option>1</option selected><option>2</option><option>3</option><option>4</option><option>5</option><option>More</option>`;
-            let selectSize = document.createElement('select');
+            label1.textContent="Qty";
+            selectQuan.innerHTML=` <select name="" id="quantityPro"><option>1</option><option>2</option><option>3</option><option >4</option><option>5</option><option>More</option></select>`;
+            let selectSize = document.createElement('select')
+            console.log('selectQuan',selectQuan.value)
             selectSize.setAttribute('id','sizeSel')
             let label2 = document.createElement('label');
             label2.setAttribute('class' ,'label2Class')

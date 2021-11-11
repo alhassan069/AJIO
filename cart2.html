@@ -120,6 +120,12 @@
             display: grid;
             grid-template-columns: repeat(2,50%);
         }
+        #second button{
+            border:none;
+            font-size: 20px;
+            background-color: white;
+            cursor: pointer;
+        }
         .detail{
             padding:10px;
             display: grid;
@@ -128,6 +134,93 @@
          img{
             width: 100%;
             border-radius: 10px;
+        }
+        .pop .overlay{
+            position: fixed;
+            top:0px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+            background: rgba(0,0,0,0.8);
+            z-index: 1;
+            display: none;
+        }
+        .pop .content {
+            position: absolute;
+            top:48%;
+            left: 86%;
+            transform:translate(-50%,-50%) scale(0);
+            background-color: #fff;
+            width: 500px;
+            height: auto;
+            z-index: 2;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .pop .close-btn{
+            position: absolute;
+            right: 30px;
+            top: 30px;
+            cursor: pointer;
+            height: 30px;
+            color: white;
+            background-color:black;
+            font-size:  25px;
+            font-weight: 600;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+        }
+        .pop .active .overlay{
+            display: block;
+        }
+        .pop.active .content{
+            transition : all 300ms ease-in-out;
+            transform:translate(-50%,-50%) scale(1);
+        }
+         input {
+            margin-bottom: 20px;
+            width: 90%;
+            padding: 15px;
+            border: none;
+            border-bottom: 2px solid #D5a249;
+        }
+        #radi{
+            display: flex;
+            width: 80%;
+            margin-left: 10%;
+            justify-content: center;
+            flex: row;
+            font-size: 15px;
+        }
+        #buttons {
+            display: grid;
+            grid-template-columns: repeat(2,50%);
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            font-weight: 600;
+            font-size: 30px;
+            padding:10px 0px;
+        }
+        #buttons  button {
+            padding:10px;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        #buttons :nth-child(2){
+            background-color:#D5a249;
+        }
+        #addNew{
+            font-size: 30px;
+            text-align: left;
+            padding: 10px;
+        }
+        #aT{
+            margin: 20px;
         }
     </style>
 </head>
@@ -152,9 +245,10 @@
             </div>
         </div>
         <div id="second">
-            <div> <h4 id="add"> + Add Address</h4> </div>
+            <div><button onclick="showPop()"> + Add Address</button></div>
             <div>Est Delivery 19 - 22 Nov</div>
         </div>
+
         <div id="first">
             <div><i class="fa fa-cube" aria-hidden="true"></i></div>
             <div><h4> Expected Delivery</h4>
@@ -176,13 +270,40 @@
     </div>
 
     </div>
+    <div class="pop"id="pop-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="showPop()">&times;</div>
+            <p id="addNew">Add New Address</p>
+            <input type="text" id="name" placeholder="Name*" />
+            <input type="text" id="mobile" placeholder="Mobile*"/>
+            <input type="text" id="pincode" placeholder="Pincode*"/>
+            <input type="text" id="locality" placeholder="Locality/Area/Street*"/>
+            <input type="text" id="flat" placeholder="Flat Number / Building Name*"/>
+            <input type="text" id="landmark" placeholder="Landmark*"/>
+            <input type="text" id="city" placeholder="City*"><input type="text" id="state" placeholder="State*"/>
+            <h2 id="aT">Address Type</h2>
+            <div id="radi">
+            <input type="radio" id="home" name="drone" value="dewey">
+            <label for="dewey">Home</label>
+            <input type="radio" id="work" name="drone" value="dewey">
+            <label for="dewey">Work</label>
+            <input type="radio" id="others" name="drone" value="dewey">
+            <label for="dewey">Others</label>
+
+              </div>
+            <div id="buttons">
+            <button>Reset</button>  
+            <button>Save & Continue</button>
+            </div>  
+        </div>
+    </div>
 </body>
 </html>
 <script>
-    let address = document.getElementById('add');
-    address.addEventListener('click',()=>{
-        alert("this page in progress!")
-    })
+        function showPop(){
+        document.getElementById('pop-1').classList.toggle("active");
+    }
     let data =[
         {
             img :"https://assets.ajio.com/medias/sys_master/root/20210316/NBpk/604fb67baeb26969818651ea/-473Wx593H-441115903-indigo-MODEL.jpg",
@@ -257,5 +378,5 @@
         })
 
     }
-    showData(data)
+    showData(data);
 </script>
