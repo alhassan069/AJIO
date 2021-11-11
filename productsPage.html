@@ -5,12 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap"
-      rel="stylesheet"
-    />
+  
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet"
@@ -29,6 +24,9 @@
         gap: 1%;
         margin-top: 165px;
       }
+      #mens > div:nth-child(1) {
+        padding-left: 65px;
+      }
       #filters {
         /* border: 1px solid orange;  */
         height: 700px;
@@ -37,9 +35,9 @@
         /* border: 2px solid blue; */
         display: grid;
         grid-template-columns: 31% 31% 31%;
-        grid-template-rows: repeat(7, 500px);
+        grid-template-rows: repeat(7, 525px);
         gap: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
       }
       img {
         width: 100%;
@@ -65,14 +63,18 @@
         cursor: pointer;
       }
       #darrow {
-        width: 6%;
+        width: 8%;
         height: 29px;
-        margin-top: 23px;
-        margin-left: 150px;
+        margin-top: 15px;
+        margin-left: 130px;
       }
       #list > div > div {
         font-size: 22px;
         margin: 15px 25px 0px 15px;
+        cursor: pointer;
+      }
+      #list > div > div > div  > label {
+        cursor: pointer;
       }
       #border > div:nth-child(1) {
         /* border: 3px solid yellow; */
@@ -93,30 +95,30 @@
         margin-left: 25px;
         font-size: 22px;
       }
-      #border > div > div {
+      /* #border > div > div {
         font-family: SourceSansPro;
-      }
+      } */
       #menheader {
         text-align: center;
-        font-family: Lora;
+        /* font-family: Lora; */
         font-size: 15px;
         color: #a7a7a7;
       }
       #jacketheader {
         text-align: center;
-        font-family: Lora;
+        /* font-family: Lora; */
         color: #333333;
         font-size: 39px;
       }
       #contentheader {
         text-align: justify;
         color: #666666;
-        font-family: SourceSansPro;
+        /* font-family: SourceSansPro; */
         font-size: 16px;
         margin: 0px 110px;
       }
       #content {
-        height: 170px;
+        height: 220px;
       }
       .alignment {
         margin-left: 700px;
@@ -236,28 +238,7 @@
               </div>
             </div>
             <hr />
-            <div id="occasion">
-              <div id="border">
-                <div id="plusOccasion">
-                  <div>+</div>
-                  <div>Occasion</div>
-                </div>
-                <div id="rightOccasion">
-                  <input type="checkbox" name="men" />
-                  <label for="">Active</label><br />
-                  <input type="checkbox" name="men" />
-                  <label for="">ACTIVE</label><br />
-                  <input type="checkbox" name="men" />
-                  <label for="">Casual</label><br />
-                  <input type="checkbox" name="men" />
-                  <label for="">CASUAL</label><br />
-                  <input type="checkbox" name="men" />
-                  <label for="">Occasion</label><br />
-                  <label for="">MORE</label>
-                </div>
-              </div>
-            </div>
-            <hr />
+            
             <div id="discount">
               <div id="border">
                 <div id="plusDiscount">
@@ -316,6 +297,28 @@
                   <label for="">Olive</label><br />
                   <input type="checkbox" name="men" onclick="grey(array)" />
                   <label for="">Grey</label><br />
+                  <label for="">MORE</label>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div id="occasion">
+              <div id="border">
+                <div id="plusOccasion">
+                  <div>+</div>
+                  <div>Occasion</div>
+                </div>
+                <div id="rightOccasion">
+                  <input type="checkbox" name="men" />
+                  <label for="">Active</label><br />
+                  <input type="checkbox" name="men" />
+                  <label for="">ACTIVE</label><br />
+                  <input type="checkbox" name="men" />
+                  <label for="">Casual</label><br />
+                  <input type="checkbox" name="men" />
+                  <label for="">CASUAL</label><br />
+                  <input type="checkbox" name="men" />
+                  <label for="">Occasion</label><br />
                   <label for="">MORE</label>
                 </div>
               </div>
@@ -747,23 +750,36 @@
     }
 
     // brand functionality
-
+    let countfort = 0;
     function fortCollins(array) {
       console.log(array);
-      let brand = [];
-      array.forEach((ele) => {
-        if (ele.brand == "FORT COLLINS") {
-          console.log(ele.brand);
-          brand.push(ele);
-        }
-      });
-      console.log(brand);
-      parent.innerHTML = "";
-      displayProducts(brand);
+      if(countfort % 2 == 0) {
+        countfort++;
+        let brand = [];
+        array.forEach((ele) => {
+          if (ele.brand == "FORT COLLINS") {
+            console.log(ele.brand);
+            brand.push(ele);
+          }
+        });
+        console.log(brand);
+        parent.innerHTML = "";
+        displayProducts(brand);
+        console.log("count1:" + countfort);
+      } else {
+        countfort++;
+        parent.innerHTML = "";
+        displayProducts(array);
+        console.log("count2:" + countfort);        
+      }
+     
     }
-
+    
+    let counthigh = 0;
     function highStar(array) {
       console.log(array);
+      if(counthigh % 2 == 0) {
+        counthigh++;
       let brand = [];
       array.forEach((ele) => {
         if (ele.brand == "HIGH STAR") {
@@ -774,10 +790,18 @@
       console.log(brand);
       parent.innerHTML = "";
       displayProducts(brand);
+    }else {
+        counthigh++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+  let countperform = 0;
     function performax(array) {
       console.log(array);
+      if(countperform % 2 == 0) {
+        countperform++;
       let brand = [];
       array.forEach((ele) => {
         if (ele.brand == "PERFORMAX") {
@@ -788,10 +812,19 @@
       console.log(brand);
       parent.innerHTML = "";
       displayProducts(brand);
+    } else {
+      countperform++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+
+    let countlevis = 0;
     function levis(array) {
       console.log(array);
+      if(countlevis % 2 == 0) {
+        countlevis++;
       let brand = [];
       array.forEach((ele) => {
         if (ele.brand == "LEVIS") {
@@ -802,10 +835,18 @@
       console.log(brand);
       parent.innerHTML = "";
       displayProducts(brand);
+    }  else {
+      countlevis++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+  let countTerrain = 0;
     function indianTerrain(array) {
       console.log(array);
+      if(countTerrain % 2 == 0) {
+        countTerrain++;
       let brand = [];
       array.forEach((ele) => {
         if (ele.brand == "INDIAN TERRAIN") {
@@ -816,12 +857,19 @@
       console.log(brand);
       parent.innerHTML = "";
       displayProducts(brand);
+    }  else {
+      countTerrain++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
     // discount functionality
-
+    let countdisc0To20 = 0;
     function disc0To20(array) {
       console.log(array);
+      if(countdisc0To20 % 2 == 0) {
+        countdisc0To20++;
       let discountRange = [];
       array.forEach((ele) => {
         if (ele.discount >= 0 && ele.discount <= 20) {
@@ -832,10 +880,18 @@
       console.log(discountRange);
       parent.innerHTML = "";
       displayProducts(discountRange);
+    }  else {
+      countdisc0To20++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+  let countdisc21To30 = 0;
     function disc21To30(array) {
       console.log(array);
+      if(countdisc21To30 % 2 == 0) {
+        countdisc21To30++;
       let discountRange = [];
       array.forEach((ele) => {
         if (ele.discount >= 21 && ele.discount <= 30) {
@@ -846,10 +902,19 @@
       console.log(discountRange);
       parent.innerHTML = "";
       displayProducts(discountRange);
+    }  else {
+      countdisc21To30++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+
+  let countdisc31To40 = 0;
     function disc31To40(array) {
       console.log(array);
+      if(countdisc31To40 % 2 == 0) {
+        countdisc31To40++;
       let discountRange = [];
       array.forEach((ele) => {
         if (ele.discount >= 31 && ele.discount <= 40) {
@@ -860,10 +925,19 @@
       console.log(discountRange);
       parent.innerHTML = "";
       displayProducts(discountRange);
+    }  else {
+      countdisc31To40++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+
+  let countdisc41To50 = 0;
     function disc41To50(array) {
       console.log(array);
+      if(countdisc41To50 % 2 == 0) {
+        countdisc41To50++;
       let discountRange = [];
       array.forEach((ele) => {
         if (ele.discount >= 41 && ele.discount <= 50) {
@@ -874,10 +948,18 @@
       console.log(discountRange);
       parent.innerHTML = "";
       displayProducts(discountRange);
+    }  else {
+      countdisc41To50 ++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+  let countdisc51To80 = 0;
     function disc51To80(array) {
       console.log(array);
+      if(countdisc51To80 % 2 == 0) {
+        countdisc51To80++;
       let discountRange = [];
       array.forEach((ele) => {
         if (ele.discount >= 51 && ele.discount <= 80) {
@@ -888,12 +970,19 @@
       console.log(discountRange);
       parent.innerHTML = "";
       displayProducts(discountRange);
+    }  else {
+      countdisc51To80 ++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
     // color functionality
-
+    let countblack = 0;
     function black(array) {
       console.log(array);
+      if(countblack % 2 == 0) {
+        countblack++;
       let color = [];
       array.forEach((ele) => {
         console.log(ele.color);
@@ -905,10 +994,18 @@
       console.log(color);
       parent.innerHTML = "";
       displayProducts(color);
+    }  else {
+      countblack ++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+  let countblue = 0;
     function blue(array) {
       console.log(array);
+      if(countblue % 2 == 0) {
+        countblue++;
       let color = [];
       array.forEach((ele) => {
         console.log(ele.color);
@@ -920,10 +1017,18 @@
       console.log(color);
       parent.innerHTML = "";
       displayProducts(color);
+    }  else {
+      countblue ++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+  let countjetBlack = 0;
     function jetBlack(array) {
       console.log(array);
+      if(countjetBlack % 2 == 0) {
+        countjetBlack++;
       let color = [];
       array.forEach((ele) => {
         console.log(ele.color);
@@ -935,10 +1040,18 @@
       console.log(color);
       parent.innerHTML = "";
       displayProducts(color);
+    }  else {
+      countjetBlack ++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+  let countgrey = 0;
     function grey(array) {
       console.log(array);
+      if(countgrey % 2 == 0) {
+        countgrey++;
       let color = [];
       array.forEach((ele) => {
         console.log(ele.color);
@@ -950,10 +1063,18 @@
       console.log(color);
       parent.innerHTML = "";
       displayProducts(color);
+    }  else {
+      countgrey ++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+  let countolive = 0;
     function olive(array) {
       console.log(array);
+      if(countolive % 2 == 0) {
+        countolive++;
       let color = [];
       array.forEach((ele) => {
         console.log(ele.color);
@@ -965,12 +1086,21 @@
       console.log(color);
       parent.innerHTML = "";
       displayProducts(color);
+    }  else {
+      countolive ++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
+
 
     // price functionality
 
+    let countunder500 = 0;
     function under500(array) {
       let lowest = document.getElementById("low");
+      if(countunder500 % 2 == 0) {
+        countunder500++;
       array.sort((a, b) => a.price - b.price);
       let arr1 = [];
       array.forEach((element) => {
@@ -982,10 +1112,18 @@
       console.log(arr1);
       parent.innerHTML = "";
       displayProducts(arr1);
+    }  else {
+      countunder500 ++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+  let count500t1000 = 0;
     function f500t1000(array) {
       let lowest = document.getElementById("low");
+      if(count500t1000 % 2 == 0) {
+        count500t1000++;
       let arr2 = [];
       array.sort((a, b) => a.price - b.price);
       array.forEach((element) => {
@@ -997,10 +1135,18 @@
       console.log(arr2);
       parent.innerHTML = "";
       displayProducts(arr2);
+    }  else {
+      count500t1000 ++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+  let count1000t1500 = 0;
     function f1000t1500(array) {
       let lowest = document.getElementById("low");
+      if(count1000t1500 % 2 == 0) {
+        count1000t1500++;
       let arr3 = [];
       array.sort((a, b) => a.price - b.price);
       array.forEach((element) => {
@@ -1012,10 +1158,18 @@
       console.log(arr3);
       parent.innerHTML = "";
       displayProducts(arr3);
+    }  else {
+      count1000t1500 ++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+  let count1500t2000 = 0;
     function f1500t2000(array) {
       let lowest = document.getElementById("low");
+      if(count1500t2000 % 2 == 0) {
+        count1500t2000++;
       let arr4 = [];
       array.sort((a, b) => a.price - b.price);
       array.forEach((element) => {
@@ -1027,10 +1181,19 @@
       console.log(arr4);
       parent.innerHTML = "";
       displayProducts(arr4);
+    }  else {
+      count1500t2000 ++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
+
+  let count2000t2500 = 0;
     function f2000t2500(array) {
       let lowest = document.getElementById("low");
+      if(count2000t2500 % 2 == 0) {
+        count2000t2500++;
       let arr5 = [];
       array.sort((a, b) => a.price - b.price);
       array.forEach((element) => {
@@ -1042,7 +1205,12 @@
       console.log(arr5);
       parent.innerHTML = "";
       displayProducts(arr5);
+    }  else {
+      count2000t2500 ++;
+        parent.innerHTML = "";
+        displayProducts(array);
     }
+  }
 
     function displayProducts(array) {
       array.forEach(function (data) {
