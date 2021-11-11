@@ -180,15 +180,15 @@
                                     <div>Price</div> 
                                 </div>
                                 <div id="rightPrice">
-                                    <input type="checkbox" name="men"  />
+                                    <input type="checkbox" name="men" onclick="under500(array)" />
                                     <label for="">Below Rs.500</label><br>
-                                    <input type="checkbox" name="men" />
+                                    <input type="checkbox" name="men"  onclick="f500t1000(array)"/>
                                     <label for="">Rs.500-1000</label><br>
-                                    <input type="checkbox" name="men"  />
+                                    <input type="checkbox" name="men" onclick="f1000t1500(array)" />
                                     <label for="">Rs.1001-1500</label><br>
-                                    <input type="checkbox" name="men"  />
+                                    <input type="checkbox" name="men"  onclick="f1500t2000(array)"/>
                                     <label for="">Rs.1501-2000</label><br>
-                                    <input type="checkbox" name="men"  />
+                                    <input type="checkbox" name="men"  onclick="f2000t2500(array)"/>
                                     <label for="">Rs.2001-2500</label>
                                 </div>
                                 
@@ -685,6 +685,80 @@ function discount(array) {
     console.log(parent);
     parent.innerHTML = "";
     displayProducts(array);
+}
+function under500(array) {
+    let lowest = document.getElementById("low");
+    array.sort((a,b) => a.price - b.price);
+    let arr1 = [];
+    array.forEach(element => {
+        if (element.price < 500){
+            arr1.push(element);
+        };
+    });
+    
+    console.log(arr1);
+    parent.innerHTML = "";
+    displayProducts(arr1);
+}
+
+function f500t1000(array) {
+    let lowest = document.getElementById("low");
+    let arr2 = [];
+    array.sort((a,b) => a.price - b.price);
+    array.forEach(element => {
+        if ((element.price > 500) && (element.price <= 1000)){
+            arr2.push(element);
+        };
+    });
+    
+    console.log(arr2);
+    parent.innerHTML = "";
+    displayProducts(arr2);
+}
+
+function f1000t1500(array) {
+    let lowest = document.getElementById("low");
+    let arr3 = [];
+    array.sort((a,b) => a.price - b.price);
+    array.forEach(element => {
+        if ((element.price > 1000) && (element.price <= 1500)){
+            arr3.push(element);
+        };
+    });
+    
+    console.log(arr3);
+    parent.innerHTML = "";
+    displayProducts(arr3);
+}
+
+function f1500t2000(array) {
+    let lowest = document.getElementById("low");
+    let arr4 = [];
+    array.sort((a,b) => a.price - b.price);
+    array.forEach(element => {
+        if ((element.price > 1500) && (element.price <= 2000)){
+            arr4.push(element);
+        };
+    });
+    
+    console.log(arr4);
+    parent.innerHTML = "";
+    displayProducts(arr4);
+}
+
+function f2000t2500(array) {
+    let lowest = document.getElementById("low");
+    let arr5 = [];
+    array.sort((a,b) => a.price - b.price);
+    array.forEach(element => {
+        if ((element.price > 2000) && (element.price <= 2500)){
+            arr5.push(element);
+        };
+    });
+    
+    console.log(arr5);
+    parent.innerHTML = "";
+    displayProducts(arr5);
 }
 
 
