@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Products Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
     <style>
-       #header {
+       /* #header {
             height: 100px;
             width: 100%;
             background-color: aqua;
-        }
+        } */
         #mens {
             display: grid;
             grid-template-columns: 25% 68%;
             gap: 1%;
         }
         #filters {
-               border: 1px solid orange; 
+               /* border: 1px solid orange;  */
                height: 700px;
         }
         #data {
@@ -32,9 +41,8 @@
             width: 100%;
         }
         #value {
-            display: grid;
-            grid-template-columns: 28% 28% 30%;
-            gap: 1%;
+            display: flex;
+            margin-left: 85px;
         }
         #select {
             width: 10%;
@@ -58,59 +66,58 @@
             margin-top: 23px;
             margin-left: 150px;            
         }
-        #list > div:nth-child(1) {
-            /* display: flex; */
-            border: 1px solid green;
-            background-color: aqua;
-        }
         #list > div > div {
-            font-size: 30px;
-            font-weight: bold;
+            font-size: 22px;
             margin: 15px 25px 0px 15px;
-        }
-        #border {
-            /* border: 2px solid blue; */
-        }
-        #list > div{
-            background-color: aqua;
-            border: 5px solid tomato;
-        }       
-        #plus {
+        }    
+        #border > div:nth-child(1){
             /* border: 3px solid yellow; */
             display: flex ;
         }
-        #plus > div:nth-child(1) {
+        #border > div:nth-child(1) > div:nth-child(1){
+            /* border: 3px solid yellow; */
             margin-right: 12px;
         }
         h4 {
-            border: 5px solid pink;
+            /* border: 5px solid pink; */
         }
-        #right {
-            /* border: 5px solid yellowgreen; */
+        #border > div:nth-child(2) {
             margin-left: 25px;
         }
         #border >  {
             /* border: 5px solid yellowgreen; */
             margin-left: 25px;
+            font-size: 22px;
+        }
+        #border > div > div {
+            font-family: SourceSansPro;
         }
     </style>
 </head>
 <body>
-
-    <div id="header">
+    <div id="navbar_division">
+       
+    </div>
+    <!-- <div id="header">
         header 
+    </div> -->
+    <div id="container">
+        <div>
+            <div>MEN'S</div>
+            <div></div>
+        </div>
+        <div id="select-tab">
+            <label for="">SORT BY</label>
+            <select name="" id="select" >
+                <option value="What's New" id="new">What's New</option>
+                <option value="Relevance" id="relevance">Relevance</option>
+                <option value="Discount" id="discount">Discount</option>
+                <option value="Price(highest first)"  id="high">Price(highest first)</option>
+                <option value="Price(lowest first)" id="low">Price(lowest first)</option>
+            </select>
+        </div>
     </div>
-
-    <div id="select-tab">
-        <label for="">SORT BY</label>
-        <select name="" id="select" >
-            <option value="What's New" id="new">What's New</option>
-            <option value="Relevance" id="relevance">Relevance</option>
-            <option value="Discount" id="discount">Discount</option>
-            <option value="Price(highest first)"  id="high">Price(highest first)</option>
-            <option value="Price(lowest first)" id="low">Price(lowest first)</option>
-        </select>
-    </div>
+<!--     
     <div>
         <input type="checkbox" id="slowest" name="lowest"
                 onchange="" value="lowest" onclick="lowest(array)">
@@ -127,7 +134,7 @@
         <input type="checkbox" id="color" name="color"
         onchange="" value="color">
         <label for="scales">Color</label>
-      </div>
+      </div> -->
     <div id="mens">
             <div id="filters" >
                 <div>
@@ -175,12 +182,12 @@
                                 <div id="rightPrice">
                                     <input type="checkbox" name="men"  />
                                     <label for="">Below Rs.500</label><br>
-                                    <input type="checkbox" name="men"  />
+                                    <input type="checkbox" name="men" />
                                     <label for="">Rs.500-1000</label><br>
                                     <input type="checkbox" name="men"  />
                                     <label for="">Rs.1001-1500</label><br>
                                     <input type="checkbox" name="men"  />
-                                    <label for="">Rs.1001-1500</label><br>
+                                    <label for="">Rs.1501-2000</label><br>
                                     <input type="checkbox" name="men"  />
                                     <label for="">Rs.2001-2500</label>
                                 </div>
@@ -304,7 +311,10 @@
                     </div>
                 </div>
             </div>
-            <div id="data"></div>
+            <!-- <div id="product" style=" border: 1px solid red;"> -->
+                <!-- <div style="border: 1px solid aqua; background-color: yellowgreen;">how are </div> -->
+                <div id="data"></div>
+            <!-- </div> -->
     </div>
 
    
@@ -625,7 +635,7 @@ var select = document.getElementById("select");
 console.log(select);
 // console.log(select.value);
 
-select.onchange = function()  {
+select.onchange = () =>  {
     if(select.value == "Price(highest first)") {
         highest(array);
         console.log(1);
@@ -683,12 +693,14 @@ function displayProducts(array) {
 array.forEach(function(data) {
 
     let div = document.createElement("div");
+    let finalDiv = document.createElement("div");
 
     let img = document.createElement("img");
     img.src = data.display_img;
 
     let brand = document.createElement("div");
     brand.innerHTML = data.brand;
+    brand.style.color = "#b19975";
 
     let name = document.createElement("div");
     name.innerHTML = data.name;
@@ -697,23 +709,55 @@ array.forEach(function(data) {
     price.innerHTML = "Rs. " + data.price;
 
     let mrp = document.createElement("div");
-    mrp.innerHTML = "Rs. " + data.MRP;
+    mrp.innerHTML = "  Rs. " + data.MRP;
     mrp.style.textDecoration = "line-through";
 
     let discount = document.createElement("div");
     discount.innerHTML = "(" + data.discount +"%" + " off)";
+    discount.style.color = "#b19975";
 
     let offer_price = document.createElement("div");
-    offer_price.innerHTML = "Offer Price: " + "Rs. " + data.offer_price;            
+    // offer_price.innerHTML = "Offer Price: " + "Rs. " + data.offer_price;     
+    offer_price.innerHTML = "Offer Price: ";   
+    
+    let offervalue = document.createElement("div");
+    offervalue.innerHTML = "Rs. " + data.offer_price;    
+    offervalue.style.color = "#3ab649";
+
+    let offer = document.createElement("div");
+    offer.append(offer_price,offervalue);
+    offer.style.display = "flex";
+    offer.style.marginLeft = "100px";
 
     let value = document.createElement("div");
 
     value.append(price,mrp,discount);
     value.setAttribute("id","value");
 
-    div.append(img,brand,name,value,offer_price);
+    div.append(brand,name,value,offer);
+    div.style.textAlign = "center";
+    div.style.lineHeight = "25px";
 
-    parent.append(div);
+    finalDiv.append(img,div);
+    finalDiv.onclick = () => {
+
+        if(localStorage.getItem("bucket") == null) {
+            localStorage.setItem("bucket",JSON.stringify([]));
+        }
+        // let arr = JSON.parse(localStorage.getItem("bucket"));
+        // arr.push(data);
+        // arr = new data;
+
+        // console.log(arr);
+        localStorage.setItem("bucket",JSON.stringify(data));
+
+
+
+        // window.location.href = "homepage.html";
+    };
+
+    parent.append(finalDiv);
+
     // console.log(parent);
 });
 
@@ -806,7 +850,7 @@ plusOccasion.onclick = () => {
 
 let plusDiscount = document.getElementById("plusDiscount");
 
-plus.onclick = () => {
+plusDiscount.onclick = () => {
     let rightDiscount = document.getElementById("rightDiscount");
     if(rightDiscount.style.display == "none") {
         rightDiscount.style.display = "block";
@@ -844,4 +888,12 @@ plusSize.onclick = () => {
     }
 };
 </script>
+
+<script type="module">
+    import navbar from "./components/navbar.js";
+    let navbar_division = document.getElementById("navbar_division");
+    navbar_division.innerHTML = navbar();
+  </script>
+<link rel="stylesheet" href="./styles/navbar.css">
+<script src="./scripts/navbar.js"></script>
 </html>
