@@ -7,22 +7,25 @@
 
     <title>AJIO</title>
     <link rel="stylesheet" href="./styles/productdetails.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
-      rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="navbar_division">
-       
-    </div>
+    <div id="navbar_division"></div>
     <nav class="bg-white mt-24">
       <div class="bg-white h-12 mt-20">
         <div class="ml-24 flex w-3/5 text-gray-400 text-sm">
           <div class="">Home /&nbsp</div>
 
-          <div class=""> Men /&nbsp</div>
+          <div class="">Men /&nbsp</div>
 
           <div class="">Western Wear /&nbsp</div>
 
@@ -70,7 +73,9 @@
             <!-- <img class="w-5/8" src="images/img1.png" alt="  " /> -->
             <h1 class="text-center font-medium text-2xl">Rs. 490</h1>
             <h1 class="text-center">Rs. 999</h1>
-            <p class="text-center text-xs text-gray-400 mt-2">Price inclusive of all taxes</p>
+            <p class="text-center text-xs text-gray-400 mt-2">
+              Price inclusive of all taxes
+            </p>
           </div>
           <h1 class="text-center font-serif font-semibold">Olive-Green</h1>
           <!-- <div class="flex w-2/5 ml-40 mt-4 justify-between">
@@ -193,11 +198,13 @@
             </div>
           </div>
           <div>
-            <img class="w-max ml-32 mt-10 mb-2" src="images/img2.png" alt="  " />
+            <img
+              class="w-max ml-32 mt-10 mb-2"
+              src="images/img2.png"
+              alt="  "
+            />
           </div>
-          <button id="add_to_bag_btn">
-            ADD TO BAG
-          </button>
+          <button id="add_to_bag_btn">ADD TO BAG</button>
           <h1 class="text-center mt-2 ml-6 text-gray-400">
             HANDPICKED STYLES | ASSURED QUALITY
           </h1>
@@ -239,7 +246,7 @@
     <div>
       <div class="ml-60"><img src="images/img4.png" alt="  " /></div>
     </div>
-    <div class="mt-0">
+    <div class="mt-0 ml-20">
       <button
         class="
           uppercase
@@ -366,50 +373,50 @@
       <h1 class="text-center">Price inclusive of all taxes</h1>
     </div>
     <div class="mt-8" id="footer_division">
-      <!-- <div class="ml-60"><img src="images/img7.png" alt="  " /></div> -->  
+      <!-- <div class="ml-60"><img src="images/img7.png" alt="  " /></div> -->
     </div>
-</body>
-<script type="module">
-  import navbar from "./components/navbar.js";
-  let navbar_division = document.getElementById("navbar_division");
-  navbar_division.innerHTML = navbar();
-</script>
-<script type="module">
-  import footer from "./components/footer.js";
-  let footer_division = document.getElementById("footer_division");
-  footer_division.innerHTML = footer();
-</script>
-<link rel="stylesheet" href="./styles/navbar.css">
-<link rel="stylesheet" href="./styles/footer.css">
-<script src="./scripts/navbar.js"></script>
-<style>
-  #navbar {
-    height: 88px;
-  }
-  #subnavbar > div:nth-child(2) > div:nth-child(1) > input {
-    border-radius: 20px;
-    width:295px;
-    height:35px;
-    padding-left: 10px;
-    border: 1px solid #333;
-    background-color: #FFFDED;
-  }
-  #add_to_bag_btn {
-    background-color: #D5A249;
-    width:350px;
-    height: 70px;
-    color:white;
-    margin-left: 90px;
-  }
-  .size_options {
-    cursor: pointer;
-    background-color: white;
-    border: 1px solid rgb(223, 223, 223);
-  }
-  .size_options:hover {
-    border: 1px solid #2F4254;
-    background-color: #2F4254;
-    color:white;
-  }
-</style>  
+  </body>
+  <script type="module">
+    import navbar from "./components/navbar.js";
+    let navbar_division = document.getElementById("navbar_division");
+    navbar_division.innerHTML = navbar();
+  </script>
+  <script type="module">
+    import footer from "./components/footer.js";
+    let footer_division = document.getElementById("footer_division");
+    footer_division.innerHTML = footer();
+  </script>
+  <link rel="stylesheet" href="./styles/navbar.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
+  <script src="./scripts/navbar.js"></script>
+  <style>
+    #navbar {
+      height: 88px;
+    }
+    #subnavbar > div:nth-child(2) > div:nth-child(1) > input {
+      border-radius: 20px;
+      width: 295px;
+      height: 35px;
+      padding-left: 10px;
+      border: 1px solid #333;
+      background-color: #fffded;
+    }
+    #add_to_bag_btn {
+      background-color: #d5a249;
+      width: 350px;
+      height: 70px;
+      color: white;
+      margin-left: 120px;
+    }
+    .size_options {
+      cursor: pointer;
+      background-color: white;
+      border: 1px solid rgb(223, 223, 223);
+    }
+    .size_options:hover {
+      border: 1px solid #2f4254;
+      background-color: #2f4254;
+      color: white;
+    }
+  </style>
 </html>
