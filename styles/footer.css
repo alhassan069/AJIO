@@ -24,6 +24,7 @@
   #sub_footer {
     display:flex;
     flex-basis: 300px;
+    border-bottom: 1px solid gray;
   }
   #sub_footer > div {
     flex-basis:25%;
