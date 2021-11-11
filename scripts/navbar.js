@@ -419,8 +419,10 @@ let steone = setTimeout(() => {
       localStorage.removeItem("username_AJIO");
       window.location.reload();
   }
-
-  signout_btn.addEventListener("click", signout);
+  if(signout_btn!=null) {
+    signout_btn.addEventListener("click", signout);
+  }
+  
 
 
 }, 500);
