@@ -223,7 +223,11 @@
             margin: 20px;
         }
         .tag{
+            margin-left: 10px;
             color: #D5a249;
+        }
+        .pName{
+            margin-left: 10px;
         }
     </style>
 </head>
@@ -307,53 +311,6 @@
         function showPop(){
         document.getElementById('pop-1').classList.toggle("active");
     }
-    //     let data=[
-    //         {
-    //             display_img : "https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg",
-    //             img2 : "https://assets.ajio.com/medias/sys_master/root/20210824/Tmuz/6123f3797cdb8cb824028358/-473Wx593H-441128864-darkblue-MODEL3.jpg",
-    //             img3 : "https://assets.ajio.com/medias/sys_master/root/20210824/RhpY/6123fa05f997ddce89a878b3/-473Wx593H-441128864-darkblue-MODEL2.jpg",
-    //             img4 : "",
-    //             brand : "PERFORMAX",
-    //             name : "Running Zip-Front Dobby Jacket",
-    //             price : 899,
-    //             MRP : 999,
-    //             discount : 10,
-    //             offer_price : 800,
-    //             color : "Dark-Blue",
-    //             size : "",
-    
-    //         },
-    //         {
-    //             display_img : "https://assets.ajio.com/medias/sys_master/root/20210615/6iGo/60c7a62daeb269a9e3e75860/performax_black_panelled_zip-front_training_tracksuit_jacket.jpg",
-    //             img2 : "https://assets.ajio.com/medias/sys_master/root/20210615/rKQx/60c7a17bf997ddb312c8f7c9/-473Wx593H-441120341-jetblack-MODEL2.jpg",
-    //             img3 : "https://assets.ajio.com/medias/sys_master/root/20210615/V3fS/60c7a971aeb269a9e3e76345/-473Wx593H-441120341-jetblack-MODEL4.jpg",
-    //             img4 : "https://assets.ajio.com/medias/sys_master/root/20210615/cVQt/60c7a53df997ddb312c906b6/-473Wx593H-441120341-jetblack-MODEL3.jpg",
-    //             brand : "PERFORMAX",
-    //             name : "Panelled Zip-Front Training Tracksuit Jacket",
-    //             price : 1349,
-    //             MRP : 1499,
-    //             discount : 10,
-    //             offer_price : 1274,
-    //             color : "Jet-Black",
-    //             size : "",
-    
-    //         },
-    //         {
-    //             display_img : "https://assets.ajio.com/medias/sys_master/root/20210403/OlAO/606935d8aeb269a9e340123f/perfkt-u_navy_quilted_zip-front_jackets_with_insert_pockets.jpg",
-    //             img2 : "https://assets.ajio.com/medias/sys_master/root/20210403/AEO0/606935d8aeb269a9e34011b2/-473Wx593H-461642086-navy-MODEL5.jpg",
-    //             img3 : "https://assets.ajio.com/medias/sys_master/root/20210403/AYSq/606935d8aeb269a9e34011ad/-473Wx593H-461642086-navy-MODEL3.jpg",
-    //             img4 : "https://assets.ajio.com/medias/sys_master/root/20210403/mF0h/606935d8aeb269a9e34011ac/-473Wx593H-461642086-navy-MODEL4.jpg",
-    //             brand : "PERFKT-U",
-    //             name : "Quilted Zip-Front Jackets with Insert Pockets",
-    //             price : 1033,
-    //             MRP : 3333,
-    //             discount : 69,
-    //             offer_price : 1000,
-    //             color : "",
-    //             size : "",
-    
-    //         }
-    // ];
     let data = JSON.parse(localStorage.getItem('Cart_AJIO'));
     var bagtotal=0;
     var bagdiscount=0;
@@ -397,6 +354,7 @@
             img.src=product.display_img;
             let div2 = document.createElement('div');
             let h3 = document.createElement('p');
+            h3.setAttribute('class','pName')
             h3.textContent=product.brand+" - "+product.name;
             let pri = document.createElement('h5');
             pri.setAttribute('class','tag')
