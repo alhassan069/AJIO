@@ -17,15 +17,58 @@
       rel="stylesheet"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+      rel="stylesheet">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  
+
     <style>
       #mens {
         display: grid;
-        grid-template-columns: 25% 68%;
+        grid-template-columns: 20% 75%;
         gap: 1%;
-        margin-top: 165px;
+        margin-top: 130px;
       }
+      .lora {
+    }
+    .loraf13 {
+
+      font-size: 14px;
+      overflow: hidden;
+    }
+    .w600 {
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .f12 {
+      font-size: 12px;
+    }
+    .f13 {
+      font-size: 13px;
+    }
+    .f14 {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .f16 {
+      font-size: 16px;
+    }
+    .f18 {
+      font-size: 18px;
+    }
+    .f24 {
+      font-size: 24px;
+    }
+    .f36 {
+      font-size: 36px;
+    }
       #mens > div:nth-child(1) {
-        padding-left: 65px;
+        padding-left: 40px;
       }
       #filters {
         /* border: 1px solid orange;  */
@@ -47,13 +90,15 @@
         text-align: center;
         font-size: 15px;
         font-weight: 800;
-        opacity: 70%;
+        opacity: 75%;
         width: 100%;
         /* border: 5px solid red; */
-        height: 36px;
-        z-index: 1;
+        height: 45px;
+        z-index: 5;
+        box-sizing: border-box;
+        padding-top: 8px;
         display: none;
-        margin-top: -35px;
+        margin-top: -45px;
         cursor: pointer;
       }
       img {
@@ -64,26 +109,32 @@
         margin-left: 85px;
       }
       #select {
-        width: 10%;
+        width: 12%;
         height: 30px;
-        /* margin-left: 1100px; */
+        margin-left: 5px;
       }
       #select-tab {
         background-color: #f9f9f9;
         padding: 10px;
+        border-bottom: 1px solid #dfdfdf;
+        border-top: 1px solid #dfdfdf;
       }
-      #list {
-        /* display: none; */
+      #select-tab > select {
+        width: 150px;
+      }
+      #refine {
+        font-weight: 500;
+        font-size: 20px;
       }
       #refineby {
         display: flex;
         cursor: pointer;
       }
       #darrow {
-        width: 8%;
-        height: 29px;
-        margin-top: 15px;
-        margin-left: 130px;
+      width: 20px;
+      height: 20px;
+      margin-top: 5px;
+      margin-left: 50px;
       }
       #list > div > div {
         font-size: 22px;
@@ -93,6 +144,10 @@
       #list > div > div > div  > label {
         cursor: pointer;
       }
+      #border {
+        border-bottom: 1px solid #dfdfdf;
+        padding-bottom: 10px;
+      }
       #border > div:nth-child(1) {
         /* border: 3px solid yellow; */
         display: flex;
@@ -101,9 +156,17 @@
         /* border: 3px solid yellow; */
         margin-right: 12px;
       }
-      h4 {
-        /* border: 5px solid pink; */
-      }
+      .filterHeader {
+      font-size: 16px;
+      color: #333333;
+      font-weight: 400;
+    }
+
+    .filterOptions {
+      font-size: 15px;
+      color: black;
+      font-weight: 300;
+    }
       #border > div:nth-child(2) {
         margin-left: 25px;
       }
@@ -117,22 +180,20 @@
       } */
       #menheader {
         text-align: center;
-        /* font-family: Lora; */
-        font-size: 15px;
+        font-size: 12px;
         color: #a7a7a7;
       }
       #jacketheader {
         text-align: center;
-        /* font-family: Lora; */
         color: #333333;
-        font-size: 39px;
+        font-size: 36px;
       }
       #contentheader {
         text-align: justify;
         color: #666666;
-        /* font-family: SourceSansPro; */
-        font-size: 16px;
-        margin: 0px 110px;
+        font-size: 14px;
+        line-height: 1.3em;
+        margin: 0px 180px;
       }
       #content {
         height: 220px;
@@ -149,161 +210,111 @@
       <div id="filters">
         <div>
           <div id="refineby">
-            <h1 id="refine">Refine By</h1>
-            <img
-              id="darrow"
+            <p id="refine">Refine By</p>
+            <img id="darrow"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLlFJyXnlww4XPP-vQQ3PNh7_y8LMYuUMXhx7LxZobswW6Cm2GlzebSYWWpMqebE3OPBA&usqp=CAU"
-              alt=""
-            />
+              alt="" />
           </div>
-
+  
           <div id="list">
             <div id="gender">
               <div id="border">
-                <div id="plusGender">
+                <div id="plusGender" class="filterHeader">
                   <div>+</div>
                   <div>Gender</div>
                 </div>
-                <div id="rightGender">
+                <div id="rightGender" class="filterOptions">
                   <input type="checkbox" name="men" checked/>
                   <label for="">Men</label>
                 </div>
               </div>
             </div>
-            <hr />
+           
             <div id="category">
               <div id="border">
-                <div id="plusCategory">
+                <div id="plusCategory" class="filterHeader">
                   <div>+</div>
                   <div>Category</div>
                 </div>
-                <div id="rightCategory">
-                  <input type="checkbox" name="men" checked />
+                <div id="rightCategory" class="filterOptions">
+                  <input type="checkbox" name="men" checked/>
                   <label for="">Jackets & Coats</label>
                 </div>
               </div>
             </div>
-            <hr />
+           
             <div id="price">
               <div id="border">
-                <div id="plusPrice">
+                <div id="plusPrice" class="filterHeader">
                   <div>+</div>
                   <div>Price</div>
                 </div>
-                <div id="rightPrice">
+                <div id="rightPrice" class="filterOptions">
                   <input type="checkbox" name="men" onclick="under500(array)" />
                   <label for="">Below Rs.500</label><br />
-                  <input
-                    type="checkbox"
-                    name="men"
-                    onclick="f500t1000(array)"
-                  />
+                  <input type="checkbox" name="men" onclick="f500t1000(array)" />
                   <label for="">Rs.500-1000</label><br />
-                  <input
-                    type="checkbox"
-                    name="men"
-                    onclick="f1000t1500(array)"
-                  />
+                  <input type="checkbox" name="men" onclick="f1000t1500(array)" />
                   <label for="">Rs.1001-1500</label><br />
-                  <input
-                    type="checkbox"
-                    name="men"
-                    onclick="f1500t2000(array)"
-                  />
+                  <input type="checkbox" name="men" onclick="f1500t2000(array)" />
                   <label for="">Rs.1501-2000</label><br />
-                  <input
-                    type="checkbox"
-                    name="men"
-                    onclick="f2000t2500(array)"
-                  />
+                  <input type="checkbox" name="men" onclick="f2000t2500(array)" />
                   <label for="">Rs.2001-2500</label>
                 </div>
               </div>
             </div>
-            <hr />
+           
             <div id="brands">
               <div id="border">
-                <div id="plusBrands">
+                <div id="plusBrands" class="filterHeader">
                   <div>+</div>
                   <div>Brands</div>
                 </div>
-                <div id="rightBrands">
-                  <input
-                    type="checkbox"
-                    name="men"
-                    onclick="fortCollins(array)"
-                  />
+                <div id="rightBrands" class="filterOptions">
+                  <input type="checkbox" name="men" onclick="fortCollins(array)" />
                   <label for="">FORT COLLINS</label><br />
                   <input type="checkbox" name="men" onclick="highStar(array)" />
                   <label for="">HIGH STAR</label><br />
-                  <input
-                    type="checkbox"
-                    name="men"
-                    onclick="performax(array)"
-                  />
+                  <input type="checkbox" name="men" onclick="performax(array)" />
                   <label for="">PERFORMAX</label><br />
                   <input type="checkbox" name="men" onclick="levis(array)" />
                   <label for="">LEVIS</label><br />
-                  <input
-                    type="checkbox"
-                    name="men"
-                    onclick="indianTerrain(array)"
-                  />
+                  <input type="checkbox" name="men" onclick="indianTerrain(array)" />
                   <label for="">INDIAN TERRAIN</label><br />
                   <label for="">MORE</label>
                 </div>
               </div>
             </div>
-            <hr />
-            
+           
+  
             <div id="discount">
               <div id="border">
-                <div id="plusDiscount">
+                <div id="plusDiscount" class="filterHeader">
                   <div>+</div>
                   <div>Discount</div>
                 </div>
-                <div id="rightDiscount">
-                  <input
-                    type="checkbox"
-                    name="men"
-                    onclick="disc0To20(array)"
-                  />
+                <div id="rightDiscount" class="filterOptions">
+                  <input type="checkbox" name="men" onclick="disc0To20(array)" />
                   <label for="">0-20%</label><br />
-                  <input
-                    type="checkbox"
-                    name="men"
-                    onclick="disc21To30(array)"
-                  />
+                  <input type="checkbox" name="men" onclick="disc21To30(array)" />
                   <label for="">21-30%</label><br />
-                  <input
-                    type="checkbox"
-                    name="men"
-                    onclick="disc31To40(array)"
-                  />
+                  <input type="checkbox" name="men" onclick="disc31To40(array)" />
                   <label for="">31-40%</label><br />
-                  <input
-                    type="checkbox"
-                    name="men"
-                    onclick="disc41To50(array)"
-                  />
+                  <input type="checkbox" name="men" onclick="disc41To50(array)" />
                   <label for="">41-50%</label><br />
-                  <input
-                    type="checkbox"
-                    name="men"
-                    onclick="disc51To80(array)"
-                  />
+                  <input type="checkbox" name="men" onclick="disc51To80(array)" />
                   <label for="">51-80%</label><br />
                 </div>
               </div>
             </div>
-            <hr />
+           
             <div id="colors">
               <div id="border">
-                <div id="plusColors">
+                <div id="plusColors" class="filterHeader">
                   <div>+</div>
                   <div>Colors</div>
                 </div>
-                <div id="rightColors">
+                <div id="rightColors" class="filterOptions">
                   <input type="checkbox" name="men" onclick="black(array)" />
                   <label for=""></label>Black<br />
                   <input type="checkbox" name="men" onclick="blue(array)" />
@@ -318,14 +329,14 @@
                 </div>
               </div>
             </div>
-            <hr />
+           
             <div id="occasion">
               <div id="border">
-                <div id="plusOccasion">
+                <div id="plusOccasion" class="filterHeader">
                   <div>+</div>
                   <div>Occasion</div>
                 </div>
-                <div id="rightOccasion">
+                <div id="rightOccasion" class="filterOptions">
                   <input type="checkbox" name="men" />
                   <label for="">Active</label><br />
                   <input type="checkbox" name="men" />
@@ -340,14 +351,14 @@
                 </div>
               </div>
             </div>
-            <hr />
+           
             <div id="size">
               <div id="border">
-                <div id="plusSize">
+                <div id="plusSize" class="filterHeader">
                   <div>+</div>
                   <div>Size & Fit</div>
                 </div>
-                <div id="rightSize">
+                <div id="rightSize" class="filterOptions">
                   <input type="checkbox" name="men" />
                   <label for="">XXS</label><br />
                   <input type="checkbox" name="men" />
@@ -361,7 +372,7 @@
                 </div>
               </div>
             </div>
-            <hr />
+           
           </div>
         </div>
       </div>
@@ -378,7 +389,6 @@
             sharpen up your look with traditional men’s coats
           </div>
         </div>
-        <hr />
         <div id="container">
           <div>
             <div></div>
@@ -398,13 +408,55 @@
             </select>
           </div>
         </div>
-        <hr />
         &nbsp;
         <div></div>
         <div id="data"></div>
       </div>
     </div>
-
+    <div id="popupBackgroundBlack">
+      <div id="popupProductDetails">
+        <div>
+          <img src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg" id="image1extra" onclick="displayImage1()">
+          <img src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg" id="image2extra" onclick="displayImage2()">
+          <img src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg" id="image3extra" onclick="displayImage3()">
+        </div>
+        <div>
+          <img src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg" id="mainDisplayImage">
+        </div>
+        <div>
+          <div onclick="closeDetailsDiv()">
+            <span class="material-icons-outlined">
+              close
+            </span>
+          </div>
+          <div>
+            <p class="same_color1" id="brandName">PERFORMAX</p>
+            <p id="productTitle">Panelled Zip-Front Training Tracksuit Jacket</p>
+            <p id="productPrice">Rs. 1199</p>
+            <p class="same_color1" id="productPriceOff">Rs.1499 (20% off)</p>
+            <p id="gst_p">Additional GST may apply</p>
+          </div>
+          <div>
+            <img src="./images/offers.JPG">
+            <p id="productColor">Teal</p>
+          </div>
+          <div>
+            <div class="avaliable_sizes" id="s" onclick="productSizeSelect('s')">S</div>
+            <div class="avaliable_sizes" id="m" onclick="productSizeSelect('m')">M</div>
+            <div class="avaliable_sizes" id="l" onclick="productSizeSelect('l')">L</div>
+            <div class="avaliable_sizes" id="xl" onclick="productSizeSelect('xl')">XL</div>
+            <div class="avaliable_sizes" id="xxl" onclick="productSizeSelect('xxl')">XXL</div>
+          </div>
+          <div>
+            <button onclick="addProductTocart()">ADD TO BAG</button>
+            <button onclick="displayProductDetails()">PRODUCT DETAILS</button>
+          </div>
+          <div>
+            <img src="./images/social_media_icons.JPG">
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="footer_division">
   
     </div>
@@ -1952,35 +2004,41 @@
         img.append(img1,quickView);
 
         let brand = document.createElement("div");
-        brand.innerHTML = data.brand;
-        brand.style.color = "#b19975";
+      brand.innerHTML = data.brand;
+      brand.setAttribute("class","w600")
+      brand.style.color = "#b19975";
 
-        let name = document.createElement("div");
-        name.innerHTML = data.name;
+      let name = document.createElement("div");
+      name.innerHTML = data.name;
+      name.setAttribute("class","loraf13");
+      // name.setAttribute("class","lora","f13");
 
-        let price = document.createElement("div");
-        price.innerHTML = "Rs. " + data.price;
+      let price = document.createElement("span");
+      price.innerHTML = "Rs. " + data.price + "&nbsp;&nbsp;";
+      price.setAttribute("class","f14")
 
-        let mrp = document.createElement("div");
-        mrp.innerHTML = "  Rs. " + data.MRP;
-        mrp.style.textDecoration = "line-through";
+      let mrp = document.createElement("span");
+      mrp.innerHTML = "Rs. " + data.MRP;
+      mrp.style.textDecoration = "line-through";
+      mrp.setAttribute("class","f12")
 
-        let discount = document.createElement("div");
-        discount.innerHTML = "(" + data.discount + "%" + " off)";
-        discount.style.color = "#b19975";
+      let discount = document.createElement("span");
+      discount.innerHTML = "&nbsp;" + "(" + data.discount + "%" + " off)";
+      discount.style.color = "#b19975";
+      discount.setAttribute("class","f12");
 
-        let offer_price = document.createElement("div");
-        // offer_price.innerHTML = "Offer Price: " + "Rs. " + data.offer_price;
-        offer_price.innerHTML = "Offer Price: ";
+      let offer_price = document.createElement("span");
+      // offer_price.innerHTML = "Offer Price: " + "Rs. " + data.offer_price;
+      offer_price.innerHTML = "Offer Price: " + "&nbsp;&nbsp;";
+      offer_price.setAttribute("class","f12")
 
-        let offervalue = document.createElement("div");
-        offervalue.innerHTML = "Rs. " + data.offer_price;
-        offervalue.style.color = "#3ab649";
+      let offervalue = document.createElement("span");
+      offervalue.innerHTML = "Rs. " + data.offer_price;
+      offervalue.style.color = "#3ab649";
+      offervalue.setAttribute("class","f12")
 
-        let offer = document.createElement("div");
-        offer.append(offer_price, offervalue);
-        offer.style.display = "flex";
-        offer.style.marginLeft = "100px";
+      let offer = document.createElement("div");
+      offer.append(offer_price, offervalue);
 
         let value = document.createElement("div");
 
@@ -1992,7 +2050,7 @@
         div.style.lineHeight = "25px";
 
         finalDiv.append(img,div);
-        finalDiv.onclick = () => {
+        div.onclick = () => {
           if (localStorage.getItem("bucket") == null) {
             localStorage.setItem("bucket", JSON.stringify([]));
           }
@@ -2003,7 +2061,7 @@
           // console.log(arr);
           localStorage.setItem("bucket", JSON.stringify(data));
 
-          // window.location.href = "homepage.html";
+          window.location.href = "Productdetailspage.html";
         };
         
         parent.append(finalDiv);
@@ -2019,7 +2077,17 @@
             quickView.style.display = "none";
         }
         quickView.onclick = () => {
-            window.location.href = "Productdetailspage.html"
+          if (localStorage.getItem("bucket") == null) {
+            localStorage.setItem("bucket", JSON.stringify([]));
+          }
+          // let arr = JSON.parse(localStorage.getItem("bucket"));
+          // arr.push(data);
+          // arr = new data;
+
+          // console.log(arr);
+          localStorage.setItem("bucket", JSON.stringify(data));
+          displayFromBucket();
+          popupPoductDetails();
         };
 
         // console.log(parent);
@@ -2164,6 +2232,6 @@
 </script>
 
 <link rel="stylesheet" href="./styles/footer.css">
-
+<link rel="stylesheet" href="./styles/popupDetails.css">
 <script src="./scripts/singleProductView.js"></script>
 </html>
