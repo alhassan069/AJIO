@@ -355,5 +355,41 @@ background-color: #ebe6e6;
 
     }
 
+    let data = JSON.parse(localStorage.getItem('Cart_AJIO'));
+    console.log(data)
+    var bagtotal=0;
+    var bagdiscount=0;
+    for(let i =0;i<data.length;i++){
+        bagtotal+=data[i].MRP;
+        bagdiscount+=Math.floor (data[i].MRP * data[i].discount ) / 100;
+    }
+    let bTotal = document.getElementById("det1");
+    let bDiscount = document.getElementById('det2');
+    bTotal.textContent=bagtotal;
+    bDiscount.textContent=bagdiscount;
+    console.log('bagTotal',bagtotal);
+    console.log('bagDiscount',bagdiscount);
+
+    let bagTotal = document.getElementById('det1');
+    bagTotal.textContent=bagtotal;
+    let bagDiscount = document.getElementById('det2');
+    bagDiscount.textContent="- "+bagdiscount;
+    let delivery = document.getElementById('det3');
+    if(bagtotal-bagdiscount >1000)
+    {
+        delivery.textContent="Free";
+    }else
+    {
+        delivery.textContent=99;
+    }
+    let totalPrice = document.getElementById('det4');
+    if(document.getElementById('det3').textContent !="Free")
+    {
+        totalPrice.textContent = Number(document.getElementById('det3').textContent) + bagtotal-bagdiscount;
+    }else
+    {
+        totalPrice.textContent = bagtotal-bagdiscount;
+    }
+    
 
 </script>
