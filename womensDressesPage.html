@@ -234,7 +234,7 @@
             <div id="gender">
               <div id="border">
                 <div id="plusGender" class="filterHeader">
-                  <div>+</div>
+                  <div id="minusG">-</div>
                   <div>Gender</div>
                 </div>
                 <div id="rightGender" class="filterOptions">
@@ -247,7 +247,7 @@
             <div id="category">
               <div id="border">
                 <div id="plusCategory" class="filterHeader">
-                  <div>+</div>
+                    <div id="minusC">-</div>
                   <div>Category</div>
                 </div>
                 <div id="rightCategory" class="filterOptions">
@@ -260,7 +260,7 @@
             <div id="price">
               <div id="border">
                 <div id="plusPrice" class="filterHeader">
-                  <div>+</div>
+                    <div id="minusP">-</div>
                   <div>Price</div>
                 </div>
                 <div id="rightPrice" class="filterOptions">
@@ -281,7 +281,7 @@
             <div id="brands">
               <div id="border">
                 <div id="plusBrands" class="filterHeader">
-                  <div>+</div>
+                    <div id="minusB">-</div>
                   <div>Brands</div>
                 </div>
                 <div id="rightBrands" class="filterOptions">
@@ -304,7 +304,7 @@
             <div id="discount">
               <div id="border">
                 <div id="plusDiscount" class="filterHeader">
-                  <div>+</div>
+                    <div id="minusD">-</div>
                   <div>Discount</div>
                 </div>
                 <div id="rightDiscount" class="filterOptions">
@@ -325,7 +325,7 @@
             <div id="colors">
               <div id="border">
                 <div id="plusColors" class="filterHeader">
-                  <div>+</div>
+                    <div id="minusCol">-</div>
                   <div>Colors</div>
                 </div>
                 <div id="rightColors" class="filterOptions">
@@ -347,7 +347,7 @@
             <div id="occasion">
               <div id="border">
                 <div id="plusOccasion" class="filterHeader">
-                  <div>+</div>
+                    <div id="minusO">-</div>
                   <div>Occasion</div>
                 </div>
                 <div id="rightOccasion" class="filterOptions">
@@ -369,7 +369,7 @@
             <div id="size">
               <div id="border">
                 <div id="plusSize" class="filterHeader">
-                  <div>+</div>
+                    <div id="minusS">-</div>
                   <div>Size & Fit</div>
                 </div>
                 <div id="rightSize" class="filterOptions">
@@ -400,7 +400,8 @@
         </div>
         <div id="container">
           <div>
-            <div></div>
+            <div>
+            </div>
           </div>
           <div id="select-tab">
             <label for="" class="alignment">SORT BY</label>
@@ -1623,12 +1624,15 @@
     let plusGender = document.getElementById("plusGender");
 
     plusGender.onclick = () => {
+      let minusG = document.getElementById("minusG");
       let rightGender = document.getElementById("rightGender");
       if (rightGender.style.display == "none") {
+        minusG.textContent = "-";
         rightGender.style.display = "block";
         rightGender.style.marginTop = "20px";
       } else {
         rightGender.style.display = "none";
+        minusG.textContent = "+";
       }
     };
 
@@ -1638,11 +1642,14 @@
 
     plusCategory.onclick = () => {
       let rightCategory = document.getElementById("rightCategory");
+      let minusC = document.getElementById("minusC");
       if (rightCategory.style.display == "none") {
+        minusC.textContent = "-";
         rightCategory.style.display = "block";
         rightCategory.style.marginTop = "20px";
       } else {
         rightCategory.style.display = "none";
+        minusC.textContent = "+";
       }
     };
 
@@ -1652,11 +1659,14 @@
 
     plusPrice.onclick = () => {
       let rightPrice = document.getElementById("rightPrice");
+      let minusP = document.getElementById("minusP");
       if (rightPrice.style.display == "none") {
+        minusP.textContent = "-";
         rightPrice.style.display = "block";
         rightPrice.style.marginTop = "20px";
       } else {
         rightPrice.style.display = "none";
+        minusP.textContent = "+";
       }
     };
 
@@ -1666,11 +1676,14 @@
 
     plusBrands.onclick = () => {
       let rightBrands = document.getElementById("rightBrands");
+      let minusB = document.getElementById("minusB");
       if (rightBrands.style.display == "none") {
+        minusB.textContent = "-";
         rightBrands.style.display = "block";
         rightBrands.style.marginTop = "20px";
       } else {
         rightBrands.style.display = "none";
+        minusB.textContent = "+";
       }
     };
 
@@ -1680,11 +1693,14 @@
 
     plusOccasion.onclick = () => {
       let rightOccasion = document.getElementById("rightOccasion");
+      let minusO = document.getElementById("minusO");
       if (rightOccasion.style.display == "none") {
+        minusO.textContent = "-";
         rightOccasion.style.display = "block";
         rightOccasion.style.marginTop = "20px";
       } else {
         rightOccasion.style.display = "none";
+        minusO.textContent = "+";
       }
     };
 
@@ -1694,11 +1710,14 @@
 
     plusDiscount.onclick = () => {
       let rightDiscount = document.getElementById("rightDiscount");
+      let minusD = document.getElementById("minusD");
       if (rightDiscount.style.display == "none") {
         rightDiscount.style.display = "block";
         rightDiscount.style.marginTop = "20px";
+        minusD.textContent = "-";
       } else {
         rightDiscount.style.display = "none";
+        minusD.textContent = "+";
       }
     };
 
@@ -1708,11 +1727,14 @@
 
     plusColors.onclick = () => {
       let rightColors = document.getElementById("rightColors");
+      let minusCol = document.getElementById("minusCol");
       if (rightColors.style.display == "none") {
+        minusCol.textContent = "-";
         rightColors.style.display = "block";
         rightColors.style.marginTop = "20px";
       } else {
         rightColors.style.display = "none";
+        minusCol.textContent = "+";
       }
     };
 
@@ -1722,11 +1744,14 @@
 
     plusSize.onclick = () => {
       let rightSize = document.getElementById("rightSize");
+      let minusS = document.getElementById("minusS");
       if (rightSize.style.display == "none") {
+        minusS.textContent = "-";
         rightSize.style.display = "block";
         rightSize.style.marginTop = "20px";
       } else {
         rightSize.style.display = "none";
+        minusS.textContent = "+";
       }
     };
   </script>
