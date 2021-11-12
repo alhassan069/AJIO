@@ -47,13 +47,15 @@
         text-align: center;
         font-size: 15px;
         font-weight: 800;
-        opacity: 70%;
+        opacity: 75%;
         width: 100%;
         /* border: 5px solid red; */
-        height: 36px;
-        z-index: 1;
+        height: 45px;
+        z-index: 5;
+        box-sizing: border-box;
+        padding-top: 8px;
         display: none;
-        margin-top: -35px;
+        margin-top: -45px;
         cursor: pointer;
       }
       img {
@@ -404,7 +406,50 @@
         <div id="data"></div>
       </div>
     </div>
-
+    <div id="popupBackgroundBlack">
+      <div id="popupProductDetails">
+        <div>
+          <img src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg" id="image1extra" onclick="displayImage1()">
+          <img src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg" id="image2extra" onclick="displayImage2()">
+          <img src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg" id="image3extra" onclick="displayImage3()">
+        </div>
+        <div>
+          <img src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg" id="mainDisplayImage">
+        </div>
+        <div>
+          <div onclick="closeDetailsDiv()">
+            <span class="material-icons-outlined">
+              close
+            </span>
+          </div>
+          <div>
+            <p class="same_color1" id="brandName">PERFORMAX</p>
+            <p id="productTitle">Panelled Zip-Front Training Tracksuit Jacket</p>
+            <p id="productPrice">Rs. 1199</p>
+            <p class="same_color1" id="productPriceOff">Rs.1499 (20% off)</p>
+            <p id="gst_p">Additional GST may apply</p>
+          </div>
+          <div>
+            <img src="./images/offers.JPG">
+            <p id="productColor">Teal</p>
+          </div>
+          <div>
+            <div class="avaliable_sizes" id="s" onclick="productSizeSelect('s')">S</div>
+            <div class="avaliable_sizes" id="m" onclick="productSizeSelect('m')">M</div>
+            <div class="avaliable_sizes" id="l" onclick="productSizeSelect('l')">L</div>
+            <div class="avaliable_sizes" id="xl" onclick="productSizeSelect('xl')">XL</div>
+            <div class="avaliable_sizes" id="xxl" onclick="productSizeSelect('xxl')">XXL</div>
+          </div>
+          <div>
+            <button onclick="addProductTocart()">ADD TO BAG</button>
+            <button onclick="displayProductDetails()">PRODUCT DETAILS</button>
+          </div>
+          <div>
+            <img src="./images/social_media_icons.JPG">
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="footer_division">
   
     </div>
@@ -1992,7 +2037,7 @@
         div.style.lineHeight = "25px";
 
         finalDiv.append(img,div);
-        finalDiv.onclick = () => {
+        div.onclick = () => {
           if (localStorage.getItem("bucket") == null) {
             localStorage.setItem("bucket", JSON.stringify([]));
           }
@@ -2003,7 +2048,7 @@
           // console.log(arr);
           localStorage.setItem("bucket", JSON.stringify(data));
 
-          // window.location.href = "homepage.html";
+          window.location.href = "Productdetailspage.html";
         };
         
         parent.append(finalDiv);
@@ -2019,7 +2064,17 @@
             quickView.style.display = "none";
         }
         quickView.onclick = () => {
-            window.location.href = "Productdetailspage.html"
+          if (localStorage.getItem("bucket") == null) {
+            localStorage.setItem("bucket", JSON.stringify([]));
+          }
+          // let arr = JSON.parse(localStorage.getItem("bucket"));
+          // arr.push(data);
+          // arr = new data;
+
+          // console.log(arr);
+          localStorage.setItem("bucket", JSON.stringify(data));
+          displayFromBucket();
+          popupPoductDetails();
         };
 
         // console.log(parent);
@@ -2162,8 +2217,7 @@
     let footer_division = document.getElementById("footer_division");
     footer_division.innerHTML = footer();
 </script>
-
 <link rel="stylesheet" href="./styles/footer.css">
-
 <script src="./scripts/singleProductView.js"></script>
+<link rel="stylesheet" href="./styles/popupDetails.css">
 </html>
