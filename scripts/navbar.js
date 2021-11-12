@@ -414,11 +414,7 @@ let steone = setTimeout(() => {
       cart_container.style.visibility = "hidden";
     }, 500);
   }
-  function cartOnClick() {
-    console.log("yes")
-    window.location.href="cart.html";
-  }
-  cart_btn.addEventListener("click",cartOnClick);
+
   cart_btn.addEventListener("mouseenter", displayCartContainer);
   cart_btn.addEventListener("mouseleave", hideCartContainer);
   cart_container.addEventListener("mouseenter", displayCartContainer);
