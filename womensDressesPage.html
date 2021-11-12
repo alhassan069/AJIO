@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products Page</title>
-    <link rel="icon" href="https://assets.ajio.com/static/img/favicon.ico">  
+    <link rel="icon" href="https://assets.ajio.com/static/img/favicon.ico" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet"
@@ -17,15 +17,19 @@
       rel="stylesheet"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
-      rel="stylesheet">
-  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
 
     <style>
       #mens {
@@ -35,38 +39,37 @@
         margin-top: 130px;
       }
       .lora {
-    }
-    .loraf13 {
-
-      font-size: 14px;
-      overflow: hidden;
-    }
-    .w600 {
-      font-weight: 600;
-      font-size: 13px;
-    }
-    .f12 {
-      font-size: 12px;
-    }
-    .f13 {
-      font-size: 13px;
-    }
-    .f14 {
-      font-size: 14px;
-      font-weight: 600;
-    }
-    .f16 {
-      font-size: 16px;
-    }
-    .f18 {
-      font-size: 18px;
-    }
-    .f24 {
-      font-size: 24px;
-    }
-    .f36 {
-      font-size: 36px;
-    }
+      }
+      .loraf13 {
+        font-size: 14px;
+        overflow: hidden;
+      }
+      .w600 {
+        font-weight: 600;
+        font-size: 13px;
+      }
+      .f12 {
+        font-size: 12px;
+      }
+      .f13 {
+        font-size: 13px;
+      }
+      .f14 {
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .f16 {
+        font-size: 16px;
+      }
+      .f18 {
+        font-size: 18px;
+      }
+      .f24 {
+        font-size: 24px;
+      }
+      .f36 {
+        font-size: 36px;
+      }
       #mens > div:nth-child(1) {
         padding-left: 40px;
       }
@@ -78,14 +81,12 @@
         /* border: 2px solid blue; */
         display: grid;
         grid-template-columns: 31% 31% 31%;
-        /* grid-template-rows: repeat(6, 525px); */
         gap: 20px;
         margin-bottom: 60px;
         cursor: pointer;
       }
       #quickView {
         background-color: #ffffff;
-        /* background-color: black; */
         color: #2c4154;
         text-align: center;
         font-size: 15px;
@@ -109,18 +110,28 @@
         margin-left: 85px;
       }
       #select {
-        width: 12%;
+        /* width: 12%; */
+        width: 46%;
         height: 30px;
         margin-left: 5px;
+        
       }
       #select-tab {
         background-color: #f9f9f9;
         padding: 10px;
         border-bottom: 1px solid #dfdfdf;
         border-top: 1px solid #dfdfdf;
+        /* border: 5px solid pink; */
       }
       #select-tab > select {
-        width: 150px;
+        /* width: 150px; */
+      }
+      #sortUp {
+          /* border: 2px solid blue; */
+          width: 300px;
+          margin-top: -35px;
+          margin-left: 730px;
+          margin-bottom: 15px;
       }
       #refine {
         font-weight: 500;
@@ -150,7 +161,7 @@
         margin: 15px 25px 0px 15px;
         cursor: pointer;
       }
-      #list > div > div > div  > label {
+      #list > div > div > div > label {
         cursor: pointer;
       }
       #border {
@@ -166,16 +177,16 @@
         margin-right: 12px;
       }
       .filterHeader {
-      font-size: 16px;
-      color: #333333;
-      font-weight: 400;
-    }
+        font-size: 16px;
+        color: #333333;
+        font-weight: 400;
+      }
 
-    .filterOptions {
-      font-size: 15px;
-      color: black;
-      font-weight: 300;
-    }
+      .filterOptions {
+        font-size: 15px;
+        color: black;
+        font-weight: 300;
+      }
       #border > div:nth-child(2) {
         margin-left: 25px;
       }
@@ -184,9 +195,6 @@
         margin-left: 25px;
         font-size: 22px;
       }
-      /* #border > div > div {
-        font-family: SourceSansPro;
-      } */
       #menheader {
         text-align: center;
         font-size: 12px;
@@ -208,10 +216,51 @@
         height: 220px;
       }
       .alignment {
-        margin-left: 700px;
+        /* margin-left: 700px; */
+        /* margin-top: -450px; */
+        /* border: 5px solid red; */
       }
-      #rightOccasion,#rightSize {
-          display: none;
+      #rightOccasion,
+      #rightSize {
+        display: none;
+      }
+      .boxcols {
+          display : grid;
+          grid-template-columns: 10px 10px 10px;
+          border: 1px solid black;
+          width: 34px;
+      }
+      .box {
+          border: 1px solid brown;
+          width: 6px;
+          margin: 3px;
+          /* background-color: #ffffff; */
+          background-color: rgb(177, 225, 246);
+          height: 15px;
+      }
+      .boxcols5 {
+          display : grid;
+          grid-template-columns: 10px 10px 10px 10px 10px;
+          border: 1px solid black;
+          width: 54px;
+      }
+      .box5 {
+          border: 1px solid brown;
+          width: 6px;
+          margin: 3px;
+          /* background-color: #ffffff; */
+          background-color: rgb(108, 132, 143);
+          height: 15px;
+      }
+      #rows {
+          /* border: 5px solid yellow; */
+        display: grid;
+        grid-template-columns: 25px 15px 35px 55px 450px;
+        /* padding: 50px; */
+        margin-left: 350px;
+        margin-top: 30px;
+        /* width: 200px; */
+        margin-bottom: 7px;
       }
     </style>
   </head>
@@ -229,7 +278,7 @@
               alt=""
             />
           </div>
-  
+
           <div id="list">
             <div id="gender">
               <div id="border">
@@ -238,94 +287,145 @@
                   <div>Gender</div>
                 </div>
                 <div id="rightGender" class="filterOptions">
-                  <input type="checkbox" name="men" checked/>
+                  <input type="checkbox" name="men" checked />
                   <label for="">Women</label>
                 </div>
               </div>
             </div>
-           
+
             <div id="category">
               <div id="border">
                 <div id="plusCategory" class="filterHeader">
-                    <div id="minusC">-</div>
+                  <div id="minusC">-</div>
                   <div>Category</div>
                 </div>
                 <div id="rightCategory" class="filterOptions">
-                  <input type="checkbox" name="men" checked/>
+                  <input type="checkbox" name="men" checked />
                   <label for="">Dresses</label>
                 </div>
               </div>
             </div>
-           
+
             <div id="price">
               <div id="border">
                 <div id="plusPrice" class="filterHeader">
-                    <div id="minusP">-</div>
+                  <div id="minusP">-</div>
                   <div>Price</div>
                 </div>
                 <div id="rightPrice" class="filterOptions">
                   <input type="checkbox" name="men" onclick="under500(array)" />
                   <label for="">Below Rs.500</label><br />
-                  <input type="checkbox" name="men" onclick="f500t1000(array)" />
+                  <input
+                    type="checkbox"
+                    name="men"
+                    onclick="f500t1000(array)"
+                  />
                   <label for="">Rs.500-1000</label><br />
-                  <input type="checkbox" name="men" onclick="f1000t1500(array)" />
+                  <input
+                    type="checkbox"
+                    name="men"
+                    onclick="f1000t1500(array)"
+                  />
                   <label for="">Rs.1001-1500</label><br />
-                  <input type="checkbox" name="men" onclick="f1500t2000(array)" />
+                  <input
+                    type="checkbox"
+                    name="men"
+                    onclick="f1500t2000(array)"
+                  />
                   <label for="">Rs.1501-2000</label><br />
-                  <input type="checkbox" name="men" onclick="f2000t2500(array)" />
+                  <input
+                    type="checkbox"
+                    name="men"
+                    onclick="f2000t2500(array)"
+                  />
                   <label for="">Rs.2001-2500</label>
                 </div>
               </div>
             </div>
-           
+
             <div id="brands">
               <div id="border">
                 <div id="plusBrands" class="filterHeader">
-                    <div id="minusB">-</div>
+                  <div id="minusB">-</div>
                   <div>Brands</div>
                 </div>
                 <div id="rightBrands" class="filterOptions">
-                  <input type="checkbox" name="men" onclick="helloDesign(array)" />
+                  <input
+                    type="checkbox"
+                    name="men"
+                    onclick="helloDesign(array)"
+                  />
                   <label for="">HELLO DESIGN</label><br />
                   <input type="checkbox" name="men" onclick="fig(array)" />
                   <label for="">Fig</label><br />
-                  <input type="checkbox" name="men" onclick="rituKumar(array)" />
+                  <input
+                    type="checkbox"
+                    name="men"
+                    onclick="rituKumar(array)"
+                  />
                   <label for="">RITU KUMAR</label><br />
-                  <input type="checkbox" name="men" onclick="berrylush(array)" />
+                  <input
+                    type="checkbox"
+                    name="men"
+                    onclick="berrylush(array)"
+                  />
                   <label for="">Berrylush</label><br />
-                  <input type="checkbox" name="men" onclick="fableStreet(array)" />
+                  <input
+                    type="checkbox"
+                    name="men"
+                    onclick="fableStreet(array)"
+                  />
                   <label for="">Fable Street</label><br />
                   <label for="">MORE</label>
                 </div>
               </div>
             </div>
-           
-  
+
             <div id="discount">
               <div id="border">
                 <div id="plusDiscount" class="filterHeader">
-                    <div id="minusD">-</div>
+                  <div id="minusD">-</div>
                   <div>Discount</div>
                 </div>
                 <div id="rightDiscount" class="filterOptions">
-                  <input type="checkbox" name="men" onclick="disc0To20(array)" />
+                  <input
+                    type="checkbox"
+                    name="men"
+                    onclick="disc0To20(array)"
+                  />
                   <label for="">0-20%</label><br />
-                  <input type="checkbox" name="men" onclick="disc21To30(array)" />
+                  <input
+                    type="checkbox"
+                    name="men"
+                    onclick="disc21To30(array)"
+                  />
                   <label for="">21-30%</label><br />
-                  <input type="checkbox" name="men" onclick="disc31To40(array)" />
+                  <input
+                    type="checkbox"
+                    name="men"
+                    onclick="disc31To40(array)"
+                  />
                   <label for="">31-40%</label><br />
-                  <input type="checkbox" name="men" onclick="disc41To50(array)" />
+                  <input
+                    type="checkbox"
+                    name="men"
+                    onclick="disc41To50(array)"
+                  />
                   <label for="">41-50%</label><br />
-                  <input type="checkbox" name="men" onclick="disc51To80(array)" />
+                  <input
+                    type="checkbox"
+                    name="men"
+                    onclick="disc51To80(array)"
+                  />
                   <label for="">51-80%</label><br />
                 </div>
               </div>
             </div>
-           
+
             <div id="colors">
               <div id="border">
                 <div id="plusColors" class="filterHeader">
-                    <div id="minusCol">-</div>
+                  <div id="minusCol">-</div>
                   <div>Colors</div>
                 </div>
                 <div id="rightColors" class="filterOptions">
@@ -343,11 +443,11 @@
                 </div>
               </div>
             </div>
-           
+
             <div id="occasion">
               <div id="border">
                 <div id="plusOccasion" class="filterHeader">
-                    <div id="minusO">-</div>
+                  <div id="minusO">-</div>
                   <div>Occasion</div>
                 </div>
                 <div id="rightOccasion" class="filterOptions">
@@ -365,11 +465,11 @@
                 </div>
               </div>
             </div>
-           
+
             <div id="size">
               <div id="border">
                 <div id="plusSize" class="filterHeader">
-                    <div id="minusS">-</div>
+                  <div id="minusS">-</div>
                   <div>Size & Fit</div>
                 </div>
                 <div id="rightSize" class="filterOptions">
@@ -386,7 +486,6 @@
                 </div>
               </div>
             </div>
-           
           </div>
         </div>
       </div>
@@ -395,27 +494,52 @@
           <div id="menheader">WOMEN'S</div>
           <div id="jacketheader">Dresses</div>
           <div id="contentheader">
-            Sway your way through life with AJIO’s collection of fabulous dresses. Be it for your everyday wear, your clubbing nights or for your corporate chic looks, AJIO has just the right selection of dresses for women to make the right statement. Browse through and get bewitched!
+            Sway your way through life with AJIO’s collection of fabulous
+            dresses. Be it for your everyday wear, your clubbing nights or for
+            your corporate chic looks, AJIO has just the right selection of
+            dresses for women to make the right statement. Browse through and
+            get bewitched!
           </div>
         </div>
         <div id="container">
           <div>
-            <div>
-            </div>
+            <div></div>
           </div>
           <div id="select-tab">
-            <label for="" class="alignment">SORT BY</label>
-            <select name="" id="select">
-              <option value="What's New" id="new">What's New</option>
-              <option value="Relevance" id="relevance">Relevance</option>
-              <option value="Discount" id="discount">Discount</option>
-              <option value="Price(highest first)" id="high">
-                Price(highest first)
-              </option>
-              <option value="Price(lowest first)" id="low">
-                Price(lowest first)
-              </option>
-            </select>
+            <!-- <button id="grid3" onclick="cols3()">3 cols</button> -->
+            
+            <div id="rows">
+                <label for="">GRID</label>
+                <div></div>
+                <div class="boxcols" onclick="cols3()">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <div class="boxcols5" onclick="cols5()">
+                    <div class="box5"></div>
+                    <div class="box5"></div>
+                    <div class="box5"></div>
+                    <div class="box5"></div>
+                    <div class="box5"></div>
+                </div>
+            </div>
+            <!-- <button id="grid5" onclick="cols5()">5 cols</button> -->
+            <div id="sortUp">
+                <label for="" class="alignment">SORT BY</label>
+                <select name="" id="select">
+                  <option value="What's New" id="new">What's New</option>
+                  <option value="Relevance" id="relevance">Relevance</option>
+                  <option value="Discount" id="discount">Discount</option>
+                  <option value="Price(highest first)" id="high">
+                    Price(highest first)
+                  </option>
+                  <option value="Price(lowest first)" id="low">
+                    Price(lowest first)
+                  </option>
+                </select>
+            </div>
+           
           </div>
         </div>
         &nbsp;
@@ -426,546 +550,605 @@
     <div id="popupBackgroundBlack">
       <div id="popupProductDetails">
         <div>
-          <img src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg" id="image1extra" onclick="displayImage1()">
-          <img src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg" id="image2extra" onclick="displayImage2()">
-          <img src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg" id="image3extra" onclick="displayImage3()">
+          <img
+            src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg"
+            id="image1extra"
+            onclick="displayImage1()"
+          />
+          <img
+            src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg"
+            id="image2extra"
+            onclick="displayImage2()"
+          />
+          <img
+            src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg"
+            id="image3extra"
+            onclick="displayImage3()"
+          />
         </div>
         <div>
-          <img src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg" id="mainDisplayImage">
+          <img
+            src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg"
+            id="mainDisplayImage"
+          />
         </div>
         <div>
           <div onclick="closeDetailsDiv()">
-            <span class="material-icons-outlined">
-              close
-            </span>
+            <span class="material-icons-outlined"> close </span>
           </div>
           <div>
             <p class="same_color1" id="brandName">PERFORMAX</p>
-            <p id="productTitle">Panelled Zip-Front Training Tracksuit Jacket</p>
+            <p id="productTitle">
+              Panelled Zip-Front Training Tracksuit Jacket
+            </p>
             <p id="productPrice">Rs. 1199</p>
             <p class="same_color1" id="productPriceOff">Rs.1499 (20% off)</p>
             <p id="gst_p">Additional GST may apply</p>
           </div>
           <div>
-            <img src="./images/offers.JPG">
+            <img src="./images/offers.JPG" />
             <p id="productColor">Teal</p>
           </div>
           <div>
-            <div class="avaliable_sizes" id="s" onclick="productSizeSelect('s')">S</div>
-            <div class="avaliable_sizes" id="m" onclick="productSizeSelect('m')">M</div>
-            <div class="avaliable_sizes" id="l" onclick="productSizeSelect('l')">L</div>
-            <div class="avaliable_sizes" id="xl" onclick="productSizeSelect('xl')">XL</div>
-            <div class="avaliable_sizes" id="xxl" onclick="productSizeSelect('xxl')">XXL</div>
+            <div
+              class="avaliable_sizes"
+              id="s"
+              onclick="productSizeSelect('s')"
+            >
+              S
+            </div>
+            <div
+              class="avaliable_sizes"
+              id="m"
+              onclick="productSizeSelect('m')"
+            >
+              M
+            </div>
+            <div
+              class="avaliable_sizes"
+              id="l"
+              onclick="productSizeSelect('l')"
+            >
+              L
+            </div>
+            <div
+              class="avaliable_sizes"
+              id="xl"
+              onclick="productSizeSelect('xl')"
+            >
+              XL
+            </div>
+            <div
+              class="avaliable_sizes"
+              id="xxl"
+              onclick="productSizeSelect('xxl')"
+            >
+              XXL
+            </div>
           </div>
           <div>
             <button onclick="addProductTocart()">ADD TO BAG</button>
             <button onclick="displayProductDetails()">PRODUCT DETAILS</button>
           </div>
           <div>
-            <img src="./images/social_media_icons.JPG">
+            <img src="./images/social_media_icons.JPG" />
           </div>
         </div>
       </div>
     </div>
-    <div id="footer_division">
-  
-    </div>
+    <div id="footer_division"></div>
   </body>
 
   <script>
-  
-  let array = [
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210403/37g4/6068ca1aaeb269a9e338d88c/hello_design_pink_a-line_dress_with_ruffle_detail.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/H9V2/6068ca1aaeb269a9e338d7f4/-473Wx593H-461943028-pink-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/Blki/6068ca1aaeb269a9e338d7fa/-473Wx593H-461943028-pink-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/Blki/6068ca1aaeb269a9e338d7fa/-473Wx593H-461943028-pink-MODEL4.jpg",
-      brand: "HELLO DESIGN",
-      name: "A-line Dress with Ruffle Detail",
-      price: 880,
-      MRP: 2199,
-      discount: 60,
-      offer_price: 638,
-      color: "pink",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210403/wR9I/606946fd7cdb8c1f1484121e/aks_couture_pink_embellished_a-line_dress_with_ruffled_panel.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/wR9I/606946fd7cdb8c1f1484121e/-473Wx593H-461411013-pink-MODEL.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/ZyoK/606946fd7cdb8c1f14841189/-473Wx593H-461411013-pink-MODEL2.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/ZyoK/606946fd7cdb8c1f14841189/-473Wx593H-461411013-pink-MODEL3.jpg",
-      brand: "Aks Couture",
-      name: "Embellished A-line Dress with Ruffled Panel",
-      price: 1250,
-      MRP: 2499,
-      discount: 50,
-      offer_price:863 ,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210327/UjZM/605e2f537cdb8c1f146e2568/marks_&_spencer_grey_skater_dress_with_waist_belt.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210327/zEBd/605e2f657cdb8c1f146e2603/-473Wx593H-462209198-grey-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210327/zEBd/605e2f657cdb8c1f146e2603/-473Wx593H-462209198-grey-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210327/zEBd/605e2f657cdb8c1f146e2603/-473Wx593H-462209198-grey-MODEL4.jpg",
-      brand: "Marks & Spencer",
-      name: "Skater Dress with Waist Belt",
-      price: 4999,
-      MRP:4999 ,
-      discount:0 ,
-      offer_price: 4199,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL4.jpg",
-      brand: "Fig",
-      name: "Floral Print A-line dress with belt",
-      price: 490,
-      MRP: 999,
-      discount: 51,
-      offer_price:340 ,
-      color: "coral",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL4.jpg",
-      brand: "HELLO DESIGN",
-      name: "Scoop neck A-line Dress",
-      price: 800,
-      MRP: 1999,
-      discount: 60,
-      offer_price: 580,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL4.jpg",
-      brand: "Fig",
-      name: "Floral Lace Shift Dress",
-      price: 490,
-      MRP: 999,
-      discount:51 ,
-      offer_price:340 ,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL4.jpg",
-      brand: "AKS",
-      name: "Stripped A-line Dress with Flared Sleeves",
-      price: 750,
-      MRP: 1499,
-      discount:50 ,
-      offer_price: 518,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL4.jpg",
-      brand: "RITU KUMAR",
-      name: "Floral Print A-line Dress",
-      price: 7600,
-      MRP: 7600,
-      discount: 0,
-      offer_price: 6460,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL4.jpg",
-      brand: "RITU KUMAR",
-      name: "V-neck Flared Dress with Pintucks",
-      price: 6900,
-      MRP: 6900,
-      discount: 0,
-      offer_price: 5865,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL4.jpg",
-      brand: "Janasya",
-      name: "Self-Design Fit & Flare Dress",
-      price: 1055,
-      MRP: 2398,
-      discount:56 ,
-      offer_price:728 ,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL4.jpg",
-      brand: "Aks Conture",
-      name: "Round-Neck Gown Dress with Printed Jacket",
-      price: 1500,
-      MRP: 2999,
-      discount:50 ,
-      offer_price:1035 ,
-      color: "Magenta",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL4.jpg",
-      brand: "HELLO DESIGN",
-      name: "Polka-Dot Print A-line Maxi Dress",
-      price: 800,
-      MRP: 1999,
-      discount:60 ,
-      offer_price:580 ,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL4.jpg",
-      brand: "Fable Street",
-      name: "V neck Shift Dress",
-      price: 2097,
-      MRP: 2995,
-      discount: 30,
-      offer_price:1447 ,
-      color: "black",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL4.jpg",
-      brand: "Miracolos By Ruchi",
-      name: "High-Neck Gown with Ruffles Accent",
-      price: 6120,
-      MRP: 6800,
-      discount: 10,
-      offer_price: 6119,
-      color: "maroon",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL4.jpg",
-      brand: "Berrylush",
-      name: "Floral Print Gown Dress",
-      price: 1287,
-      MRP: 3299,
-      discount: 61,
-      offer_price:957 ,
-      color: "blue",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL4.jpg",
-      brand: "Teamspirit",
-      name: "Printed Hooded Dress with Side Pockets",
-      price: 490,
-      MRP: 999,
-      discount: 51,
-      offer_price: 380,
-      color: "black",
-      size: "",
-    }
-]
+    let array = [
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210403/37g4/6068ca1aaeb269a9e338d88c/hello_design_pink_a-line_dress_with_ruffle_detail.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210403/H9V2/6068ca1aaeb269a9e338d7f4/-473Wx593H-461943028-pink-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210403/Blki/6068ca1aaeb269a9e338d7fa/-473Wx593H-461943028-pink-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210403/Blki/6068ca1aaeb269a9e338d7fa/-473Wx593H-461943028-pink-MODEL4.jpg",
+        brand: "HELLO DESIGN",
+        name: "A-line Dress with Ruffle Detail",
+        price: 880,
+        MRP: 2199,
+        discount: 60,
+        offer_price: 638,
+        color: "pink",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210403/wR9I/606946fd7cdb8c1f1484121e/aks_couture_pink_embellished_a-line_dress_with_ruffled_panel.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210403/wR9I/606946fd7cdb8c1f1484121e/-473Wx593H-461411013-pink-MODEL.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210403/ZyoK/606946fd7cdb8c1f14841189/-473Wx593H-461411013-pink-MODEL2.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210403/ZyoK/606946fd7cdb8c1f14841189/-473Wx593H-461411013-pink-MODEL3.jpg",
+        brand: "Aks Couture",
+        name: "Embellished A-line Dress with Ruffled Panel",
+        price: 1250,
+        MRP: 2499,
+        discount: 50,
+        offer_price: 863,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210327/UjZM/605e2f537cdb8c1f146e2568/marks_&_spencer_grey_skater_dress_with_waist_belt.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210327/zEBd/605e2f657cdb8c1f146e2603/-473Wx593H-462209198-grey-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210327/zEBd/605e2f657cdb8c1f146e2603/-473Wx593H-462209198-grey-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210327/zEBd/605e2f657cdb8c1f146e2603/-473Wx593H-462209198-grey-MODEL4.jpg",
+        brand: "Marks & Spencer",
+        name: "Skater Dress with Waist Belt",
+        price: 4999,
+        MRP: 4999,
+        discount: 0,
+        offer_price: 4199,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL4.jpg",
+        brand: "Fig",
+        name: "Floral Print A-line dress with belt",
+        price: 490,
+        MRP: 999,
+        discount: 51,
+        offer_price: 340,
+        color: "coral",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL4.jpg",
+        brand: "HELLO DESIGN",
+        name: "Scoop neck A-line Dress",
+        price: 800,
+        MRP: 1999,
+        discount: 60,
+        offer_price: 580,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL4.jpg",
+        brand: "Fig",
+        name: "Floral Lace Shift Dress",
+        price: 490,
+        MRP: 999,
+        discount: 51,
+        offer_price: 340,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL4.jpg",
+        brand: "AKS",
+        name: "Stripped A-line Dress with Flared Sleeves",
+        price: 750,
+        MRP: 1499,
+        discount: 50,
+        offer_price: 518,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL4.jpg",
+        brand: "RITU KUMAR",
+        name: "Floral Print A-line Dress",
+        price: 7600,
+        MRP: 7600,
+        discount: 0,
+        offer_price: 6460,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL4.jpg",
+        brand: "RITU KUMAR",
+        name: "V-neck Flared Dress with Pintucks",
+        price: 6900,
+        MRP: 6900,
+        discount: 0,
+        offer_price: 5865,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL4.jpg",
+        brand: "Janasya",
+        name: "Self-Design Fit & Flare Dress",
+        price: 1055,
+        MRP: 2398,
+        discount: 56,
+        offer_price: 728,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL4.jpg",
+        brand: "Aks Conture",
+        name: "Round-Neck Gown Dress with Printed Jacket",
+        price: 1500,
+        MRP: 2999,
+        discount: 50,
+        offer_price: 1035,
+        color: "Magenta",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL4.jpg",
+        brand: "HELLO DESIGN",
+        name: "Polka-Dot Print A-line Maxi Dress",
+        price: 800,
+        MRP: 1999,
+        discount: 60,
+        offer_price: 580,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL4.jpg",
+        brand: "Fable Street",
+        name: "V neck Shift Dress",
+        price: 2097,
+        MRP: 2995,
+        discount: 30,
+        offer_price: 1447,
+        color: "black",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL4.jpg",
+        brand: "Miracolos By Ruchi",
+        name: "High-Neck Gown with Ruffles Accent",
+        price: 6120,
+        MRP: 6800,
+        discount: 10,
+        offer_price: 6119,
+        color: "maroon",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL4.jpg",
+        brand: "Berrylush",
+        name: "Floral Print Gown Dress",
+        price: 1287,
+        MRP: 3299,
+        discount: 61,
+        offer_price: 957,
+        color: "blue",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL4.jpg",
+        brand: "Teamspirit",
+        name: "Printed Hooded Dress with Side Pockets",
+        price: 490,
+        MRP: 999,
+        discount: 51,
+        offer_price: 380,
+        color: "black",
+        size: "",
+      },
+    ];
 
+    //data to display in relevance and what's new
 
-  //data to display in relevance and what's new
-
-  let arrayDisplay = [
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210403/37g4/6068ca1aaeb269a9e338d88c/hello_design_pink_a-line_dress_with_ruffle_detail.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/H9V2/6068ca1aaeb269a9e338d7f4/-473Wx593H-461943028-pink-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/Blki/6068ca1aaeb269a9e338d7fa/-473Wx593H-461943028-pink-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/Blki/6068ca1aaeb269a9e338d7fa/-473Wx593H-461943028-pink-MODEL4.jpg",
-      brand: "HELLO DESIGN",
-      name: "A-line Dress with Ruffle Detail",
-      price: 880,
-      MRP: 2199,
-      discount: 60,
-      offer_price: 638,
-      color: "pink",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210403/wR9I/606946fd7cdb8c1f1484121e/aks_couture_pink_embellished_a-line_dress_with_ruffled_panel.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/wR9I/606946fd7cdb8c1f1484121e/-473Wx593H-461411013-pink-MODEL.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/ZyoK/606946fd7cdb8c1f14841189/-473Wx593H-461411013-pink-MODEL2.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/ZyoK/606946fd7cdb8c1f14841189/-473Wx593H-461411013-pink-MODEL3.jpg",
-      brand: "Aks Couture",
-      name: "Embellished A-line Dress with Ruffled Panel",
-      price: 1250,
-      MRP: 2499,
-      discount: 50,
-      offer_price:863 ,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210327/UjZM/605e2f537cdb8c1f146e2568/marks_&_spencer_grey_skater_dress_with_waist_belt.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210327/zEBd/605e2f657cdb8c1f146e2603/-473Wx593H-462209198-grey-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210327/zEBd/605e2f657cdb8c1f146e2603/-473Wx593H-462209198-grey-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210327/zEBd/605e2f657cdb8c1f146e2603/-473Wx593H-462209198-grey-MODEL4.jpg",
-      brand: "Marks & Spencer",
-      name: "Skater Dress with Waist Belt",
-      price: 4999,
-      MRP:4999 ,
-      discount:0 ,
-      offer_price: 4199,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL4.jpg",
-      brand: "Fig",
-      name: "Floral Print A-line dress with belt",
-      price: 490,
-      MRP: 999,
-      discount: 51,
-      offer_price:340 ,
-      color: "coral",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL4.jpg",
-      brand: "HELLO DESIGN",
-      name: "Scoop neck A-line Dress",
-      price: 800,
-      MRP: 1999,
-      discount: 60,
-      offer_price: 580,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL4.jpg",
-      brand: "Fig",
-      name: "Floral Lace Shift Dress",
-      price: 490,
-      MRP: 999,
-      discount:51 ,
-      offer_price:340 ,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL4.jpg",
-      brand: "AKS",
-      name: "Stripped A-line Dress with Flared Sleeves",
-      price: 750,
-      MRP: 1499,
-      discount:50 ,
-      offer_price: 518,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL4.jpg",
-      brand: "RITU KUMAR",
-      name: "Floral Print A-line Dress",
-      price: 7600,
-      MRP: 7600,
-      discount: 0,
-      offer_price: 6460,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL4.jpg",
-      brand: "RITU KUMAR",
-      name: "V-neck Flared Dress with Pintucks",
-      price: 6900,
-      MRP: 6900,
-      discount: 0,
-      offer_price: 5865,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL4.jpg",
-      brand: "Janasya",
-      name: "Self-Design Fit & Flare Dress",
-      price: 1055,
-      MRP: 2398,
-      discount:56 ,
-      offer_price:728 ,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL4.jpg",
-      brand: "Aks Conture",
-      name: "Round-Neck Gown Dress with Printed Jacket",
-      price: 1500,
-      MRP: 2999,
-      discount:50 ,
-      offer_price:1035 ,
-      color: "Magenta",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL4.jpg",
-      brand: "HELLO DESIGN",
-      name: "Polka-Dot Print A-line Maxi Dress",
-      price: 800,
-      MRP: 1999,
-      discount:60 ,
-      offer_price:580 ,
-      color: "",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL4.jpg",
-      brand: "Fable Street",
-      name: "V neck Shift Dress",
-      price: 2097,
-      MRP: 2995,
-      discount: 30,
-      offer_price:1447 ,
-      color: "black",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL4.jpg",
-      brand: "Miracolos By Ruchi",
-      name: "High-Neck Gown with Ruffles Accent",
-      price: 6120,
-      MRP: 6800,
-      discount: 10,
-      offer_price: 6119,
-      color: "maroon",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL4.jpg",
-      brand: "Berrylush",
-      name: "Floral Print Gown Dress",
-      price: 1287,
-      MRP: 3299,
-      discount: 61,
-      offer_price:957 ,
-      color: "blue",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL3.jpg",
-      img4: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL4.jpg",
-      brand: "Teamspirit",
-      name: "Printed Hooded Dress with Side Pockets",
-      price: 490,
-      MRP: 999,
-      discount: 51,
-      offer_price: 380,
-      color: "black",
-      size: "",
-    }
-]
-
+    let arrayDisplay = [
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210403/37g4/6068ca1aaeb269a9e338d88c/hello_design_pink_a-line_dress_with_ruffle_detail.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210403/H9V2/6068ca1aaeb269a9e338d7f4/-473Wx593H-461943028-pink-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210403/Blki/6068ca1aaeb269a9e338d7fa/-473Wx593H-461943028-pink-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210403/Blki/6068ca1aaeb269a9e338d7fa/-473Wx593H-461943028-pink-MODEL4.jpg",
+        brand: "HELLO DESIGN",
+        name: "A-line Dress with Ruffle Detail",
+        price: 880,
+        MRP: 2199,
+        discount: 60,
+        offer_price: 638,
+        color: "pink",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210403/wR9I/606946fd7cdb8c1f1484121e/aks_couture_pink_embellished_a-line_dress_with_ruffled_panel.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210403/wR9I/606946fd7cdb8c1f1484121e/-473Wx593H-461411013-pink-MODEL.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210403/ZyoK/606946fd7cdb8c1f14841189/-473Wx593H-461411013-pink-MODEL2.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210403/ZyoK/606946fd7cdb8c1f14841189/-473Wx593H-461411013-pink-MODEL3.jpg",
+        brand: "Aks Couture",
+        name: "Embellished A-line Dress with Ruffled Panel",
+        price: 1250,
+        MRP: 2499,
+        discount: 50,
+        offer_price: 863,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210327/UjZM/605e2f537cdb8c1f146e2568/marks_&_spencer_grey_skater_dress_with_waist_belt.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210327/zEBd/605e2f657cdb8c1f146e2603/-473Wx593H-462209198-grey-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210327/zEBd/605e2f657cdb8c1f146e2603/-473Wx593H-462209198-grey-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210327/zEBd/605e2f657cdb8c1f146e2603/-473Wx593H-462209198-grey-MODEL4.jpg",
+        brand: "Marks & Spencer",
+        name: "Skater Dress with Waist Belt",
+        price: 4999,
+        MRP: 4999,
+        discount: 0,
+        offer_price: 4199,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL4.jpg",
+        brand: "Fig",
+        name: "Floral Print A-line dress with belt",
+        price: 490,
+        MRP: 999,
+        discount: 51,
+        offer_price: 340,
+        color: "coral",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL4.jpg",
+        brand: "HELLO DESIGN",
+        name: "Scoop neck A-line Dress",
+        price: 800,
+        MRP: 1999,
+        discount: 60,
+        offer_price: 580,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL4.jpg",
+        brand: "Fig",
+        name: "Floral Lace Shift Dress",
+        price: 490,
+        MRP: 999,
+        discount: 51,
+        offer_price: 340,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL4.jpg",
+        brand: "AKS",
+        name: "Stripped A-line Dress with Flared Sleeves",
+        price: 750,
+        MRP: 1499,
+        discount: 50,
+        offer_price: 518,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL4.jpg",
+        brand: "RITU KUMAR",
+        name: "Floral Print A-line Dress",
+        price: 7600,
+        MRP: 7600,
+        discount: 0,
+        offer_price: 6460,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL4.jpg",
+        brand: "RITU KUMAR",
+        name: "V-neck Flared Dress with Pintucks",
+        price: 6900,
+        MRP: 6900,
+        discount: 0,
+        offer_price: 5865,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL4.jpg",
+        brand: "Janasya",
+        name: "Self-Design Fit & Flare Dress",
+        price: 1055,
+        MRP: 2398,
+        discount: 56,
+        offer_price: 728,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL4.jpg",
+        brand: "Aks Conture",
+        name: "Round-Neck Gown Dress with Printed Jacket",
+        price: 1500,
+        MRP: 2999,
+        discount: 50,
+        offer_price: 1035,
+        color: "Magenta",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL4.jpg",
+        brand: "HELLO DESIGN",
+        name: "Polka-Dot Print A-line Maxi Dress",
+        price: 800,
+        MRP: 1999,
+        discount: 60,
+        offer_price: 580,
+        color: "",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL4.jpg",
+        brand: "Fable Street",
+        name: "V neck Shift Dress",
+        price: 2097,
+        MRP: 2995,
+        discount: 30,
+        offer_price: 1447,
+        color: "black",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL4.jpg",
+        brand: "Miracolos By Ruchi",
+        name: "High-Neck Gown with Ruffles Accent",
+        price: 6120,
+        MRP: 6800,
+        discount: 10,
+        offer_price: 6119,
+        color: "maroon",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL4.jpg",
+        brand: "Berrylush",
+        name: "Floral Print Gown Dress",
+        price: 1287,
+        MRP: 3299,
+        discount: 61,
+        offer_price: 957,
+        color: "blue",
+        size: "",
+      },
+      {
+        display_img:
+          "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL.jpg",
+        img2: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL2.jpg",
+        img3: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL3.jpg",
+        img4: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL4.jpg",
+        brand: "Teamspirit",
+        name: "Printed Hooded Dress with Side Pockets",
+        price: 490,
+        MRP: 999,
+        discount: 51,
+        offer_price: 380,
+        color: "black",
+        size: "",
+      },
+    ];
 
     let parent = document.getElementById("data");
     displayProducts(array);
+
+    function cols5() {
+        parent.innerHTML = "";
+        let grid5 = document.getElementById("grid5");
+
+            parent.style.display = "grid";
+            parent.style.gridTemplateColumns = "18% 18% 18% 18% 18%";
+            parent.style.gap = "20px";
+            displayProducts(array);
+    }
+    
+    function cols3() {
+        parent.innerHTML = "";
+        let grid3 = document.getElementById("grid3");
+            parent.style.display = "grid";
+            parent.style.gridTemplateColumns = " 31% 31% 31%";
+            parent.style.gap = "20px";
+            displayProducts(array);
+    }
 
     var select = document.getElementById("select");
     console.log(select);
@@ -1026,7 +1209,7 @@
     let countfort = 0;
     function helloDesign(array) {
       console.log(array);
-      if(countfort % 2 == 0) {
+      if (countfort % 2 == 0) {
         countfort++;
         let brand = [];
         array.forEach((ele) => {
@@ -1043,451 +1226,441 @@
         countfort++;
         parent.innerHTML = "";
         displayProducts(array);
-        console.log("count2:" + countfort);        
+        console.log("count2:" + countfort);
       }
-     
     }
-    
+
     let counthigh = 0;
     function fig(array) {
       console.log(array);
-      if(counthigh % 2 == 0) {
+      if (counthigh % 2 == 0) {
         counthigh++;
-      let brand = [];
-      array.forEach((ele) => {
-        if (ele.brand == "Fig") {
-          console.log(ele.brand);
-          brand.push(ele);
-        }
-      });
-      console.log(brand);
-      parent.innerHTML = "";
-      displayProducts(brand);
-    }else {
+        let brand = [];
+        array.forEach((ele) => {
+          if (ele.brand == "Fig") {
+            console.log(ele.brand);
+            brand.push(ele);
+          }
+        });
+        console.log(brand);
+        parent.innerHTML = "";
+        displayProducts(brand);
+      } else {
         counthigh++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
 
-  let countperform = 0;
+    let countperform = 0;
     function rituKumar(array) {
       console.log(array);
-      if(countperform % 2 == 0) {
+      if (countperform % 2 == 0) {
         countperform++;
-      let brand = [];
-      array.forEach((ele) => {
-        if (ele.brand == "RITU KUMAR") {
-          console.log(ele.brand);
-          brand.push(ele);
-        }
-      });
-      console.log(brand);
-      parent.innerHTML = "";
-      displayProducts(brand);
-    } else {
-      countperform++;
+        let brand = [];
+        array.forEach((ele) => {
+          if (ele.brand == "RITU KUMAR") {
+            console.log(ele.brand);
+            brand.push(ele);
+          }
+        });
+        console.log(brand);
+        parent.innerHTML = "";
+        displayProducts(brand);
+      } else {
+        countperform++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
-
 
     let countlevis = 0;
     function berrylush(array) {
       console.log(array);
-      if(countlevis % 2 == 0) {
+      if (countlevis % 2 == 0) {
         countlevis++;
-      let brand = [];
-      array.forEach((ele) => {
-        if (ele.brand == "Berrylush") {
-          console.log(ele.brand);
-          brand.push(ele);
-        }
-      });
-      console.log(brand);
-      parent.innerHTML = "";
-      displayProducts(brand);
-    }  else {
-      countlevis++;
+        let brand = [];
+        array.forEach((ele) => {
+          if (ele.brand == "Berrylush") {
+            console.log(ele.brand);
+            brand.push(ele);
+          }
+        });
+        console.log(brand);
+        parent.innerHTML = "";
+        displayProducts(brand);
+      } else {
+        countlevis++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
 
-  let countTerrain = 0;
+    let countTerrain = 0;
     function fableStreet(array) {
       console.log(array);
-      if(countTerrain % 2 == 0) {
+      if (countTerrain % 2 == 0) {
         countTerrain++;
-      let brand = [];
-      array.forEach((ele) => {
-        if (ele.brand == "Fable Street") {
-          console.log(ele.brand);
-          brand.push(ele);
-        }
-      });
-      console.log(brand);
-      parent.innerHTML = "";
-      displayProducts(brand);
-    }  else {
-      countTerrain++;
+        let brand = [];
+        array.forEach((ele) => {
+          if (ele.brand == "Fable Street") {
+            console.log(ele.brand);
+            brand.push(ele);
+          }
+        });
+        console.log(brand);
+        parent.innerHTML = "";
+        displayProducts(brand);
+      } else {
+        countTerrain++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
 
     // discount functionality
     let countdisc0To20 = 0;
     function disc0To20(array) {
       console.log(array);
-      if(countdisc0To20 % 2 == 0) {
+      if (countdisc0To20 % 2 == 0) {
         countdisc0To20++;
-      let discountRange = [];
-      array.forEach((ele) => {
-        if (ele.discount >= 0 && ele.discount <= 20) {
-          console.log(ele.discount);
-          discountRange.push(ele);
-        }
-      });
-      console.log(discountRange);
-      parent.innerHTML = "";
-      displayProducts(discountRange);
-    }  else {
-      countdisc0To20++;
+        let discountRange = [];
+        array.forEach((ele) => {
+          if (ele.discount >= 0 && ele.discount <= 20) {
+            console.log(ele.discount);
+            discountRange.push(ele);
+          }
+        });
+        console.log(discountRange);
+        parent.innerHTML = "";
+        displayProducts(discountRange);
+      } else {
+        countdisc0To20++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
 
-  let countdisc21To30 = 0;
+    let countdisc21To30 = 0;
     function disc21To30(array) {
       console.log(array);
-      if(countdisc21To30 % 2 == 0) {
+      if (countdisc21To30 % 2 == 0) {
         countdisc21To30++;
-      let discountRange = [];
-      array.forEach((ele) => {
-        if (ele.discount >= 21 && ele.discount <= 30) {
-          console.log(ele.discount);
-          discountRange.push(ele);
-        }
-      });
-      console.log(discountRange);
-      parent.innerHTML = "";
-      displayProducts(discountRange);
-    }  else {
-      countdisc21To30++;
+        let discountRange = [];
+        array.forEach((ele) => {
+          if (ele.discount >= 21 && ele.discount <= 30) {
+            console.log(ele.discount);
+            discountRange.push(ele);
+          }
+        });
+        console.log(discountRange);
+        parent.innerHTML = "";
+        displayProducts(discountRange);
+      } else {
+        countdisc21To30++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
 
-
-  let countdisc31To40 = 0;
+    let countdisc31To40 = 0;
     function disc31To40(array) {
       console.log(array);
-      if(countdisc31To40 % 2 == 0) {
+      if (countdisc31To40 % 2 == 0) {
         countdisc31To40++;
-      let discountRange = [];
-      array.forEach((ele) => {
-        if (ele.discount >= 31 && ele.discount <= 40) {
-          console.log(ele.discount);
-          discountRange.push(ele);
-        }
-      });
-      console.log(discountRange);
-      parent.innerHTML = "";
-      displayProducts(discountRange);
-    }  else {
-      countdisc31To40++;
+        let discountRange = [];
+        array.forEach((ele) => {
+          if (ele.discount >= 31 && ele.discount <= 40) {
+            console.log(ele.discount);
+            discountRange.push(ele);
+          }
+        });
+        console.log(discountRange);
+        parent.innerHTML = "";
+        displayProducts(discountRange);
+      } else {
+        countdisc31To40++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
 
-
-  let countdisc41To50 = 0;
+    let countdisc41To50 = 0;
     function disc41To50(array) {
       console.log(array);
-      if(countdisc41To50 % 2 == 0) {
+      if (countdisc41To50 % 2 == 0) {
         countdisc41To50++;
-      let discountRange = [];
-      array.forEach((ele) => {
-        if (ele.discount >= 41 && ele.discount <= 50) {
-          console.log(ele.discount);
-          discountRange.push(ele);
-        }
-      });
-      console.log(discountRange);
-      parent.innerHTML = "";
-      displayProducts(discountRange);
-    }  else {
-      countdisc41To50 ++;
+        let discountRange = [];
+        array.forEach((ele) => {
+          if (ele.discount >= 41 && ele.discount <= 50) {
+            console.log(ele.discount);
+            discountRange.push(ele);
+          }
+        });
+        console.log(discountRange);
+        parent.innerHTML = "";
+        displayProducts(discountRange);
+      } else {
+        countdisc41To50++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
 
-  let countdisc51To80 = 0;
+    let countdisc51To80 = 0;
     function disc51To80(array) {
       console.log(array);
-      if(countdisc51To80 % 2 == 0) {
+      if (countdisc51To80 % 2 == 0) {
         countdisc51To80++;
-      let discountRange = [];
-      array.forEach((ele) => {
-        if (ele.discount >= 51 && ele.discount <= 80) {
-          console.log(ele.discount);
-          discountRange.push(ele);
-        }
-      });
-      console.log(discountRange);
-      parent.innerHTML = "";
-      displayProducts(discountRange);
-    }  else {
-      countdisc51To80 ++;
+        let discountRange = [];
+        array.forEach((ele) => {
+          if (ele.discount >= 51 && ele.discount <= 80) {
+            console.log(ele.discount);
+            discountRange.push(ele);
+          }
+        });
+        console.log(discountRange);
+        parent.innerHTML = "";
+        displayProducts(discountRange);
+      } else {
+        countdisc51To80++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
 
     // color functionality
     let countblack = 0;
     function black(array) {
       console.log(array);
-      if(countblack % 2 == 0) {
+      if (countblack % 2 == 0) {
         countblack++;
-      let color = [];
-      array.forEach((ele) => {
-        console.log(ele.color);
-        if (ele.color == "Black") {
+        let color = [];
+        array.forEach((ele) => {
           console.log(ele.color);
-          color.push(ele);
-        }
-      });
-      console.log(color);
-      parent.innerHTML = "";
-      displayProducts(color);
-    }  else {
-      countblack ++;
+          if (ele.color == "Black") {
+            console.log(ele.color);
+            color.push(ele);
+          }
+        });
+        console.log(color);
+        parent.innerHTML = "";
+        displayProducts(color);
+      } else {
+        countblack++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
 
-  let countblue = 0;
+    let countblue = 0;
     function blue(array) {
       console.log(array);
-      if(countblue % 2 == 0) {
+      if (countblue % 2 == 0) {
         countblue++;
-      let color = [];
-      array.forEach((ele) => {
-        console.log(ele.color);
-        if (ele.color == "Blue") {
+        let color = [];
+        array.forEach((ele) => {
           console.log(ele.color);
-          color.push(ele);
-        }
-      });
-      console.log(color);
-      parent.innerHTML = "";
-      displayProducts(color);
-    }  else {
-      countblue ++;
+          if (ele.color == "Blue") {
+            console.log(ele.color);
+            color.push(ele);
+          }
+        });
+        console.log(color);
+        parent.innerHTML = "";
+        displayProducts(color);
+      } else {
+        countblue++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
 
-  let countjetBlack = 0;
+    let countjetBlack = 0;
     function jetBlack(array) {
       console.log(array);
-      if(countjetBlack % 2 == 0) {
+      if (countjetBlack % 2 == 0) {
         countjetBlack++;
-      let color = [];
-      array.forEach((ele) => {
-        console.log(ele.color);
-        if (ele.color == "Jet-Black") {
+        let color = [];
+        array.forEach((ele) => {
           console.log(ele.color);
-          color.push(ele);
-        }
-      });
-      console.log(color);
-      parent.innerHTML = "";
-      displayProducts(color);
-    }  else {
-      countjetBlack ++;
+          if (ele.color == "Jet-Black") {
+            console.log(ele.color);
+            color.push(ele);
+          }
+        });
+        console.log(color);
+        parent.innerHTML = "";
+        displayProducts(color);
+      } else {
+        countjetBlack++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
 
-  let countgrey = 0;
+    let countgrey = 0;
     function grey(array) {
       console.log(array);
-      if(countgrey % 2 == 0) {
+      if (countgrey % 2 == 0) {
         countgrey++;
-      let color = [];
-      array.forEach((ele) => {
-        console.log(ele.color);
-        if (ele.color == "Grey") {
+        let color = [];
+        array.forEach((ele) => {
           console.log(ele.color);
-          color.push(ele);
-        }
-      });
-      console.log(color);
-      parent.innerHTML = "";
-      displayProducts(color);
-    }  else {
-      countgrey ++;
+          if (ele.color == "Grey") {
+            console.log(ele.color);
+            color.push(ele);
+          }
+        });
+        console.log(color);
+        parent.innerHTML = "";
+        displayProducts(color);
+      } else {
+        countgrey++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
 
-  let countolive = 0;
+    let countolive = 0;
     function olive(array) {
       console.log(array);
-      if(countolive % 2 == 0) {
+      if (countolive % 2 == 0) {
         countolive++;
-      let color = [];
-      array.forEach((ele) => {
-        console.log(ele.color);
-        if (ele.color == "Olive") {
+        let color = [];
+        array.forEach((ele) => {
           console.log(ele.color);
-          color.push(ele);
-        }
-      });
-      console.log(color);
-      parent.innerHTML = "";
-      displayProducts(color);
-    }  else {
-      countolive ++;
+          if (ele.color == "Olive") {
+            console.log(ele.color);
+            color.push(ele);
+          }
+        });
+        console.log(color);
+        parent.innerHTML = "";
+        displayProducts(color);
+      } else {
+        countolive++;
         parent.innerHTML = "";
         displayProducts(array);
+      }
     }
-  }
-
 
     // price functionality
 
     let countunder500 = 0;
     function under500(array) {
       let lowest = document.getElementById("low");
-      if(countunder500 % 2 == 0) {
+      if (countunder500 % 2 == 0) {
         countunder500++;
-      array.sort((a, b) => a.price - b.price);
-      let arr1 = [];
-      array.forEach((element) => {
-        if (element.price < 500) {
-          arr1.push(element);
-        }
-      });
+        array.sort((a, b) => a.price - b.price);
+        let arr1 = [];
+        array.forEach((element) => {
+          if (element.price < 500) {
+            arr1.push(element);
+          }
+        });
 
-      console.log(arr1);
-      parent.innerHTML = "";
-      displayProducts(arr1);
-    }  else {
-      countunder500 ++;
+        console.log(arr1);
+        parent.innerHTML = "";
+        displayProducts(arr1);
+      } else {
+        countunder500++;
         parent.innerHTML = "";
         displayProducts(arrayDisplay);
+      }
     }
-  }
 
-  let count500t1000 = 0;
+    let count500t1000 = 0;
     function f500t1000(array) {
       let lowest = document.getElementById("low");
-      if(count500t1000 % 2 == 0) {
+      if (count500t1000 % 2 == 0) {
         count500t1000++;
-      let arr2 = [];
-      array.sort((a, b) => a.price - b.price);
-      array.forEach((element) => {
-        if (element.price > 500 && element.price <= 1000) {
-          arr2.push(element);
-        }
-      });
+        let arr2 = [];
+        array.sort((a, b) => a.price - b.price);
+        array.forEach((element) => {
+          if (element.price > 500 && element.price <= 1000) {
+            arr2.push(element);
+          }
+        });
 
-      console.log(arr2);
-      parent.innerHTML = "";
-      displayProducts(arr2);
-    }  else {
-      count500t1000 ++;
+        console.log(arr2);
+        parent.innerHTML = "";
+        displayProducts(arr2);
+      } else {
+        count500t1000++;
         parent.innerHTML = "";
         displayProducts(arrayDisplay);
-
+      }
     }
-  }
 
-  let count1000t1500 = 0;
+    let count1000t1500 = 0;
     function f1000t1500(array) {
       let lowest = document.getElementById("low");
-      if(count1000t1500 % 2 == 0) {
+      if (count1000t1500 % 2 == 0) {
         count1000t1500++;
-      let arr3 = [];
-      array.sort((a, b) => a.price - b.price);
-      array.forEach((element) => {
-        if (element.price > 1000 && element.price <= 1500) {
-          arr3.push(element);
-        }
-      });
+        let arr3 = [];
+        array.sort((a, b) => a.price - b.price);
+        array.forEach((element) => {
+          if (element.price > 1000 && element.price <= 1500) {
+            arr3.push(element);
+          }
+        });
 
-      console.log(arr3);
-      parent.innerHTML = "";
-      displayProducts(arr3);
-    }  else {
-      count1000t1500 ++;
+        console.log(arr3);
+        parent.innerHTML = "";
+        displayProducts(arr3);
+      } else {
+        count1000t1500++;
         parent.innerHTML = "";
         displayProducts(arrayDisplay);
-
+      }
     }
-  }
 
-  let count1500t2000 = 0;
+    let count1500t2000 = 0;
     function f1500t2000(array) {
       let lowest = document.getElementById("low");
-      if(count1500t2000 % 2 == 0) {
+      if (count1500t2000 % 2 == 0) {
         count1500t2000++;
-      let arr4 = [];
-      array.sort((a, b) => a.price - b.price);
-      array.forEach((element) => {
-        if (element.price > 1500 && element.price <= 2000) {
-          arr4.push(element);
-        }
-      });
+        let arr4 = [];
+        array.sort((a, b) => a.price - b.price);
+        array.forEach((element) => {
+          if (element.price > 1500 && element.price <= 2000) {
+            arr4.push(element);
+          }
+        });
 
-      console.log(arr4);
-      parent.innerHTML = "";
-      displayProducts(arr4);
-    }  else {
-      count1500t2000 ++;
+        console.log(arr4);
+        parent.innerHTML = "";
+        displayProducts(arr4);
+      } else {
+        count1500t2000++;
         parent.innerHTML = "";
         displayProducts(arrayDisplay);
-
+      }
     }
-  }
 
-
-  let count2000t2500 = 0;
+    let count2000t2500 = 0;
     function f2000t2500(array) {
       let lowest = document.getElementById("low");
-      if(count2000t2500 % 2 == 0) {
+      if (count2000t2500 % 2 == 0) {
         count2000t2500++;
-      let arr5 = [];
-      array.sort((a, b) => a.price - b.price);
-      array.forEach((element) => {
-        if (element.price > 2000 && element.price <= 2500) {
-          arr5.push(element);
-        }
-      });
+        let arr5 = [];
+        array.sort((a, b) => a.price - b.price);
+        array.forEach((element) => {
+          if (element.price > 2000 && element.price <= 2500) {
+            arr5.push(element);
+          }
+        });
 
-      console.log(arr5);
-      parent.innerHTML = "";
-      displayProducts(arr5);
-    }  else {
-      count2000t2500 ++;
+        console.log(arr5);
+        parent.innerHTML = "";
+        displayProducts(arr5);
+      } else {
+        count2000t2500++;
         parent.innerHTML = "";
         displayProducts(arrayDisplay);
-
+      }
     }
-  }
 
     function displayProducts(array) {
       array.forEach(function (data) {
@@ -1498,49 +1671,48 @@
         img1.src = data.display_img;
 
         let quickView = document.createElement("div");
-        quickView.setAttribute("id","quickView");
+        quickView.setAttribute("id", "quickView");
         quickView.textContent = "QUICKVIEW";
 
-
         let img = document.createElement("div");
-        img.append(img1,quickView);
+        img.append(img1, quickView);
 
         let brand = document.createElement("div");
-      brand.innerHTML = data.brand;
-      brand.setAttribute("class","w600")
-      brand.style.color = "#b19975";
+        brand.innerHTML = data.brand;
+        brand.setAttribute("class", "w600");
+        brand.style.color = "#b19975";
 
-      let name = document.createElement("div");
-      name.innerHTML = data.name;
-      name.setAttribute("class","loraf13");
-      // name.setAttribute("class","lora","f13");
+        let name = document.createElement("div");
+        name.innerHTML = data.name;
+        name.setAttribute("class", "loraf13");
+        // name.setAttribute("class","lora","f13");
 
-      let price = document.createElement("span");
-      price.innerHTML = "Rs. " + data.price + "&nbsp;&nbsp;";
-      price.setAttribute("class","f14")
+        let price = document.createElement("span");
+        price.innerHTML = "Rs. " + data.price + "&nbsp;&nbsp;";
+        price.setAttribute("class", "f14");
 
-      let mrp = document.createElement("span");
-      mrp.innerHTML = "Rs. " + data.MRP;
-      mrp.style.textDecoration = "line-through";
-      mrp.setAttribute("class","f12")
+        let mrp = document.createElement("span");
+        mrp.innerHTML = "Rs. " + data.MRP;
+        mrp.style.textDecoration = "line-through";
+        mrp.setAttribute("class", "f12");
 
-      let discount = document.createElement("span");
-      discount.innerHTML = "&nbsp;" + "(" + data.discount + "%" + " off)";
-      discount.style.color = "#b19975";
-      discount.setAttribute("class","f12");
+        let discount = document.createElement("span");
+        discount.innerHTML = "&nbsp;" + "(" + data.discount + "%" + " off)";
+        discount.style.color = "#b19975";
+        discount.setAttribute("class", "f12");
 
-      let offer_price = document.createElement("span");
-      // offer_price.innerHTML = "Offer Price: " + "Rs. " + data.offer_price;
-      offer_price.innerHTML = "Offer Price: " + "&nbsp;&nbsp;";
-      offer_price.setAttribute("class","f12")
+        let offer_price = document.createElement("span");
+        // offer_price.innerHTML = "Offer Price: " + "Rs. " + data.offer_price;
+        offer_price.innerHTML = "Offer Price: " + "&nbsp;&nbsp;";
+        offer_price.setAttribute("class", "f12");
 
-      let offervalue = document.createElement("span");
-      offervalue.innerHTML = "Rs. " + data.offer_price;
-      offervalue.style.color = "#3ab649";
-      offervalue.setAttribute("class","f12")
+        let offervalue = document.createElement("span");
+        offervalue.innerHTML = "Rs. " + data.offer_price;
+        offervalue.style.color = "#3ab649";
+        offervalue.setAttribute("class", "f12");
 
-      let offer = document.createElement("div");
-      offer.append(offer_price, offervalue);
+        let offer = document.createElement("div");
+        offer.append(offer_price, offervalue);
 
         let value = document.createElement("div");
 
@@ -1551,7 +1723,7 @@
         div.style.textAlign = "center";
         div.style.lineHeight = "25px";
 
-        finalDiv.append(img,div);
+        finalDiv.append(img, div);
         div.onclick = () => {
           if (localStorage.getItem("bucket") == null) {
             localStorage.setItem("bucket", JSON.stringify([]));
@@ -1565,18 +1737,18 @@
 
           window.location.href = "Productdetailspage.html";
         };
-        
+
         parent.append(finalDiv);
 
-        finalDiv.addEventListener("mouseenter",enter);
+        finalDiv.addEventListener("mouseenter", enter);
 
-        finalDiv.addEventListener("mouseleave",leave);
+        finalDiv.addEventListener("mouseleave", leave);
 
         function enter() {
-            quickView.style.display = "block";            
+          quickView.style.display = "block";
         }
         function leave() {
-            quickView.style.display = "none";
+          quickView.style.display = "none";
         }
         quickView.onclick = () => {
           if (localStorage.getItem("bucket") == null) {
@@ -1598,24 +1770,23 @@
 
     let refineby = document.getElementById("refineby");
     let list = document.getElementById("list");
-      let darrow = document.getElementById("darrow");
+    let darrow = document.getElementById("darrow");
     var num = 0;
     refineby.onclick = () => {
-     
-    //   if(num == 0) {
-    //     darrow.setAttribute("id","darr");
-    //     num++;
-    //   } else {
-    //     darrow.setAttribute("id","darrow");
-    //     num = 0;
-    //   }
-      
+      //   if(num == 0) {
+      //     darrow.setAttribute("id","darr");
+      //     num++;
+      //   } else {
+      //     darrow.setAttribute("id","darrow");
+      //     num = 0;
+      //   }
+
       if (list.style.display == "none") {
         list.style.display = "block";
-        darrow.setAttribute("id","darrow");
+        darrow.setAttribute("id", "darrow");
       } else {
         list.style.display = "none";
-        darrow.setAttribute("id","darr");
+        darrow.setAttribute("id", "darr");
       }
     };
 
@@ -1767,9 +1938,9 @@
     import footer from "./components/footer.js";
     let footer_division = document.getElementById("footer_division");
     footer_division.innerHTML = footer();
-</script>
+  </script>
 
-<link rel="stylesheet" href="./styles/footer.css">
-<link rel="stylesheet" href="./styles/popupDetails.css">
-<script src="./scripts/singleProductView.js"></script>
+  <link rel="stylesheet" href="./styles/footer.css" />
+  <link rel="stylesheet" href="./styles/popupDetails.css" />
+  <script src="./scripts/singleProductView.js"></script>
 </html>
