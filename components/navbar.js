@@ -55,28 +55,28 @@ function navbar() {
         <p>Top Searches</p>
     </div>
     <div>
-        <a href="productsPage.html"><p>Shoes</p></a>
+        <a href="/"><p>Shoes</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Jackets</p></a>
+        <a href="/"><p>Jackets</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Jeans</p></a>
+        <a href="/"><p>Jeans</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Joggers</p></a>
+        <a href="/"><p>Joggers</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Kurti</p></a>
+        <a href="/"><p>Kurti</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Boots</p></a>
+        <a href="/"><p>Boots</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Shirts</p></a>
+        <a href="/"><p>Shirts</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Top</p></a>
+        <a href="/"><p>Top</p></a>
     </div>
 
 </div>
@@ -91,64 +91,64 @@ function navbar() {
    </div>
    <div>
        <div>
-           <h4><a href="productsPage.html">CLOTHING</a></h4>
-           <h4><a href="productsPage.html">FOOTWEAR & ACCESSORIES</a></h4>
-           <h4><a href="productsPage.html">ALL THATS NEW</a></h4>
-           <p><a href="productsPage.html">Clothing</a></p>
-           <p><a href="productsPage.html">Footwear</a></p>
-           <p><a href="productsPage.html">Accessories</a></p>
-           <h4><a href="productsPage.html">INTERNATIONAL BRANDS</a></h4>
-           <h4><a href="productsPage.html">WINTERWEAR</a></h4>
-           <h4><a href="productsPage.html">NIGHT & LOUNGEWEAR</a></h4>
-           <h4><a href="productsPage.html">GROOMING</a></h4>
-           <h4><a href="productsPage.html">ETHNIC & FESTIVE</a></h4>
-           <p><a href="productsPage.html">Kurtas And Shirts</a></p>
-           <p><a href="productsPage.html">Nehru Jackets</a></p>
+           <h4><a href="/">CLOTHING</a></h4>
+           <h4><a href="/">FOOTWEAR & ACCESSORIES</a></h4>
+           <h4><a href="/">ALL THATS NEW</a></h4>
+           <p><a href="/">Clothing</a></p>
+           <p><a href="/">Footwear</a></p>
+           <p><a href="/">Accessories</a></p>
+           <h4><a href="/">INTERNATIONAL BRANDS</a></h4>
+           <h4><a href="/">WINTERWEAR</a></h4>
+           <h4><a href="/">NIGHT & LOUNGEWEAR</a></h4>
+           <h4><a href="/">GROOMING</a></h4>
+           <h4><a href="/">ETHNIC & FESTIVE</a></h4>
+           <p><a href="/">Kurtas And Shirts</a></p>
+           <p><a href="/">Nehru Jackets</a></p>
        </div>
        <div>
-            <h4><a href="productsPage.html">WESTERN WEAR</a></h4>
-            <p><a href="productsPage.html">Jackets & Coats</a></p>
-            <p><a href="productsPage.html">Jeans</a></p>
-            <p><a href="productsPage.html">Shirts</a></p>
-            <p><a href="productsPage.html">Shorts & 3/4ths</a></p>
-            <p><a href="productsPage.html">Sweatshirts & Hoodies</a></p>
-            <p><a href="productsPage.html">Track Pants</a></p>
-            <p><a href="productsPage.html">Trousers & Pants</a></p>
-            <p><a href="productsPage.html">T-Shirts</a></p>
-            <h4><a href="productsPage.html">FOOTWEAR</a></h4>
-            <p><a href="productsPage.html">Casual Shoes</a></p>
-            <p><a href="productsPage.html">Flip-Flops & Slippers</a></p>
-            <p><a href="productsPage.html">Formal Shoes</a></p>
-            <p><a href="productsPage.html">Sandals</a></p>
-            <p><a href="productsPage.html">Sneakers</a></p>
-            <p><a href="productsPage.html">Sports Shoes</a></p>
+            <h4><a href="/">WESTERN WEAR</a></h4>
+            <p><a href="/">Jackets & Coats</a></p>
+            <p><a href="/">Jeans</a></p>
+            <p><a href="/">Shirts</a></p>
+            <p><a href="/">Shorts & 3/4ths</a></p>
+            <p><a href="/">Sweatshirts & Hoodies</a></p>
+            <p><a href="/">Track Pants</a></p>
+            <p><a href="/">Trousers & Pants</a></p>
+            <p><a href="/">T-Shirts</a></p>
+            <h4><a href="/">FOOTWEAR</a></h4>
+            <p><a href="/">Casual Shoes</a></p>
+            <p><a href="/">Flip-Flops & Slippers</a></p>
+            <p><a href="/">Formal Shoes</a></p>
+            <p><a href="/">Sandals</a></p>
+            <p><a href="/">Sneakers</a></p>
+            <p><a href="/">Sports Shoes</a></p>
        </div>
        <div>
-            <h4><a href="productsPage.html">ACCESSORIES</a></h4>
-            <p><a href="productsPage.html">Backpacks</a></p>
-            <p><a href="productsPage.html">Bags & Wallets</a></p>
-            <p><a href="productsPage.html">Belts</a></p>
-            <p><a href="productsPage.html">Fashion Accessories</a></p>
-            <p><a href="productsPage.html">Socks</a></p>
-            <p><a href="productsPage.html">Sunglasses & Frames</a></p>
-            <p><a href="productsPage.html">Wallets</a></p>
-            <p><a href="productsPage.html">Watches</a></p>
-            <h4><a href="productsPage.html">PRECIOUS JEWELLERY</a></h4>
-            <p><a href="productsPage.html">Gold And Silver Coins</a></p>
-            <p><a href="productsPage.html">Gold And Diamonds Jewellery</a></p>
-            <p><a href="productsPage.html">Silver Jewellery</a></p>
-            <h4><a href="productsPage.html">INNERWEAR</a></h4>
-            <p><a href="productsPage.html">Trunks & Boxers</a></p>
-            <p><a href="productsPage.html">Vests</a></p>
+            <h4><a href="/">ACCESSORIES</a></h4>
+            <p><a href="/">Backpacks</a></p>
+            <p><a href="/">Bags & Wallets</a></p>
+            <p><a href="/">Belts</a></p>
+            <p><a href="/">Fashion Accessories</a></p>
+            <p><a href="/">Socks</a></p>
+            <p><a href="/">Sunglasses & Frames</a></p>
+            <p><a href="/">Wallets</a></p>
+            <p><a href="/">Watches</a></p>
+            <h4><a href="/">PRECIOUS JEWELLERY</a></h4>
+            <p><a href="/">Gold And Silver Coins</a></p>
+            <p><a href="/">Gold And Diamonds Jewellery</a></p>
+            <p><a href="/">Silver Jewellery</a></p>
+            <h4><a href="/">INNERWEAR</a></h4>
+            <p><a href="/">Trunks & Boxers</a></p>
+            <p><a href="/">Vests</a></p>
        </div>
        <div>
-            <h4><a href="productsPage.html">FEATURED</a></h4>
-            <p><a href="productsPage.html">Bags Under 1499</a></p>
-            <p><a href="productsPage.html">Footwear Under 1499</a></p>
-            <p><a href="productsPage.html">Jeans Under 1199</a></p>
-            <p><a href="productsPage.html">Shorts & 3/4ths Under 699</a></p>
-            <h4><a href="productsPage.html">#AJIORECOMMENDS</a></h4>
-            <p><a href="productsPage.html">Play Time</a></p>
+            <h4><a href="/">FEATURED</a></h4>
+            <p><a href="/">Bags Under 1499</a></p>
+            <p><a href="/">Footwear Under 1499</a></p>
+            <p><a href="/">Jeans Under 1199</a></p>
+            <p><a href="/">Shorts & 3/4ths Under 699</a></p>
+            <h4><a href="/">#AJIORECOMMENDS</a></h4>
+            <p><a href="/">Play Time</a></p>
        </div>
    </div>
 </div>

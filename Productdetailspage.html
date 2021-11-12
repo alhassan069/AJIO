@@ -30,37 +30,34 @@
           <div class="">Western Wear /&nbsp</div>
 
           <div class="">Jackets & Coats /&nbsp</div>
-          <div class=""><p id="top_divoneline">Hathered Hoodie with Split Kangaroo Packet</p></div>
+          <div class="">Hathered Hoodie with Split Kangaroo Packet</div>
         </div>
       </div>
     </nav>
     <div>
       <div class="flex">
         <div class="flex w-3/5 justify-evenly">
-          <div class="ml-24 mt-40 w-1/5 bg-white">
+          <div class="ml-10 mt-40 w-1/5 bg-white">
             <div>
               <img
-                class="w-20"
                 src="https://assets.ajio.com/medias/sys_master/root/20210119/Npqa/6005db8caeb269698150b7a6/-78Wx98H-441100195-olivegreen-MODEL.jpg"
-                id="image1extra" onclick="displayImage1()"/>
+              />
             </div>
             <div class="mt-4">
               <img
-              class="w-20"
                 src="https://assets.ajio.com/medias/sys_master/root/20210119/c1Q7/6005e464aeb269698150d0f0/-78Wx98H-441100195-olivegreen-MODEL2.jpg"
-                id="image2extra" onclick="displayImage2()"/>
+              />
             </div>
             <div class="mt-4">
               <img
-              class="w-20"
                 src="https://assets.ajio.com/medias/sys_master/root/20210119/QiZh/6005dafa7cdb8c1f142b683c/-78Wx98H-441100195-olivegreen-MODEL3.jpg"
-                id="image3extra" onclick="displayImage3()"/>
+              />
             </div>
           </div>
           <div>
             <img
               src="https://assets.ajio.com/medias/sys_master/root/20210824/qnyN/6124089d7cdb8cb824031048/performax_navy_blue_running_zip-front_dobby_jacket.jpg"
-              id="mainDisplayImage"/>
+            />
             <div class="text-gray-400">
               Our model wears a Size Medium, with Height 6'1" and Chest 38"
             </div>
@@ -68,22 +65,22 @@
           </div>
         </div>
         <div class="w-1/3">
-          <h1 class="text-center font-medium text-lg same_color1" id="brandName">PERFOMAX</h1>
-          <h1 class="text-center font-medium text-lg mb-2" id="productTitle">
+          <h1 class="text-center font-medium text-lg same_color1">PERFOMAX</h1>
+          <h1 class="text-center font-medium text-lg mb-2">
             Heathered Hoodie with Split Kangaroo Pocket
           </h1>
           <div>
             <!-- <img class="w-5/8" src="images/img1.png" alt="  " /> -->
-            <h1 class="text-center font-medium text-2xl" id="productPrice">Rs. 490</h1>
-            <h1 class="text-center same_color1" id="productPriceOff">Rs. 999(20%off)</h1>
+            <h1 class="text-center font-medium text-2xl">Rs. 490</h1>
+            <h1 class="text-center same_color1">Rs. 999(20%off)</h1>
             <p class="text-center text-xs text-gray-400 mt-2">
               Price inclusive of all taxes
             </p>
           </div>
           <div>
-            <img src="./images/offers.JPG" class="w-64 ml-32 mt-2 mb-2" />
+            <img src="./images/offers.JPG" class="w-64 ml-32 mt-2 mb-2">
           </div>
-          <h1 class="text-center font-semibold" id="productColor">Olive-Green</h1>
+          <h1 class="text-center font-serif font-semibold">Olive-Green</h1>
           <!-- <div class="flex w-2/5 ml-40 mt-4 justify-between">
             <div
               class="
@@ -130,10 +127,9 @@
               "
             ></div>
           </div> -->
-          <h1 class="text-center mt-4">Select Size</h1>
-          <div class="flex w-3/5 ml-24 mt-4 justify-between">
+          <h1 class="text-center mt-10">Select Size</h1>
+          <div class="flex w-3/5 ml-28 mt-4 justify-between">
             <div
-            id="s" onclick="productSizeSelect('s')"
               class="
                 rounded-full
                 h-10
@@ -148,7 +144,6 @@
               S
             </div>
             <div
-            id="m" onclick="productSizeSelect('m')"
               class="
                 rounded-full
                 h-10
@@ -163,7 +158,6 @@
               M
             </div>
             <div
-            id="l" onclick="productSizeSelect('l')"
               class="
                 rounded-full
                 h-10
@@ -178,7 +172,6 @@
               L
             </div>
             <div
-            id="xl" onclick="productSizeSelect('xl')"
               class="
                 rounded-full
                 h-10
@@ -193,7 +186,6 @@
               XL
             </div>
             <div
-            id="xxl" onclick="productSizeSelect('xxl')"
               class="
                 rounded-full
                 h-10
@@ -209,10 +201,14 @@
             </div>
           </div>
           <div>
-            <img class="w-80 ml-24 mt-10 mb-2" src="images/img2.png" alt="  " />
+            <img
+              class="w-max ml-32 mt-10 mb-2"
+              src="images/img2.png"
+              alt="  "
+            />
           </div>
-          <button id="add_to_bag_btn" onclick="addProductTocart()">ADD TO BAG</button>
-          <h1 class="text-center mt-2 text-gray-400">
+          <button id="add_to_bag_btn">ADD TO BAG</button>
+          <h1 class="text-center mt-2 ml-6 text-gray-400">
             HANDPICKED STYLES | ASSURED QUALITY
           </h1>
 
@@ -395,7 +391,39 @@
   </script>
   <link rel="stylesheet" href="./styles/navbar.css" />
   <link rel="stylesheet" href="./styles/footer.css" />
-  <link rel="stylesheet" href="./styles/productDetailsPage.css" />
   <script src="./scripts/navbar.js"></script>
-  <script src="./scripts/singleProductView.js"></script>
+  <style>
+    #navbar {
+      height: 88px;
+    }
+    #subnavbar > div:nth-child(2) > div:nth-child(1) > input {
+      border-radius: 20px;
+      width: 295px;
+      height: 35px;
+      padding-left: 10px;
+      border: 1px solid #333;
+      background-color: #fffded;
+    }
+    #add_to_bag_btn {
+      background-color: #d5a249;
+      width: 350px;
+      height: 50px;
+      color: white;
+      margin-top: 10px;
+      margin-left: 100px;
+    }
+    .size_options {
+      cursor: pointer;
+      background-color: white;
+      border: 1px solid rgb(223, 223, 223);
+    }
+    .size_options:hover {
+      border: 1px solid #2f4254;
+      background-color: #2f4254;
+      color: white;
+    }
+    .same_color1 {
+      color:#B19975;
+    }
+  </style>
 </html>
