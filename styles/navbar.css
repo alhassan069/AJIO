@@ -2,6 +2,9 @@
     margin: 0;
     font-family: 'Zen Kaku Gothic New', sans-serif;
 }
+#navbar_ajio_logo {
+    cursor: pointer;
+}
 #navbar {
     position: fixed;
     width: 100%;

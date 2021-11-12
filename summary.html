@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AJIO</title>
     <link rel="icon" href="https://assets.ajio.com/static/img/favicon.ico">   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
     <style>
         *{
             padding: 0px;
@@ -16,6 +22,7 @@
         #shopping {
             width: 100%;
             display: flex;
+            margin-top: 85px;
             flex-direction: row;
             background-color: rgb(232, 234, 235);
             color: black;
@@ -69,7 +76,6 @@
             color: silver;
         }
         #prodName{
-            font-family: lora;
             font-size: 15px;
             font-weight: 450;
             padding-top: 15px;
@@ -106,8 +112,8 @@
     </style>
 </head>
 <body>
-    <div id="navbar">
-        <h1>        import the navbar here </h1>
+    <div id="navbar_division">
+       
     </div>
     <div id="shopping">
         <div id="req">
@@ -122,10 +128,14 @@
     <div id="prod">
 
     </div>
+    <div id="footer_division">
+  
+    </div>
 </body>
 </html>
 <script>
     let ran = document.getElementById('rand')
+    let count=0;
     ran.textContent=Math.floor(Math.random(10)*1000);
     function getHome(){
         window.location.href="homepage.html"
@@ -180,3 +190,17 @@
   showProd(data);
  
 </script>
+<script type="module">
+    import navbar from "./components/navbar.js";
+    let navbar_division = document.getElementById("navbar_division");
+    navbar_division.innerHTML = navbar();
+</script>
+<script type="module">
+    import footer from "./components/footer.js";
+    let footer_division = document.getElementById("footer_division");
+    footer_division.innerHTML = footer();
+</script>
+<link rel="stylesheet" href="./styles/navbar.css">
+<link rel="stylesheet" href="./styles/footer.css">
+<script src="./scripts/navbar.js"></script>
+<link rel="stylesheet" href="./styles/productDetailsPage.css" />

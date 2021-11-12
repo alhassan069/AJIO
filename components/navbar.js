@@ -1,7 +1,7 @@
 function navbar() {
     return ` <div id="navbar">
     <div>
-        <img src="https://assets.ajio.com/static/img/Ajio-Logo.svg">
+        <img src="https://assets.ajio.com/static/img/Ajio-Logo.svg" id="navbar_ajio_logo">
     </div>
     <div class="one">
         <p>MEN</p>

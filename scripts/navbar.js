@@ -434,7 +434,11 @@ let steone = setTimeout(() => {
   if(signout_btn!=null) {
     signout_btn.addEventListener("click", signout);
   }
-  
+  let logo_navbar = document.getElementById("navbar_ajio_logo");
+  function logo_navbar_link() {
+    window.location.href = "homepage.html";
+  }
+  logo_navbar.addEventListener("click",logo_navbar_link);
 
 
 }, 500);

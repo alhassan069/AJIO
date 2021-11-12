@@ -11,12 +11,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <style>
         *{
             box-sizing: border-box;
             padding: 0px;
             margin: 0px;
-            font-family: 'Lora', serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
         }
         
         .navbar{
@@ -24,18 +29,22 @@
             display: grid;
             grid-template-columns: 15% 12% 40% 10% 15%;
             border-bottom: 1px solid #e0e0e0;
+            height: 100px;
             padding: 20px;
             position:fixed;
             background-color: white;
+        }
+        .navbar > div:nth-child(2) {
+            margin-top:10px;
         }
         #dantera>img{
             margin-top:100px;
             width: 70%;
             margin-left: 15%;
-            height: 200px
+            height: 185px
         }
         #cart{
-            width: 50%;
+            width: 65%;
             margin-left: 13%;
             height: 50px;
         }
@@ -58,7 +67,6 @@
             color: silver;
         }
         #prodName{
-            font-family: lora;
             font-size: 15px;
             font-weight: 450;
             padding-top: 15px;
@@ -76,10 +84,16 @@
             background-color: #fafafa;
             padding: 1.5%;
             font-weight: 500;
+            margin-top: 15px;
+            height: 400px;
+            padding: 10px;
         }
         #btn{
             background-color: #D5a249;
-            padding: 15px 97px 15px 97px;
+            /* padding: 15px 97px 15px 97px; */
+            margin-left: 30px;
+            height:60px;
+            width: 240px;
             border: none;
             color: white;
             font-weight: bold;
@@ -87,7 +101,7 @@
         }
         #btn:hover{
             background-color:  #D5a249;
-           border: 1px solid black;
+           border: 1px solid rgb(126, 126, 126);
         }
         #quantitySel{
             margin-left: 10px;
@@ -147,18 +161,18 @@
             background-color:#e1ecf1;
         }
         #det1{
-            padding-left: 200px;
+            padding-left: 160px;
         }
         #det2{
-            padding-left: 170px;
+            padding-left: 125px;
             color:#D5a249;
         }
         #det3{
-            padding-left: 205px;
+            padding-left: 185px;
             color:#D5a249;
         }
         #det4{
-            padding-left: 160px;
+            padding-left: 130px;
         }
         .lastD{
             display: grid;
@@ -190,7 +204,7 @@
         <div id="nav">
             <img src="./images/cart-1.png" id="cart" alt="">
         </div>
-        <div>hi user</div>
+        
         <div></div>
     </div>
     <div id="dantera">
@@ -213,11 +227,8 @@
         <img src="./images/banner-1.png" alt="" width="100%">
     </div>
 
-    <div id="banner">
-        <img src="./images/banner-2.png" alt="" width="100%">
-    </div>
-    <div id="footer">
-        <h1>foot will be added here</h1>
+    <div id="footer_division">
+  
     </div>
 </body>
 </html>
@@ -284,16 +295,16 @@
     console.log('bagDiscount',bagdiscount);
 
     let bagTotal = document.getElementById('det1');
-    bagTotal.textContent=bagtotal;
+    bagTotal.textContent="Rs. "+bagtotal;
     let bagDiscount = document.getElementById('det2');
-    bagDiscount.textContent="- "+bagdiscount;
+    bagDiscount.textContent="Rs. "+"- "+bagdiscount;
     let delivery = document.getElementById('det3');
     if(bagtotal-bagdiscount >1000)
     {
         delivery.textContent="Free";
     }else
     {
-        delivery.textContent=99;
+        delivery.textContent="Rs. "+99;
     }
 
 
@@ -303,7 +314,7 @@
         totalPrice.textContent = Number(document.getElementById('det3').textContent) + bagtotal-bagdiscount;
     }else
     {
-        totalPrice.textContent = bagtotal-bagdiscount;
+        totalPrice.textContent ="Rs. "+ (bagtotal-bagdiscount);
     }
     let parent = document.getElementById('prod');
     let mybag = document.getElementById('quan');
@@ -376,3 +387,9 @@
    console.log('count',count);
    mybag.textContent='('+count;
 </script>
+<script type="module">
+    import footer from "./components/footer.js";
+    let footer_division = document.getElementById("footer_division");
+    footer_division.innerHTML = footer();
+</script>
+<link rel="stylesheet" href="./styles/footer.css">

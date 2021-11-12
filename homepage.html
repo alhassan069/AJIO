@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajio.com | Shop Online the Latest Fashion in apparels brands in india</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="icon" href="https://assets.ajio.com/static/img/favicon.ico">  
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
@@ -45,6 +46,9 @@
             transition: transform 1.2s;
             /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
         }
+        #body {
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -52,7 +56,7 @@
     <div id="navbar_division">
 
     </div>
-    <div id="body">
+    <div id="body" onclick="goToProductPage()">
         <div>
             <div id="top">
 
@@ -540,6 +544,11 @@
     </div>
 
 </body>
+<script>
+    function goToProductPage() {
+        window.location.href="productsPage.html"
+    }
+</script>
 <script type="module">
     import navbar from "./components/navbar.js";
     let navbar_division = document.getElementById("navbar_division");
