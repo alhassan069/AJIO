@@ -32,15 +32,13 @@
         display: grid;
         grid-template-columns: 20% 75%;
         gap: 1%;
-        margin-top: 165px;
-        font-family: 'Source Sans Pro', sans-serif;
+        margin-top: 130px;
       }
       .lora {
-      font-family: 'Lora', serif;
     }
     .loraf13 {
-      font-family: 'Lora', serif;
-      font-size: 13px;
+
+      font-size: 14px;
       overflow: hidden;
     }
     .w600 {
@@ -118,8 +116,16 @@
       #select-tab {
         background-color: #f9f9f9;
         padding: 10px;
+        border-bottom: 1px solid #dfdfdf;
+        border-top: 1px solid #dfdfdf;
       }
-      
+      #select-tab > select {
+        width: 150px;
+      }
+      #refine {
+        font-weight: 500;
+        font-size: 20px;
+      }
       #refineby {
         display: flex;
         cursor: pointer;
@@ -138,6 +144,10 @@
       #list > div > div > div  > label {
         cursor: pointer;
       }
+      #border {
+        border-bottom: 1px solid #dfdfdf;
+        padding-bottom: 10px;
+      }
       #border > div:nth-child(1) {
         /* border: 3px solid yellow; */
         display: flex;
@@ -153,7 +163,7 @@
     }
 
     .filterOptions {
-      font-size: 14px;
+      font-size: 15px;
       color: black;
       font-weight: 300;
     }
@@ -170,20 +180,17 @@
       } */
       #menheader {
         text-align: center;
-        font-family: Lora;
         font-size: 12px;
         color: #a7a7a7;
       }
       #jacketheader {
         text-align: center;
-        font-family: Lora;
         color: #333333;
         font-size: 36px;
       }
       #contentheader {
         text-align: justify;
         color: #666666;
-        font-family: SourceSansPro;
         font-size: 14px;
         line-height: 1.3em;
         margin: 0px 180px;
@@ -217,12 +224,12 @@
                   <div>Gender</div>
                 </div>
                 <div id="rightGender" class="filterOptions">
-                  <input type="checkbox" name="men" />
+                  <input type="checkbox" name="men" checked/>
                   <label for="">Men</label>
                 </div>
               </div>
             </div>
-            <hr />
+           
             <div id="category">
               <div id="border">
                 <div id="plusCategory" class="filterHeader">
@@ -230,12 +237,12 @@
                   <div>Category</div>
                 </div>
                 <div id="rightCategory" class="filterOptions">
-                  <input type="checkbox" name="men" />
+                  <input type="checkbox" name="men" checked/>
                   <label for="">Jackets & Coats</label>
                 </div>
               </div>
             </div>
-            <hr />
+           
             <div id="price">
               <div id="border">
                 <div id="plusPrice" class="filterHeader">
@@ -256,7 +263,7 @@
                 </div>
               </div>
             </div>
-            <hr />
+           
             <div id="brands">
               <div id="border">
                 <div id="plusBrands" class="filterHeader">
@@ -278,7 +285,7 @@
                 </div>
               </div>
             </div>
-            <hr />
+           
   
             <div id="discount">
               <div id="border">
@@ -300,7 +307,7 @@
                 </div>
               </div>
             </div>
-            <hr />
+           
             <div id="colors">
               <div id="border">
                 <div id="plusColors" class="filterHeader">
@@ -322,7 +329,7 @@
                 </div>
               </div>
             </div>
-            <hr />
+           
             <div id="occasion">
               <div id="border">
                 <div id="plusOccasion" class="filterHeader">
@@ -344,7 +351,7 @@
                 </div>
               </div>
             </div>
-            <hr />
+           
             <div id="size">
               <div id="border">
                 <div id="plusSize" class="filterHeader">
@@ -365,7 +372,7 @@
                 </div>
               </div>
             </div>
-            <hr />
+           
           </div>
         </div>
       </div>
@@ -382,7 +389,6 @@
             sharpen up your look with traditional men’s coats
           </div>
         </div>
-        <hr />
         <div id="container">
           <div>
             <div></div>
@@ -402,7 +408,6 @@
             </select>
           </div>
         </div>
-        <hr />
         &nbsp;
         <div></div>
         <div id="data"></div>
@@ -2218,7 +2223,7 @@
     let navbar_division = document.getElementById("navbar_division");
     navbar_division.innerHTML = navbar();
   </script>
-  <link rel="stylesheet" href="./stylesAlimul/navbar.css" />
+  <link rel="stylesheet" href="./styles/navbar.css" />
   <script src="./scripts/navbar.js"></script>
   <script type="module">
     import footer from "./components/footer.js";
@@ -2226,7 +2231,7 @@
     footer_division.innerHTML = footer();
 </script>
 
-<link rel="stylesheet" href="./stylesAlimul/footer.css">
+<link rel="stylesheet" href="./styles/footer.css">
 <link rel="stylesheet" href="./styles/popupDetails.css">
 <script src="./scripts/singleProductView.js"></script>
 </html>
