@@ -113,10 +113,14 @@ let steone = setTimeout(() => {
   function displayNavContainer() {
     mask.style.visibility = "visible";
     flycontainer.style.visibility = "visible";
+    mask.style.animationName="animate1";
+    mask.style.animationDuration="0.6s";
   }
   function hideNavContainer() {
     mask.style.visibility = "hidden";
     flycontainer.style.visibility = "hidden";
+    mask.style.animationName="";
+    mask.style.animationDuration="";
   }
   let menu_options = document.getElementsByClassName("one");
   for (let i = 0; i < menu_options.length; i++) {
@@ -148,12 +152,16 @@ let steone = setTimeout(() => {
     login_popup.style.visibility = "visible";
     mask.style.zIndex = 11;
     mask.style.visibility = "visible";
+    mask.style.animationName="animate1";
+    mask.style.animationDuration="0.6s";
   }
 
   function hideSigninPopup() {
     login_popup.style.visibility = "hidden";
     mask.style.zIndex = 9;
     mask.style.visibility = "hidden";
+    mask.style.animationName="";
+    mask.style.animationDuration="";
   }
   if (name1 == null) {
     navbarSignIn.addEventListener("click", displaySigninPopup);
