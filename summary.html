@@ -58,38 +58,9 @@
         .mdiv{
             border: 0.5px solid #ECEFF1;
             display: grid;
-            grid-template-columns: 20% 30% 3% 5% 3% 5% 34%;
+            grid-template-columns: 20% 40% 40%;
             margin:15px 15px 15px 0px;
             
-        }
-
-        #quantitySel{
-            margin-left: 10px;
-            margin-top: 10px;
-            height:25px;
-            width: 30px;
-            border: none;
-            background-color: white;
-        }
-        #sizeSel{
-            margin-top: 10px;
-            height: 25px;
-            width: 40px;
-            margin-left: 12px;
-            border: none;
-            background-color: white;
-        }
-        .labelClass{
-             margin-top: 10px;
-             margin-left: 7px;
-             font-weight: 600;
-             color: #999999;
-        }
-        .label2Class{
-            color: #999999;
-            margin-top: 10px;
-            margin-left: 2px;
-            font-weight: 600;
         }
         .mdiv > img{
             width: 80%;
@@ -174,15 +145,13 @@
             selectQuan.setAttribute('id','quantitySel')
             let label1 = document.createElement('label');
             label1.setAttribute('class' ,'labelClass')
-            label1.textContent="Qty";
-            selectQuan.innerHTML=` <select name="" id="quantityPro"><option>1</option></select>`;
+            label1.textContent="";
             let selectSize = document.createElement('select')
             console.log('selectQuan',selectQuan.value)
             selectSize.setAttribute('id','sizeSel')
             let label2 = document.createElement('label');
             label2.setAttribute('class' ,'label2Class')
-            label2.textContent="Size"
-            selectSize.innerHTML=`<option>M</option>`;
+            label2.textContent=""
             let pdiv = document.createElement('div');
             pdiv.setAttribute('class','priceDiv')
             let saving = document.createElement('span');
@@ -203,7 +172,7 @@
             let br1 = document.createElement('br');
             finalPrice.textContent="Rs. "+product.offer_price;
             pdiv.append(saving,span,br,discount,sp,br1,finalPrice);
-            mdiv.append(img,p,label1,selectQuan,label2,selectSize,pdiv);
+            mdiv.append(img,p,pdiv);
             parent.append(mdiv);
             count++;
         })
