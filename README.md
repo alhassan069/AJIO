@@ -15,7 +15,7 @@ This is the clone of Ajio.com ,which we made during the UNIT III construct week.
 - HTML
 - CSS
 - Tailwind CSS
-- JavScript
+- JavaScript
 
 ## Getting Started :
 
