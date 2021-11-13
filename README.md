@@ -28,7 +28,7 @@ Prerequisites
 
 ## Website Flow :
 
-![App Screenshot](images/img55.GIF)
+![App Screenshot](https://github.com/alhassan069/AJIO/blob/1d601e255827f728fcbd1c2a55ff6579e92e78da/images/img55.gif)
 
 ## Authors
 
