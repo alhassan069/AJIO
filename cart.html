@@ -304,9 +304,8 @@
         delivery.textContent="Free";
     }else
     {
-        delivery.textContent="Rs. "+99;
+        delivery.textContent=99;
     }
-
 
     let totalPrice = document.getElementById('det4');
     if(document.getElementById('det3').textContent !="Free")
@@ -315,7 +314,9 @@
     }else
     {
         totalPrice.textContent ="Rs. "+ (bagtotal-bagdiscount);
+        
     }
+    console.log('totalPrice',totalPrice)
     let parent = document.getElementById('prod');
     let mybag = document.getElementById('quan');
     function showProd(data){
