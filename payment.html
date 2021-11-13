@@ -399,7 +399,7 @@ background-color: #ebe6e6;
     let totalPrice = document.getElementById('det4');
     if(document.getElementById('det3').textContent !="Free")
     {
-        totalPrice.textContent ="Rs. "+ Number(document.getElementById('det3').textContent) + bagtotal-bagdiscount;
+        totalPrice.textContent ="Rs. "+ Math.round(Number(document.getElementById('det3').textContent) + (bagtotal-bagdiscount));
     }else
     {
         totalPrice.textContent ="Rs. "+ (bagtotal-bagdiscount);
