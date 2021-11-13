@@ -161,10 +161,10 @@
             background-color:#e1ecf1;
         }
         #det1{
-            padding-left: 160px;
+            padding-left: 150px;
         }
         #det2{
-            padding-left: 125px;
+            padding-left: 110px;
             color:#D5a249;
         }
         #det3{
@@ -297,7 +297,7 @@
     let bagTotal = document.getElementById('det1');
     bagTotal.textContent="Rs. "+bagtotal;
     let bagDiscount = document.getElementById('det2');
-    bagDiscount.textContent="Rs. "+"- "+bagdiscount;
+    bagDiscount.textContent="Rs. "+"- "+Math.round(bagdiscount);
     let delivery = document.getElementById('det3');
     if(bagtotal-bagdiscount >1000)
     {
@@ -310,10 +310,10 @@
     let totalPrice = document.getElementById('det4');
     if(document.getElementById('det3').textContent !="Free")
     {
-        totalPrice.textContent = Number(document.getElementById('det3').textContent) + bagtotal-bagdiscount;
+        totalPrice.textContent = Math.round(Number(document.getElementById('det3').textContent) + bagtotal-bagdiscount);
     }else
     {
-        totalPrice.textContent ="Rs. "+ (bagtotal-bagdiscount);
+        totalPrice.textContent ="Rs. "+ Math.round(bagtotal-bagdiscount);
         
     }
     console.log('totalPrice',totalPrice)
