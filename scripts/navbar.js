@@ -440,5 +440,32 @@ let steone = setTimeout(() => {
   }
   logo_navbar.addEventListener("click",logo_navbar_link);
 
+  let men_link = document.getElementById("men_link");
+  let women_link = document.getElementById("women_link");
+  let kids_link = document.getElementById("kids_link");
+  let indie_link = document.getElementById("indie_link");
+  let home_link = document.getElementById("home_link");
+
+  function menHref() {
+    window.location.href = "productsPage.html";
+  }
+  function womenHref() {
+    window.location.href = "womensDressesPage.html"
+  }
+  function kidsHref() {
+    window.location.href = "kidsToysPage.html";
+  }
+  function indieHref() {
+    window.location.href = "productsPage.html";
+  }
+  function homeHref() {
+    window.location.href = "productsPage.html";
+  }
+  men_link.addEventListener("click",menHref);
+  women_link.addEventListener("click",womenHref);
+  kids_link.addEventListener("click",kidsHref);
+  indie_link.addEventListener("click",indieHref);
+  home_link.addEventListener("click",homeHref);
+
 
 }, 500);

@@ -3,19 +3,19 @@ function navbar() {
     <div>
         <img src="https://assets.ajio.com/static/img/Ajio-Logo.svg" id="navbar_ajio_logo">
     </div>
-    <div class="one">
+    <div class="one" id="men_link">
         <p>MEN</p>
     </div>
-    <div class="one">
+    <div class="one" id="women_link">
         <p>WOMEN</p>
     </div>
-    <div class="one">
+    <div class="one" id="kids_link">
         <p>KIDS</p>
     </div>
-    <div class="one">
+    <div class="one" id="indie_link">
         <p>INDIE</p>
     </div>
-    <div class="one">
+    <div class="one" id="home_link">
         <p>HOME AND KITCHEN</p>
     </div>
     <div id="subnavbar">
@@ -165,7 +165,7 @@ function navbar() {
     <div>
         <div>
             <div>
-                <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png">
+                <img src="./images/facebook_icon.png">
             </div>
             <div>
                 <h5>FACEBOOK</h5>
@@ -173,7 +173,7 @@ function navbar() {
         </div>
         <div>
             <div>
-                <img src="https://cdn-icons.flaticon.com/png/512/2504/premium/2504739.png?token=exp=1636518490~hmac=42ae74a693dc9ad33c70cf4a1c6c6f86">
+                <img src="./images/google_icon.png">
             </div>
             <div>
                 <h5>GOOGLE</h5>
