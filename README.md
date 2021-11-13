@@ -4,7 +4,7 @@ This is the clone of Ajio.com ,which we made during the UNIT III construct week.
 
 ## Screenshots
 
-![App Screenshot](images/img22.GIF)
+![App Screenshot](https://github.com/alhassan069/AJIO/blob/7c7fb9d7278c56694344f8f7fc19ef345476515a/images/img22.gif)
 
 ![App Screenshot](images/img33.png)
 
