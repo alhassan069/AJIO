@@ -1,6 +1,9 @@
 Clone Ajio.com
 
-This is the clone of Ajio.com ,which we made during the UNIT III construct week. This website behaves same as Ajio.com in functionality.
+This is the clone of Ajio.com ,which we made during the UNIT III Construct Week.
+```
+Disclamer:This Clone is used for only Educational Purposes.
+```
 
 ## Screenshots
 
@@ -16,6 +19,19 @@ This is the clone of Ajio.com ,which we made during the UNIT III construct week.
 - CSS
 - Tailwind CSS
 - JavaScript
+- Import Export Modules
+- Masai Authentication API
+- Local Storage
+
+## Functional Things :
+* User Signup Popup/model.
+* User Login Popup/model.
+* Navbar Using Import Export Modules.
+* Products Page.
+* Quick View Popup/model
+* All types of Sort/Filter Functionality.
+* Add to cart Button.
+* Multiple Images view on Hovering over images on Products page & Quick view Page.
 
 ## Getting Started :
 
@@ -24,7 +40,9 @@ Prerequisites
 - VS Code
   Installation
 - Clone the repository
+  ```
   Git Clone - https://github.com/alhassan069/AJIO
+  ```
 
 ## Website Flow :
 
