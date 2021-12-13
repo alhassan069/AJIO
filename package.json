@@ -1,16 +1,26 @@
 {
-  "name": "TailWind~",
+  "name": "ajio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Clone Ajio.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwind build src/styles.css -o public/styles.css"
+    "server": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alhassan069/AJIO.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alhassan069/AJIO/issues"
+  },
+  "homepage": "https://github.com/alhassan069/AJIO#readme",
   "dependencies": {
-    "tailwindcss": "^2.2.19"
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
   }
 }
