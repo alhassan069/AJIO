@@ -27,7 +27,7 @@ router.get("/", async (req, res) => {
 
 router.get("/:category", async (req, res) => {
     try {
-        const products = await Product.find({category:req.params.category}).lean().exec();
+        const products = await Product.find({category:req.params.category.toUpperCase()}).lean().exec();
         return res.status(201).json({products})
     }
     catch (e) {
