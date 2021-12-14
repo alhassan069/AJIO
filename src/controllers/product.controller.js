@@ -14,7 +14,7 @@ router.post("/",async(req,res)=>{
         }
     }
 )
- 
+
 router.get("/", async (req, res) => {
     try {
         const products = await Product.find().lean().exec();
