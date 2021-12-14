@@ -12,7 +12,8 @@ const productSchema = new mongoose.Schema({
     discount: Number,
     offer_price: Number,
     color: String,
-    category : String
+    category : String,
+    sub_category: String
 }, {
     versionKey: false,
     timestamps:true
