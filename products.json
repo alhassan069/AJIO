@@ -1,0 +1,2414 @@
+[{
+  "_id": {
+    "$oid": "61b86fa5e9e4cf5ea28ae9ef"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product1/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product1/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product1/img2.jpeg"
+  ],
+  "name": "Running Zip-Front Dobby Jacket",
+  "brand": "PERFORMAX",
+  "price": 899,
+  "MRP": 999,
+  "discount": 10,
+  "offer_price": 849,
+  "color": "Dark-Blue",
+  "category": "MEN",
+  "sub_category": "Jackets",
+  "createdAt": {
+    "$date": "2021-12-14T10:19:17.427Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T10:19:17.427Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b87f8bd599c29bf7d14a0e"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product2/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product2/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product2/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product2/img3.jpeg"
+  ],
+  "name": "Panelled Zip-Front Training Tracksuit Jacket",
+  "brand": "PERFORMAX",
+  "price": 1349,
+  "MRP": 1499,
+  "discount": 10,
+  "offer_price": 1274,
+  "color": "Jet-Black",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T11:27:07.643Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T11:27:07.643Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8804cd599c29bf7d14a11"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/img3.jpeg"
+  ],
+  "name": "Quilted Zip-Front Jackets with Insert Pockets",
+  "brand": "PERFKT-U",
+  "price": 1033,
+  "MRP": 3333,
+  "discount": 69,
+  "offer_price": 1000,
+  "color": "",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T11:30:20.601Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T11:30:20.601Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b88108d599c29bf7d14a14"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product4/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product4/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product4/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product4/img3.jpeg"
+  ],
+  "name": "The Trucker Jacket - Mayze Trucker",
+  "brand": "LEVIS",
+  "price": 2599,
+  "MRP": 4999,
+  "discount": 48,
+  "offer_price": 2400,
+  "color": "Blue",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T11:33:28.263Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T11:33:28.263Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b88194d599c29bf7d14a17"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product5/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product5/display.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product5/img2.jpeg"
+  ],
+  "name": "Washed Denim Trucker Jacket",
+  "brand": "High Star",
+  "price": 980,
+  "MRP": 2799,
+  "discount": 65,
+  "offer_price": 840,
+  "color": "Blue",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T11:35:48.045Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T11:35:48.045Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b883ba27c8725089af8d17"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product6/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product6/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product6/img2.jpeg"
+  ],
+  "name": "Running Zip Front Dobby Jacket",
+  "brand": "PERFORMAX",
+  "price": 899,
+  "MRP": 999,
+  "discount": 10,
+  "offer_price": 849,
+  "color": "Jet-Black",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T11:44:58.786Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T11:44:58.786Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8848127c8725089af8d1a"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product7/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product7/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product7/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product7/img3.jpeg"
+  ],
+  "name": "Zip-Front Puffer Jacket with Insert Pockets",
+  "brand": "NETPLAY",
+  "price": 1799,
+  "MRP": 1999,
+  "discount": 10,
+  "offer_price": 1699,
+  "color": "Black",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T11:48:17.860Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T11:48:17.860Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b884f827c8725089af8d1d"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product8/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product8/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product8/img2.jpeg"
+  ],
+  "name": "Denim Jacket with Flap Pockets",
+  "brand": "HIGH STAR",
+  "price": 1120,
+  "MRP": 2799,
+  "discount": 60,
+  "offer_price": 868,
+  "color": "Black",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T11:50:16.639Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T11:50:16.639Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b885a327c8725089af8d20"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product9/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product9/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product9/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product9/img3.jpeg"
+  ],
+  "name": "Zip-Front Hoodie with Insert Pockets",
+  "brand": "FORT COLLINS",
+  "price": 1429,
+  "MRP": 2199,
+  "discount": 35,
+  "offer_price": 1057,
+  "color": "Smoke",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T11:53:07.038Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T11:53:07.038Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8862127c8725089af8d23"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product10/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product10/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product10/img2.jpeg"
+  ],
+  "name": "Heavily-Washed Button-Down Denim Jacket",
+  "brand": "HIGH STAR",
+  "price": 1455,
+  "MRP": 2799,
+  "discount": 48,
+  "offer_price": 1077,
+  "color": "Blue",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T11:55:13.889Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T11:55:13.889Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8882d27c8725089af8d26"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product11/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product11/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product11/img2.jpeg"
+  ],
+  "name": "QuickDry High-Neck Athleisure Jacket",
+  "brand": "PERFORMAX",
+  "price": 1189,
+  "MRP": 1699,
+  "discount": 30,
+  "offer_price": 934,
+  "color": "Jet-Black",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T12:03:57.711Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T12:03:57.711Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8892727c8725089af8d28"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product12/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product12/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product12/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product12/img3.jpeg"
+  ],
+  "name": "Dri-Fit Zip-Front Bomber Jacket with Insert Pockets",
+  "brand": "NIKE",
+  "price": 2156,
+  "MRP": 2995,
+  "discount": 30,
+  "offer_price": 1947,
+  "color": "Black",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T12:08:07.923Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T12:08:07.923Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b889e827c8725089af8d2a"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product13/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product13/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product13/img2.jpeg"
+  ],
+  "name": "Typographic Print Zip-Front Jacket with Slip Pockets",
+  "brand": "FORT COLLINS",
+  "price": 1661,
+  "MRP": 2215,
+  "discount": 25,
+  "offer_price": 1163,
+  "color": "Olive",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T12:11:20.239Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T12:11:20.239Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b88b0127c8725089af8d2c"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product14/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product14/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product14/img2.jpeg"
+  ],
+  "name": "Hooded Jacket with Insert Pockets",
+  "brand": "JOHN PRAYERS",
+  "price": 2359,
+  "MRP": 3999,
+  "discount": 41,
+  "offer_price": 1800,
+  "color": "Olive",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T12:16:01.224Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T12:16:01.224Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b88c6b27c8725089af8d2e"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product15/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product15/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product15/img2.jpeg"
+  ],
+  "name": "Zip-Front Bomber Jacket with Detachable Hoodie",
+  "brand": "FORT COLLINS",
+  "price": 2719,
+  "MRP": 3399,
+  "discount": 20,
+  "offer_price": 2012,
+  "color": "Navy",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T12:22:03.756Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T12:22:03.756Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b88e4027c8725089af8d30"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product16/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product16/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product16/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product16/img3.jpeg"
+  ],
+  "name": "Distressed Button-Front Jacket",
+  "brand": "HIGH STAR",
+  "price": 1260,
+  "MRP": 2799,
+  "discount": 55,
+  "offer_price": 896,
+  "color": "Charcoal",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T12:29:52.220Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T12:29:52.220Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b88f3627c8725089af8d32"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product17/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product17/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product17/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product17/img3.jpeg"
+  ],
+  "name": "Sister Brook II Down Slim Fit Jacket",
+  "brand": "COLUMBIA",
+  "price": 10789,
+  "MRP": 12999,
+  "discount": 17,
+  "offer_price": 9749,
+  "color": "Black-multi",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-14T12:33:58.115Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T12:33:58.115Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b894d2a7debc753dcce18a"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-18/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-18/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-18/image2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-18/image3.jpeg"
+  ],
+  "name": "Delta Ridge Down Hooded Puffer Jacket ",
+  "brand": "COLUMBIA",
+  "price": 8399,
+  "MRP": 11999,
+  "discount": 30,
+  "offer_price": 8398,
+  "color": "gray",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T12:57:54.040Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T12:57:54.040Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b89603a7debc753dcce18c"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-19/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-19/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-19/image2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-19/image3.jpeg"
+  ],
+  "name": "Zip-Front Quilted Hooded Jacket ",
+  "brand": "CAMPUS SUTRA",
+  "price": 1750,
+  "MRP": 3499,
+  "discount": 50,
+  "offer_price": 8398,
+  "color": "Grey",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:02:59.607Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:02:59.607Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b896baa7debc753dcce18e"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-20/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-20/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-20/image2.jpeg"
+  ],
+  "name": "Lightly Washed Trucker Jacket with Insert Pockets ",
+  "brand": "LEVIS",
+  "price": 2599,
+  "MRP": 4999,
+  "discount": 48,
+  "offer_price": 2400,
+  "color": "Blue",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:06:02.118Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:06:02.118Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8975aa7debc753dcce190"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-21/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-21/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-21/image2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-21/image3.jpeg"
+  ],
+  "name": "Colourblock Zip-Front Jacket with Kangaroo Pockets",
+  "brand": "HUBBERHOLME",
+  "price": 300,
+  "MRP": 1499,
+  "discount": 80,
+  "offer_price": 300,
+  "color": "Green",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:08:42.239Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:08:42.239Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b89814a7debc753dcce192"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-22/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-22/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-22/image2.jpeg"
+  ],
+  "name": "Heathered Hoodie with Split Kangaroo Pocket",
+  "brand": "PERFORMAX",
+  "price": 490,
+  "MRP": 999,
+  "discount": 51,
+  "offer_price": 340,
+  "color": "Dark-Blue",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:11:48.991Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:11:48.991Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b89922a7debc753dcce196"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-23/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-23/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-23/image2.jpeg"
+  ],
+  "name": "Heathered Hoodie with Split Kangaroo  Pocket",
+  "brand": "PERFORMAX",
+  "price": 490,
+  "MRP": 999,
+  "discount": 51,
+  "offer_price": 340,
+  "color": "Dark-Grey",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:16:18.983Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:16:18.983Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b89a1ea7debc753dcce199"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-24/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-24/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-24/image2.jpeg"
+  ],
+  "name": "Quilted Reversible Zip-Front Bomber Jacket",
+  "brand": "INDIAN TERRAIN",
+  "price": 3000,
+  "MRP": 5999,
+  "discount": 50,
+  "offer_price": 1920,
+  "color": "Khaki",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:20:30.758Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:20:30.758Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b89a89a7debc753dcce19b"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-25/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-25/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-25/image2.jpeg"
+  ],
+  "name": "Checked Bomber Jacket with Insert Pockets",
+  "brand": "INDIAN TERRAIN",
+  "price": 2700,
+  "MRP": 5999,
+  "discount": 55,
+  "offer_price": 1728,
+  "color": "Navy",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:22:17.227Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:22:17.227Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b89af3a7debc753dcce19d"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-26/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-26/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-26/image2.jpeg"
+  ],
+  "name": "Zip-Front High-Neck Bomber Jacket",
+  "brand": "INDIAN TERRAIN",
+  "price": 1499,
+  "MRP": 2999,
+  "discount": 50,
+  "offer_price": 1110,
+  "color": "Cobalt",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:24:03.652Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:24:03.652Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8958a151d98841847a7d2"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-27/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-27/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-27/image2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-27/image3.jpeg"
+  ],
+  "name": "Zip Front Hoodie with Insert Pockets",
+  "brand": "ADIDAS",
+  "price": 3679,
+  "MRP": 4599,
+  "discount": 20,
+  "offer_price": 2575,
+  "color": "Blue",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:00:58.388Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:00:58.388Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8978d151d98841847a7d4"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-28/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-28/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-28/image2.jpeg"
+  ],
+  "name": "Zip-Front Jacket with Branding",
+  "brand": "ADIDAS",
+  "price": 5279,
+  "MRP": 6599,
+  "discount": 20,
+  "offer_price": 3695,
+  "color": "White",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:09:33.131Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:09:33.131Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8984a151d98841847a7d6"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-29/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-29/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-29/image2.jpeg"
+  ],
+  "name": "Zip-Front Colourblock Jacket",
+  "brand": "ADIDAS",
+  "price": 2708,
+  "MRP": 4299,
+  "discount": 37,
+  "offer_price": 2493,
+  "color": "Black",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:12:42.207Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:12:42.207Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b89b07151d98841847a7d8"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-30/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-30/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-30/image2.jpeg"
+  ],
+  "name": "Zip-Front Jacket with Placement Brand Logo",
+  "brand": "ADIDAS",
+  "price": 2708,
+  "MRP": 4299,
+  "discount": 37,
+  "offer_price": 1896,
+  "color": "Black",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:24:23.459Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:24:23.459Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b89b80151d98841847a7da"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-31/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-31/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-31/image2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-31/image3.jpeg"
+  ],
+  "name": "Quilted jacket with Zip Closure",
+  "brand": "ADIDAS",
+  "price": 8999,
+  "MRP": 9999,
+  "discount": 10,
+  "offer_price": 8499,
+  "color": "Orange",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:26:24.292Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:26:24.292Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b89c25151d98841847a7dc"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-32/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-32/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-32/image2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-32/image3.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-32/image4.jpeg"
+  ],
+  "name": "Jacket with Zip Closure",
+  "brand": "ADIDAS",
+  "price": 3999,
+  "MRP": 4999,
+  "discount": 20,
+  "offer_price": 3499,
+  "color": "Red",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:29:09.602Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:29:09.602Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b89c99151d98841847a7de"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-33/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-33/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-33/image2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-33/image3.jpeg"
+  ],
+  "name": "Quilted Jacket with Zip Closure",
+  "brand": "ADIDAS",
+  "price": 7499,
+  "MRP": 8999,
+  "discount": 17,
+  "offer_price": 6749,
+  "color": "Blue",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:31:05.270Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:31:05.270Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8a0fa151d98841847a7e0"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-34/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-34/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-34/image2.jpeg"
+  ],
+  "name": "Typographic Print Hoodie with Kangaroo Pocket",
+  "brand": "AEROPOSTALE",
+  "price": 1499,
+  "MRP": 2999,
+  "discount": 50,
+  "offer_price": 900,
+  "color": "Pink",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:49:46.140Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:49:46.140Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8a13b151d98841847a7e2"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-35/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-35/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-35/image2.jpeg"
+  ],
+  "name": "Graphic Print Hoodie with Kangaroo Pockets",
+  "brand": "AEROPOSTALE",
+  "price": 1499,
+  "MRP": 2999,
+  "discount": 50,
+  "offer_price": 900,
+  "color": "off-white",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:50:51.971Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:50:51.971Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8a1da151d98841847a7e4"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-36/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-36/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-36/image2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-36/image3.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-36/image4.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-36/image5.jpeg"
+  ],
+  "name": "Graphic Print Hoodie with Slip Pockets",
+  "brand": "AEROPOSTALE",
+  "price": 1129,
+  "MRP": 2299,
+  "discount": 50,
+  "offer_price": 900,
+  "color": "yellow",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:53:30.923Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:53:30.923Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8a26e151d98841847a7e6"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-37/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-37/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-37/image2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-37/image3.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-37/image4.jpeg"
+  ],
+  "name": "Zip-Front Hoodie with Split Kangaroo Pockets",
+  "brand": "AEROPOSTALE",
+  "price": 1499,
+  "MRP": 2299,
+  "discount": 40,
+  "offer_price": 1199,
+  "color": "green",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:55:58.289Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:55:58.289Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8a30c151d98841847a7ea"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-38/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-38/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-38/image2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-38/image3.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-38/image4.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-38/image5.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-38/image6.jpeg"
+  ],
+  "name": "Graphic Print Hoodie with Slip  Pockets",
+  "brand": "AEROPOSTALE",
+  "price": 1099,
+  "MRP": 2199,
+  "discount": 50,
+  "offer_price": 899,
+  "color": "white",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T13:58:36.977Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T13:58:36.977Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8a389151d98841847a7ec"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-39/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-39/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-39/image2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-39/image3.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-39/image4.jpeg"
+  ],
+  "name": "Protective Hooded Jacket",
+  "brand": "ALLEN SOLLY",
+  "price": 2199,
+  "MRP": 3999,
+  "discount": 45,
+  "offer_price": 1899,
+  "color": "Light-Blue",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T14:00:41.787Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T14:00:41.787Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b8a3fe151d98841847a7ee"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-40/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-40/image1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-40/image2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-40/image3.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product-40/image4.jpeg"
+  ],
+  "name": "Colourblock Zip-Front Jacket",
+  "brand": "ALLEN SOLLY",
+  "price": 1749,
+  "MRP": 2499,
+  "discount": 30,
+  "offer_price": 1299,
+  "color": "Red",
+  "category": "MEN",
+  "createdAt": {
+    "$date": "2021-12-14T14:02:38.732Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-14T14:02:38.732Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9836c1431e0f3f6f5004a"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product41/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product41/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product41/img2.jpeg"
+  ],
+  "name": "Button-Down Panelled Denim Jacket with Button-Flap Pockets",
+  "brand": "AMERICAN CREW",
+  "price": 1500,
+  "MRP": 4999,
+  "discount": 70,
+  "offer_price": 1200,
+  "color": "Dark-Grey",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-15T05:55:56.143Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T05:55:56.143Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b983a91431e0f3f6f5004e"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product42/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product42/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product42/img2.jpeg"
+  ],
+  "name": "Button-Down Panelled Denim Jacket with Button Flap Pockets",
+  "brand": "AMERICAN CREW",
+  "price": 1750,
+  "MRP": 4999,
+  "discount": 65,
+  "offer_price": 1200,
+  "color": "Blue",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-15T05:56:57.277Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T05:56:57.277Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b984151431e0f3f6f50050"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product43/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product43/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product43/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product43/img3.jpeg"
+  ],
+  "name": "Panelled Button-Down Denim Jacket",
+  "brand": "AMERICAN CREW",
+  "price": 1500,
+  "MRP": 4999,
+  "discount": 70,
+  "offer_price": 1200,
+  "color": "Dark-Blue",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-15T05:58:45.681Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T05:58:45.681Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b984491431e0f3f6f50052"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product44/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product44/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product44/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product44/img3.jpeg"
+  ],
+  "name": "Textured Zip-Front Jacket with Pockets",
+  "brand": "ARROW SPORTS",
+  "price": 4999,
+  "MRP": 4999,
+  "discount": 0,
+  "offer_price": 3499,
+  "color": "Blue",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-15T05:59:37.818Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T05:59:37.818Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b984681431e0f3f6f50054"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product45/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product45/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product45/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product45/img3.jpeg"
+  ],
+  "name": "Striped Zip-Front Jacket with Pockets",
+  "brand": "ARROW SPORTS",
+  "price": 5999,
+  "MRP": 5999,
+  "discount": 0,
+  "offer_price": 4199,
+  "color": "Black",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-15T06:00:08.072Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T06:00:08.072Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9848f1431e0f3f6f50056"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product46/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product46/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product46/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product46/img3.jpeg"
+  ],
+  "name": "Colourblock Gilet with Zip Pockets",
+  "brand": "INDIAN TERRAIN",
+  "price": 1750,
+  "MRP": 3499,
+  "discount": 50,
+  "offer_price": 1225,
+  "color": "Denim",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-15T06:00:47.759Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T06:00:47.759Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b984aa1431e0f3f6f50058"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product47/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product47/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product47/img2.jpeg"
+  ],
+  "name": "Single-Breasted Blazer with Notched Lapel Collar",
+  "brand": "INDIAN TERRAIN",
+  "price": 2700,
+  "MRP": 5999,
+  "discount": 55,
+  "offer_price": 1890,
+  "color": "Black",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-15T06:01:14.285Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T06:01:14.285Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b984d71431e0f3f6f5005a"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product48/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product48/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product48/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product48/img3.jpeg"
+  ],
+  "name": "Mandarin Collar Jacket with Insert Pockets",
+  "brand": "CAMPUS SUTRA",
+  "price": 1575,
+  "MRP": 3499,
+  "discount": 55,
+  "offer_price": 1055,
+  "color": "Brown",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-15T06:01:59.702Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T06:01:59.702Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b984f31431e0f3f6f5005c"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product49/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product49/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product49/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product49/img3.jpeg"
+  ],
+  "name": "Lightly Washed Zip-Front Jacket",
+  "brand": "CAMPUS SUTRA",
+  "price": 1000,
+  "MRP": 2499,
+  "discount": 60,
+  "offer_price": 725,
+  "color": "Blue",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-15T06:02:27.729Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T06:02:27.729Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b985281431e0f3f6f5005e"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product50/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product50/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product50/img2.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product50/img3.jpeg"
+  ],
+  "name": "Solid Full-length Jacket",
+  "brand": "CAMPUS SUTRA",
+  "price": 2099,
+  "MRP": 3499,
+  "discount": 40,
+  "offer_price": 1469,
+  "color": "Grey",
+  "category": "MEN",
+  "sub_category": "Jackets & Coats",
+  "createdAt": {
+    "$date": "2021-12-15T06:03:20.196Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T06:03:20.196Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9af2046871fe16b22fd65"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/977ad49d2a2346bf1cb91bda07c92dc55019a22b/src/Public/images/kidsImages/Toy1/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/977ad49d2a2346bf1cb91bda07c92dc55019a22b/src/Public/images/kidsImages/Toy1/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/977ad49d2a2346bf1cb91bda07c92dc55019a22b/src/Public/images/kidsImages/Toy1/img2.jpeg"
+  ],
+  "name": "Assorted Pack of 5 Matchbox Cars",
+  "brand": "MATTEL-MATCH BOX",
+  "price": 900,
+  "MRP": 999,
+  "discount": 15,
+  "offer_price": 849,
+  "color": "Assorted",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T09:02:24.448Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T09:02:24.448Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9b104c88d5c33d8af9968"
+  },
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy2/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy2/img2.jpeg"
+  ],
+  "name": "Formula Sports RC Car",
+  "brand": "TOYZONE",
+  "price": 599,
+  "MRP": 799,
+  "discount": 25,
+  "offer_price": 499,
+  "color": "Green",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T09:10:28.384Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T09:26:44.062Z"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy2/display.jpeg"
+},{
+  "_id": {
+    "$oid": "61b9b19ac88d5c33d8af996a"
+  },
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy3/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy3/img2.jpeg"
+  ],
+  "name": "Mc Laren P1 Car",
+  "brand": "CHILOKBO",
+  "price": 31539,
+  "MRP": 37999,
+  "discount": 15,
+  "offer_price": 26808,
+  "color": "Orange",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T09:12:58.122Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T09:27:43.014Z"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy3/display.jpeg"
+},{
+  "_id": {
+    "$oid": "61b9b312c88d5c33d8af996c"
+  },
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy4/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy4/img2.jpeg"
+  ],
+  "name": "Miko 2 My Companion Robot",
+  "brand": "MILKOR",
+  "price": 17999,
+  "MRP": 24999,
+  "discount": 30,
+  "offer_price": 15299,
+  "color": "Green",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T09:19:14.833Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T09:28:47.591Z"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy4/display.jpeg"
+},{
+  "_id": {
+    "$oid": "61b9b395c88d5c33d8af996e"
+  },
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy5/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy5/img2.jpeg"
+  ],
+  "name": "Fast & Furious 1 12 R/C - Elite Off-Road 1970 Dodge",
+  "brand": "JADA",
+  "price": 10799,
+  "MRP": 11999,
+  "discount": 10,
+  "offer_price": 9179,
+  "color": "Assorted",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T09:21:25.722Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T09:30:16.449Z"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy5/display.jpeg"
+},{
+  "_id": {
+    "$oid": "61b9b90311e02e2b5b27f4cb"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy6/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/977ad49d2a2346bf1cb91bda07c92dc55019a22b/src/Public/images/kidsImages/Toy6/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/977ad49d2a2346bf1cb91bda07c92dc55019a22b/src/Public/images/kidsImages/Toy6/img2.jpeg"
+  ],
+  "name": "Udirc U65 Flying Man Drone",
+  "brand": "FLYING MAN DRONE",
+  "price": 2499,
+  "MRP": 4299,
+  "discount": 45,
+  "offer_price": 2199,
+  "color": "Black",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T09:44:35.144Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T09:44:35.144Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9b9eb11e02e2b5b27f4cd"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy7/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy7/img1.jpg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy7/img2.jpg"
+  ],
+  "name": "Dickie Excavator",
+  "brand": "DICKIE",
+  "price": 912,
+  "MRP": 1099,
+  "discount": 15,
+  "offer_price": 775,
+  "color": "Yellow",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T09:48:27.673Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T09:48:27.673Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9ba5c11e02e2b5b27f4cf"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy8/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy8/img1.jpg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy8/img2.jpg"
+  ],
+  "name": "Fast & Furious 1 24 1995 Toyota Supra Die-Cast Model",
+  "brand": "JADA",
+  "price": 3799,
+  "MRP": 3229,
+  "discount": 15,
+  "offer_price": 2065,
+  "color": "",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T09:50:20.483Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T09:50:20.483Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9bafd11e02e2b5b27f4d1"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy9/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy9/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy9/img2.jpeg"
+  ],
+  "name": "Gale Stunt Car with Remote Control",
+  "brand": "GALE",
+  "price": 1949,
+  "MRP": 2499,
+  "discount": 20,
+  "offer_price": 1657,
+  "color": "Black",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T09:53:01.716Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T09:53:01.716Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9bb6d11e02e2b5b27f4d3"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy10/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy10/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy10/img2.jpeg"
+  ],
+  "name": "124 Mercedes Amg Gt Remote Control Car",
+  "brand": "RASTAR",
+  "price": 1429,
+  "MRP": 1999,
+  "discount": 25,
+  "offer_price": 1199,
+  "color": "Orange",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T09:54:53.559Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T09:54:53.559Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9bbc211e02e2b5b27f4d5"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy11/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy11/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy11/img2.jpeg"
+  ],
+  "name": "Fast & Furious 1 32 - 17 Assortments Diecast",
+  "brand": "JADA",
+  "price": 1019,
+  "MRP": 1199,
+  "discount": 15,
+  "offer_price": 917,
+  "color": "Yellow",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T09:56:18.072Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T09:56:18.072Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9bc2211e02e2b5b27f4d7"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy12/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy12/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy12/img2.jpeg"
+  ],
+  "name": "Remote Control Macrobot",
+  "brand": "SILVERLIT",
+  "price": 4396,
+  "MRP": 5495,
+  "discount": 20,
+  "offer_price": 3999,
+  "color": "Red",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T09:57:54.774Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T09:57:54.774Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9bcb311e02e2b5b27f4db"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy13/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy13/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy13/img2.jpeg"
+  ],
+  "name": "124 Ferrari 488 Gtb Remote Control Car",
+  "brand": "RASTAR",
+  "price": 2429,
+  "MRP": 2999,
+  "discount": 25,
+  "offer_price": 2065,
+  "color": "White",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:00:19.274Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:00:19.274Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9bd5911e02e2b5b27f4dd"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy14/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy14/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy14/img2.jpeg"
+  ],
+  "name": "Ycoo Robo Kombat Viking Battling Robots with Power Fis",
+  "brand": "SILVERLIT",
+  "price": 1299,
+  "MRP": 799,
+  "discount": 40,
+  "offer_price": 599,
+  "color": "White",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:03:05.900Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:03:05.900Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9bdf811e02e2b5b27f4df"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy15/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy15/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy15/img2.jpeg"
+  ],
+  "name": "Program A Bot X",
+  "brand": "SILVERLIT",
+  "price": 995,
+  "MRP": 699,
+  "discount": 30,
+  "offer_price": 599,
+  "color": "Black",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:05:44.236Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:05:44.236Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9be2d11e02e2b5b27f4e1"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy16/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy16/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy16/img2.jpeg"
+  ],
+  "name": "Udirc U-64 Multi Flying Drone",
+  "brand": "FLYING MAN DRONE",
+  "price": 4299,
+  "MRP": 3654,
+  "discount": 25,
+  "offer_price": 2849,
+  "color": "White",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:06:37.643Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:06:37.643Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9be8711e02e2b5b27f4e3"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy17/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy17/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy17/img2.jpeg"
+  ],
+  "name": "Motorized Jeep Playset",
+  "brand": "BB JUNIOR",
+  "price": 1659,
+  "MRP": 1999,
+  "discount": 15,
+  "offer_price": 1410,
+  "color": "Blue",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:08:07.205Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:08:07.205Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9bee811e02e2b5b27f4e5"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy18/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy18/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy18/img2.jpeg"
+  ],
+  "name": "Free-Wheel Police Jeep",
+  "brand": "FUNSKOOL",
+  "price": 254,
+  "MRP": 299,
+  "discount": 22,
+  "offer_price": 219,
+  "color": "Green",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:09:44.844Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:09:44.844Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9bf5f11e02e2b5b27f4e9"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy19/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy19/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy19/img2.jpeg"
+  ],
+  "name": "124 Jeep Wrangler Jl Remote Control Car",
+  "brand": "RASTAR",
+  "price": 2199,
+  "MRP": 2649,
+  "discount": 25,
+  "offer_price": 1869,
+  "color": "Blue",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:11:43.135Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:11:43.135Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9bfd311e02e2b5b27f4eb"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy20/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy20/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy20/img2.jpeg"
+  ],
+  "name": "Push N Spin Duck",
+  "brand": "TOYMAX",
+  "price": 399,
+  "MRP": 449,
+  "discount": 11,
+  "offer_price": 363,
+  "color": "Red",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:13:39.382Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:13:39.382Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c0d311e02e2b5b27f4ed"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy21/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy21/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy21/img2.jpeg"
+  ],
+  "name": "124 Murcielago Lp670-4 Remote Control Car",
+  "brand": "RASTAR",
+  "price": 799,
+  "MRP": 1499,
+  "discount": 50,
+  "offer_price": 599,
+  "color": "Multi",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:17:55.430Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:17:55.430Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c12e11e02e2b5b27f4ef"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy22/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy22/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy22/img2.jpeg"
+  ],
+  "name": "Sirius Toys Motion Control Glow Drone",
+  "brand": "SIRIUS TOYS",
+  "price": 799,
+  "MRP": 1999,
+  "discount": 60,
+  "offer_price": 599,
+  "color": "Red",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:19:26.353Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:19:26.353Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c19111e02e2b5b27f4f1"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy23/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy23/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy23/img2.jpeg"
+  ],
+  "name": "Dickie Concrete Mixer",
+  "brand": "DICKIE",
+  "price": 799,
+  "MRP": 1999,
+  "discount": 60,
+  "offer_price": 599,
+  "color": "White",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:21:05.548Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:21:05.548Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c21b11e02e2b5b27f4f3"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy24/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy24/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy24/img2.jpeg"
+  ],
+  "name": "Fast & Furious - Han'S Mazda Rx-7 Car",
+  "brand": "JADA",
+  "price": 2719,
+  "MRP": 3199,
+  "discount": 35,
+  "offer_price": 2499,
+  "color": "Orange",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:23:23.685Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:23:23.685Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c25211e02e2b5b27f4f5"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy25/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy25/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy25/img2.jpeg"
+  ],
+  "name": "London Bus & Taxi Play Set",
+  "brand": "HAMLEYS",
+  "price": 974,
+  "MRP": 1299,
+  "discount": 15,
+  "offer_price": 828,
+  "color": "Orange",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:24:18.476Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:24:18.476Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c2d511e02e2b5b27f4f7"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy26/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy26/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy26/img2.jpeg"
+  ],
+  "name": "Robo Chameleon - Move Aim & Catch",
+  "brand": "SILVERLIT",
+  "price": 3092,
+  "MRP": 1895,
+  "discount": 35,
+  "offer_price": 1749,
+  "color": "Red",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:26:29.854Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:26:29.854Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c36811e02e2b5b27f4f9"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy27/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy27/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy27/img2.jpeg"
+  ],
+  "name": "U58 Funair Alien Ship Drone",
+  "brand": "SIRIUS TOYS",
+  "price": 3599,
+  "MRP": 3999,
+  "discount": 10,
+  "offer_price": 3099,
+  "color": "White",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:28:56.208Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:28:56.208Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c3ee11e02e2b5b27f4fb"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy28/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy28/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy28/img2.jpeg"
+  ],
+  "name": "Fast & Furious 1 24- 1970 Dodge Charger (Street)",
+  "brand": "JADA",
+  "price": 1199,
+  "MRP": 1499,
+  "discount": 20,
+  "offer_price": 999,
+  "color": "Lemon Yellow",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:31:10.458Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:31:10.458Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c46b11e02e2b5b27f4fd"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy29/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy29/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy29/img2.jpeg"
+  ],
+  "name": "Shape Sorting Bus",
+  "brand": "GIGGLES",
+  "price": 849,
+  "MRP": 999,
+  "discount": 15,
+  "offer_price": 722,
+  "color": "Black",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:33:15.903Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:33:15.903Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c4c011e02e2b5b27f4ff"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy30/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy30/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy30/img2.jpeg"
+  ],
+  "name": "Ycoo Quizzie A Palm-Sized Robot",
+  "brand": "SILVERLIT",
+  "price": 1408,
+  "MRP": 1650,
+  "discount": 15,
+  "offer_price": 1299,
+  "color": "Black",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:34:40.251Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:34:40.251Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c53911e02e2b5b27f501"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy31/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy31/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy31/img2.jpeg"
+  ],
+  "name": "Volkswagen Delivery Van",
+  "brand": "MOTORMAX",
+  "price": 1499,
+  "MRP": 1999,
+  "discount": 25,
+  "offer_price": 1299,
+  "color": "Ice Blue",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:36:41.639Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:36:41.639Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c5fa11e02e2b5b27f503"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy32/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy32/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy32/img2.jpeg"
+  ],
+  "name": "Fast & Furious 1 24 1970 Dodge Charger (Street)",
+  "brand": "JADA",
+  "price": 649,
+  "MRP": 999,
+  "discount": 35,
+  "offer_price": 5999,
+  "color": "Orange",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:39:54.108Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:39:54.108Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c64b11e02e2b5b27f505"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy33/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy33/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy33/img2.jpeg"
+  ],
+  "name": "Ycoo Gloopies Dino Can Snap Up Tiny Metals",
+  "brand": "SILVERLIT",
+  "price": 986,
+  "MRP": 1095,
+  "discount": 15,
+  "offer_price": 849,
+  "color": "Black",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:41:15.769Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:41:15.769Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c71711e02e2b5b27f507"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy34/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy34/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy34/img2.jpeg"
+  ],
+  "name": "Fast & Furious 1.65 Set of 3 Nano Die-Cast Cars",
+  "brand": "JADA",
+  "price": 1019,
+  "MRP": 1199,
+  "discount": 15,
+  "offer_price": 917,
+  "color": "Blue",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:44:39.978Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:44:39.978Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c76c11e02e2b5b27f509"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy35/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy35/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy35/img2.jpeg"
+  ],
+  "name": "Pull-Along Activity Blocks",
+  "brand": "MFISHER PRICE",
+  "price": 499,
+  "MRP": 999,
+  "discount": 50,
+  "offer_price": 399,
+  "color": "Black",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:46:04.586Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:46:04.586Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c7c111e02e2b5b27f50b"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy36/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy36/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy36/img2.jpeg"
+  ],
+  "name": "Monster Trucks Racing Ramp",
+  "brand": "FISHER PRICE",
+  "price": 2074,
+  "MRP": 2499,
+  "discount": 15,
+  "offer_price": 1763,
+  "color": "Assorted",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:47:29.759Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:47:29.759Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c82611e02e2b5b27f50d"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy37/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy37/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy37/img2.jpeg"
+  ],
+  "name": "Giggles Pull Stack 'N Link Toy Set",
+  "brand": "GIGGLES",
+  "price": 419,
+  "MRP": 499,
+  "discount": 20,
+  "offer_price": 373,
+  "color": "Green",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:49:10.813Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:49:10.813Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c88611e02e2b5b27f50f"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy38/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy38/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy38/img2.jpeg"
+  ],
+  "name": "Stacking Wheels Activity Toy",
+  "brand": "PLAN TOYS",
+  "price": 1099,
+  "MRP": 1249,
+  "discount": 15,
+  "offer_price": 999,
+  "color": "Assorted",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:50:46.513Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:50:46.513Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c92d11e02e2b5b27f511"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy39/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy39/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy39/img2.jpeg"
+  ],
+  "name": "Friction Powered Max Car",
+  "brand": "TOYMAX",
+  "price": 299,
+  "MRP": 399,
+  "discount": 25,
+  "offer_price": 249,
+  "color": "Cream",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:53:33.298Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:53:33.298Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9c9a311e02e2b5b27f513"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy40/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy40/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy40/img2.jpeg"
+  ],
+  "name": "Linkimals Happy Shapes Hedgehog",
+  "brand": "FISHER PRICE",
+  "price": 3149,
+  "MRP": 3499,
+  "discount": 15,
+  "offer_price": 2677,
+  "color": "Assorted",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:55:31.343Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:55:31.343Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9ca5c11e02e2b5b27f515"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy41/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy41/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy41/img2.jpeg"
+  ],
+  "name": "Ne monster jam kinetic dirt deluxe set",
+  "brand": "MONSTER JAM",
+  "price": 1699,
+  "MRP": 1999,
+  "discount": 15,
+  "offer_price": 1410,
+  "color": "Light Blue",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T10:58:36.837Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T10:58:36.837Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9cb0511e02e2b5b27f517"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy42/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy42/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy42/img2.jpeg"
+  ],
+  "name": "Space Buggy DIY Walking Robotic Model",
+  "brand": "FUNVENTION",
+  "price": 699,
+  "MRP": 999,
+  "discount": 30,
+  "offer_price": 544,
+  "color": "Assorted",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T11:01:25.859Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T11:01:25.859Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9cb3a11e02e2b5b27f519"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy43/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy43/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy43/img2.jpeg"
+  ],
+  "name": "Baby Panda Drew",
+  "brand": "FINGERLINGS",
+  "price": 1551,
+  "MRP": 2499,
+  "discount": 40,
+  "offer_price": 1253,
+  "color": "Cream",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T11:02:18.143Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T11:02:18.143Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9cc9611e02e2b5b27f51b"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy44/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy44/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy44/-img2.jpeg"
+  ],
+  "name": "Push N Spin Cat",
+  "brand": "TOYMAX",
+  "price": 427,
+  "MRP": 449,
+  "discount": 15,
+  "offer_price": 363,
+  "color": "Black",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T11:08:06.821Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T11:08:06.821Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9cce811e02e2b5b27f51d"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy45/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy45/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy45/img2.jpeg"
+  ],
+  "name": "Little Tikes Slammin' Racers- Hatchback Racer",
+  "brand": "LITTLE TIKES",
+  "price": 1799,
+  "MRP": 1999,
+  "discount": 10,
+  "offer_price": 1529,
+  "color": "Assorted",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T11:09:28.600Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T11:09:28.600Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9cd3a11e02e2b5b27f51f"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy46/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy46/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy46/img2.jpeg"
+  ],
+  "name": "Chicco Mister Ring",
+  "brand": "CHICCO",
+  "price": 1892,
+  "MRP": 2499,
+  "discount": 22,
+  "offer_price": 1608,
+  "color": "Red",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T11:10:50.811Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T11:10:50.811Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9cdbf11e02e2b5b27f521"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy47/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy47/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy47/img2.jpeg"
+  ],
+  "name": "Vtech Nest and Build Tree Stacker",
+  "brand": "VTECH",
+  "price": 874,
+  "MRP": 999,
+  "discount": 12,
+  "offer_price": 799,
+  "color": "Assorted",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T11:13:03.282Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T11:13:03.282Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9ce2011e02e2b5b27f523"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy48/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy48/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy48/img2.jpeg"
+  ],
+  "name": "Megaroid Leo 6",
+  "brand": "MONKART",
+  "price": 1599,
+  "MRP": 3199,
+  "discount": 50,
+  "offer_price": 1199,
+  "color": "Assorted",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T11:14:40.037Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T11:14:40.037Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9ce8c11e02e2b5b27f525"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy49/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy49/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy49/img2.jpeg"
+  ],
+  "name": "Lights And Sounds Police Car",
+  "brand": "PLAYGRO",
+  "price": 725,
+  "MRP": 849,
+  "discount": 15,
+  "offer_price": 599,
+  "color": "Blue",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T11:16:28.920Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T11:16:28.920Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b9cfaa11e02e2b5b27f527"
+  },
+  "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy50/display.jpeg",
+  "images": [
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy50/img1.jpeg",
+    "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/kidsImages/Toy50/img2.jpeg"
+  ],
+  "name": "Lying Bull Dog Soft Toy- Large",
+  "brand": "Lying Bull Dog Soft Toy- Large",
+  "price": 722,
+  "MRP": 899,
+  "discount": 22,
+  "offer_price": 5999,
+  "color": "Cream",
+  "category": "KIDS",
+  "sub_category": "Toys & Games",
+  "createdAt": {
+    "$date": "2021-12-15T11:21:14.559Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-15T11:21:14.559Z"
+  }
+}]

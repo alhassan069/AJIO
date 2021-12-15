@@ -17,8 +17,15 @@ router.post("/",async(req,res)=>{
 
 router.get("/:category", async (req, res) => {
     try {
-        const products = await Product.find({category:req.params.category.toUpperCase()}).lean().exec();
-        return res.status(201).json({products})
+        const page = +(req.query.page) || 1;
+        const size = +(req.query.size) || 9;
+        const offset = (page - 1) * size;
+
+        const products = await Product.find({category:req.params.category.toUpperCase()})
+        .skip(offset).limit(size)
+        .lean().exec();
+        const totalPages = Math.ceil(await (Product.find({category:req.params.category.toUpperCase()}).countDocuments())/size);
+        return res.status(201).json({products,totalPages});
     }
     catch (e) {
         return res.status(500).json({ status: "failed", message: e.message });

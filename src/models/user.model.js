@@ -9,14 +9,6 @@ const userSchema = new mongoose.Schema({
     password: { type: String, required: true },
     mobile: { type: String, required: true },
     address: [{ type: String }],
-    cart: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: Product,
-     }],
-    wishlist :[{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: Product,
-     }]
 }, {
     versionKey: false,
     timestamps:true
