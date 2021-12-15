@@ -3,8 +3,14 @@ let str2="";
 let str3="";
 let obj={};
 function displayFromBucket() {
-    let object=JSON.parse(localStorage.getItem("bucket"));
-      
+    // let object=JSON.parse(localStorage.getItem("bucket"));
+    let id = window.location.hash.split("=")[1];
+    let objec = async(req,res)=>{
+      await  return  data = await fetch(`http://localhost:2345/products/${id}`)
+    }
+    console.log("object", objec());
+    let object = objec().json();
+      console.log("object222222",object)
       // localStorage.setItem("bucket",JSON.stringify(object));
 
 
