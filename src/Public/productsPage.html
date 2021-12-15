@@ -1367,8 +1367,8 @@
     getData();
 
     async function getData() {
-      let res = await fetch("http://localhost:2345/products/men");
-      // console.log("res",res);
+      let res = await fetch("http://localhost:2345/products/cat/men");
+      console.log("res",res);
 
       let data = await res.json();
       console.log("data", data.products);

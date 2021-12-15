@@ -15,7 +15,16 @@ router.post("/",async(req,res)=>{
     }
 )
 
-router.get("/:category", async (req, res) => {
+router.get("/:id", async (req, res) => {
+    try {
+        const products = await Product.findById(req.params.id).lean().exec();
+        return res.status(201).json({products})
+    }
+    catch (e) {
+        return res.status(500).json({ status: "failed", message: e.message });
+    }
+})
+router.get("/cat/:category", async (req, res) => {
     try {
         const page = +(req.query.page) || 1;
         const size = +(req.query.size) || 9;
@@ -48,7 +57,6 @@ router.get("/", async (req, res) => {
         return res.status(500).json({ status: "failed", message: e.message });
     }
 })
-
 router.patch("/:id", async (req, res) => {
     try {
         const products = await Product.findByIdAndUpdate(req.params.id, req.body, {new:1}).lean().exec();

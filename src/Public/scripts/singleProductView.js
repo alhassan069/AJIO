@@ -1,54 +1,57 @@
+let id = window.location.hash.split("=")[1];
 let str1="";
 let str2="";
 let str3="";
 let obj={};
-function displayFromBucket() {
-    // let object=JSON.parse(localStorage.getItem("bucket"));
-    let id = window.location.hash.split("=")[1];
-    let objec = async(req,res)=>{
-      await  return  data = await fetch(`http://localhost:2345/products/${id}`)
-    }
-    console.log("object", objec());
-    let object = objec().json();
-      console.log("object222222",object)
-      // localStorage.setItem("bucket",JSON.stringify(object));
+async function getdata() {
+  let res = await fetch(`http://localhost:2345/products/${id}`);
+  let data = await res.json();
+  console.log("dataaa",data.products)
+  return displayFromBucket(data.products);
 
+}
+getdata();
+function displayFromBucket(object) {
+    // let object=JSON.parse(localStorage.getItem("bucket"));
 
     let mainDisplayImage = document.getElementById("mainDisplayImage");
     mainDisplayImage.src=object.display_img;
+console.log("object.images",object.images)
 
-    let extraimage1=document.getElementById("image1extra");
-    extraimage1.src=object.display_img;
-    str1=object.display_img;
+let brandName = document.getElementById("brandName");
+brandName.innerText = object.brand;
+console.log("object.brand",object.brand)
 
-    let extraimage2 = document.getElementById("image2extra");
-    extraimage2.src=object.img2;
-    str2=object.img2;
+let productTitle=document.getElementById("productTitle");
+productTitle.innerText=object.name;
 
-    let extraimage3 = document.getElementById("image3extra");
-    extraimage3.src=object.img3;
-    str3=object.img3;
+let top_divoneline= document.getElementById("top_divoneline");
+if(top_divoneline!=null) {
+  top_divoneline.innerText=object.name;
+}
 
-    let brandName = document.getElementById("brandName");
-    brandName.innerText=object.brand;
+let productPrice=document.getElementById("productPrice");
+productPrice.innerText="Rs. "+object.price;
 
-    let productTitle=document.getElementById("productTitle");
-    productTitle.innerText=object.name;
+let productPriceOff=document.getElementById("productPriceOff");
+productPriceOff.innerText="Rs. "+object.MRP+" ("+object.discount+"% off)";
 
-    let top_divoneline= document.getElementById("top_divoneline");
-    if(top_divoneline!=null) {
-        top_divoneline.innerText=object.name;
-    }
+let productColor=document.getElementById("productColor");
+productColor.innerText=object.color;
 
-    let productPrice=document.getElementById("productPrice");
-    productPrice.innerText="Rs. "+object.price;
+let extraimage1 = document.getElementById("image1extra");
+extraimage1.src=object.images[0];
+str1=object.images[0];
 
-    let productPriceOff=document.getElementById("productPriceOff");
-    productPriceOff.innerText="Rs. "+object.MRP+" ("+object.discount+"% off)";
+let extraimage2 = document.getElementById("image2extra");
+extraimage2.src=object.images[1];
+str2=object.object.images[1];
 
-    let productColor=document.getElementById("productColor");
-    productColor.innerText=object.color;
-    return object;
+let extraimage3 = document.getElementById("image3extra");
+extraimage3.src=object.images[2];
+str3=object.object.images[2];
+
+  return object;
 }
 
 
