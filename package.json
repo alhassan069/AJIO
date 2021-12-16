@@ -19,8 +19,12 @@
   },
   "homepage": "https://github.com/alhassan069/AJIO#readme",
   "dependencies": {
+<<<<<<< Updated upstream
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.1",
+=======
+    "axios": "^0.24.0",
+>>>>>>> Stashed changes
     "cors": "^2.8.5",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
