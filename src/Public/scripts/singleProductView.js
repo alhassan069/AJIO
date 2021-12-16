@@ -1,15 +1,16 @@
-let id = window.location.hash.split("=")[1];
+//let id = window.location.hash.split("=")[1];
 let str1="";
 let str2="";
 let str3="";
 let obj={};
-async function getdata() {
+async function getdata(id) {
   let res = await fetch(`http://localhost:2345/products/${id}`);
   let data = await res.json();
-  console.log("dataaa",data.products)
- return displayFromBucket(data.products);
+  //console.log("dataaa",data.products)
+  displayFromBucket(data.products)
+  popupPoductDetails()
 }
-getdata();
+//getdata();
 function displayFromBucket(object) {
     // let object=JSON.parse(localStorage.getItem("bucket"));
 
@@ -44,11 +45,11 @@ str1=object.images[0];
 
 let extraimage2 = document.getElementById("image2extra");
 extraimage2.src=object.images[1];
-str2=object.object.images[1];
+str2=object.images[1];
 
 let extraimage3 = document.getElementById("image3extra");
-extraimage3.src=object.images[2];
-str3=object.object.images[2];
+extraimage3.src=object.display_img;
+str3=object.display_img;
 
   return object;
 }
@@ -147,32 +148,32 @@ function displayImage3() {
 }
 console.log(obj);
 
-async function addProductTocart() {
+// async function addProductTocart() {
 
-  let res = await fetch(`http://localhost:2345/products/${id}`);
-  let data = await res.json();
-  var addToCart = data.products;
-  console.log("addToCart",addToCart)
+//   let res = await fetch(`http://localhost:2345/products/${id}`);
+//   let data = await res.json();
+//   var addToCart = data.products;
+//   console.log("addToCart",addToCart)
 
-  fetch("http://localhost:2345/cart", {
-    method: "POST",
-    body: JSON.stringify({
-      carts: addToCart,
-      user_id: 1,
-    }),
-    headers: {
-      content: "application/json;charset UTF=8"
-    },
-  })
-  .then(response => response.json())
+//   fetch("http://localhost:2345/cart", {
+//     method: "POST",
+//     body: JSON.stringify({
+//       carts: addToCart,
+//       user_id: 1,
+//     }),
+//     headers: {
+//       content: "application/json;charset UTF=8"
+//     },
+//   })
+//   .then(response => response.json())
 
-.then(json => console.log(json));
-    // if (localStorage.getItem("Cart_AJIO") == null) {
-    //     localStorage.setItem("Cart_AJIO", JSON.stringify([]));
-    //   }
-    // let items=JSON.parse(localStorage.getItem("Cart_AJIO"));
-    // let object=displayFromBucket();
-    // items.push(object);
-    // localStorage.setItem("Cart_AJIO", JSON.stringify(items));  
-    // window.location.reload();   
-}
+// .then(json => console.log(json));
+//     // if (localStorage.getItem("Cart_AJIO") == null) {
+//     //     localStorage.setItem("Cart_AJIO", JSON.stringify([]));
+//     //   }
+//     // let items=JSON.parse(localStorage.getItem("Cart_AJIO"));
+//     // let object=displayFromBucket();
+//     // items.push(object);
+//     // localStorage.setItem("Cart_AJIO", JSON.stringify(items));  
+//     // window.location.reload();   
+// }

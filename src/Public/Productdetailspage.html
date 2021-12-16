@@ -400,6 +400,9 @@
   <script src="./scripts/navbar.js"></script>
   <script src="./scripts/singleProductView.js"></script>
   <script>
-    displayFromBucket();
+    let id= window.location.hash;
+    let new_id=id.split("=")[1];
+    console.log(new_id);
+    getdata(new_id)
   </script>
 </html>

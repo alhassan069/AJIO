@@ -38,8 +38,6 @@
         gap: 1%;
         margin-top: 130px;
       }
-      .lora {
-      }
       .loraf13 {
         font-size: 14px;
         overflow: hidden;
@@ -447,10 +445,10 @@
           <div id="contentheader">
             Versatile and sophisticated, AJIO brings to you a wide range of
             coats and jackets for men. Be it printed, embroidered, ripped or
-            distressed – we have everything. Browse through cool gilets, quilted
+            distressed we have everything. Browse through cool gilets, quilted
             bombers and winter jackets to keep your fashion game on fleek this
             cold season. Let the bad boy out to play with leather jackets or
-            sharpen up your look with traditional men’s coats
+            sharpen up your look with traditional mens coats
           </div>
         </div>
         <div id="container">
@@ -1989,17 +1987,19 @@
             quickView.style.display = "none";
           }
           quickView.onclick = () => {
-            if (localStorage.getItem("bucket") == null) {
-              localStorage.setItem("bucket", JSON.stringify([]));
-            }
-            // let arr = JSON.parse(localStorage.getItem("bucket"));
-            // arr.push(data);
+            // if (localStorage.getItem("bucket") == null) {
+            //   localStorage.setItem("bucket", JSON.stringify([]));
+            // }
+            console.log(data)
+          //  let arr = JSON.parse(localStorage.getItem("bucket"));
+         //   arr.push(data);
             // arr = new data;
 
-            // console.log(arr);
-            localStorage.setItem("bucket", JSON.stringify(data));
-            displayFromBucket();
-            popupPoductDetails();
+         //   console.log(arr);
+          //  localStorage.setItem("bucket", JSON.stringify(data));
+            getdata(data._id)
+         //   displayFromBucket();
+        //   popupPoductDetails();
           };
 
           // console.log(parent);
