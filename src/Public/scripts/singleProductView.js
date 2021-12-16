@@ -1,4 +1,4 @@
-//let id = window.location.hash.split("=")[1];
+var single_id = window.location.hash.split("=")[1];
 let str1="";
 let str2="";
 let str3="";
@@ -148,26 +148,30 @@ function displayImage3() {
 }
 console.log(obj);
 
-// async function addProductTocart() {
+async function addProductTocart() {
 
-//   let res = await fetch(`http://localhost:2345/products/${id}`);
-//   let data = await res.json();
-//   var addToCart = data.products;
-//   console.log("addToCart",addToCart)
+  let res = await fetch(`http://localhost:2345/products/${single_id}`);
+  let data = await res.json();
+  var addToCart = data.products;
+  console.log("addToCart", addToCart)
+  addTocart(addToCart);
+}
+function addTocart(data) {
+    console.log("data",data)
+        fetch("http://localhost:2345/cart",{
+          method: "POST",
+          body: JSON.stringify({
+            product: data
+          }),
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+          },
+        })
+        .then(response => response.json())
 
-//   fetch("http://localhost:2345/cart", {
-//     method: "POST",
-//     body: JSON.stringify({
-//       carts: addToCart,
-//       user_id: 1,
-//     }),
-//     headers: {
-//       content: "application/json;charset UTF=8"
-//     },
-//   })
-//   .then(response => response.json())
-
-// .then(json => console.log(json));
+      .then(json => console.log(json));
+}
 //     // if (localStorage.getItem("Cart_AJIO") == null) {
 //     //     localStorage.setItem("Cart_AJIO", JSON.stringify([]));
 //     //   }
@@ -176,4 +180,3 @@ console.log(obj);
 //     // items.push(object);
 //     // localStorage.setItem("Cart_AJIO", JSON.stringify(items));  
 //     // window.location.reload();   
-// }

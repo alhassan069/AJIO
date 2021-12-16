@@ -140,10 +140,29 @@
     function getHome(){
         window.location.href="homepage.html"
     }
-    let data = JSON.parse(localStorage.getItem('Cart_AJIO'));
+    var da=[];
+    function getData(){
+        var count=0;
+        var bagdiscount=0;
+        let discount=0;
+        var bagtotal=0;
+        fetch('http://localhost:2345/cart')
+        .then(response => response.json())
+        .then(data=>{
+            let d = data.cart;
+            d.forEach((el)=>{
+                
+                da.push(el);
+            });
+            da.forEach((el)=>{
+                showProd(el.product);
+            })
+        })
+        .catch(e=>console.log("e",e));
+    }
+    getData();
     let parent = document.getElementById('prod')
-    function showProd(data){
-        data.forEach((product)=>{
+    function showProd(product){
             let mdiv = document.createElement('div');
             mdiv.setAttribute('class','mdiv')
             let img = document.createElement("img");
@@ -185,10 +204,7 @@
             mdiv.append(img,p,pdiv);
             parent.append(mdiv);
             count++;
-        })
     }
-  showProd(data);
- 
 </script>
 <script type="module">
     import navbar from "./components/navbar.js";

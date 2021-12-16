@@ -1,13 +1,14 @@
 const express = require("express");
 
-const Cart = require("../models/cart.model");
+const product = require("../models/product.model")
 
-const Product= require("../models/product.model")
+const Cart = require("../models/cart.model");
 
 const router = express.Router();
 
 router.post("/",async(req,res)=>{
         try {
+            console.log("req.body",req.body)
             const cart = await Cart.create(req.body);
             return res.status(201).json({ cart });
         }
@@ -19,7 +20,7 @@ router.post("/",async(req,res)=>{
 
 router.get("/", async (req, res) => {
     try {
-        const cart = await Cart.find().lean().exec();
+        const cart = await Cart.find().populate("product").lean().exec();
         
         return res.status(201).json({cart})
     }
