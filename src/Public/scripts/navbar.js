@@ -178,10 +178,10 @@ let steone = setTimeout(() => {
     form.id = "form";
 
     let p1 = document.createElement("p");
-    p1.innerText = "Username";
+    p1.innerText = "Email";
 
     let input1 = document.createElement("input");
-    input1.id = "username";
+    input1.id = "email";
     input1.type = "text";
 
     let p2 = document.createElement("p");
@@ -215,20 +215,20 @@ let steone = setTimeout(() => {
       e.preventDefault();
       let form = document.getElementById("form");
       let alert_mes = document.getElementById("login_signup_alert");
-      if (form.username.value == "") {
-        alert_mes.innerText = "Please Enter Valid Username";
+      if (form.email.value == "") {
+        alert_mes.innerText = "Please Enter Valid Email";
       } else if (form.password.value == "") {
         alert_mes.innerText = "Please Enter Password";
       } else {
         let user_data = {
-          username: form.username.value,
+          email: form.email.value,
           password: form.password.value,
         };
 
         let data_to_send = JSON.stringify(user_data);
         console.log("data_to_send:", data_to_send);
 
-        fetch("https://masai-api-mocker.herokuapp.com/auth/login", {
+        fetch("/login", {
           method: "POST",
 
           body: data_to_send,
@@ -245,10 +245,11 @@ let steone = setTimeout(() => {
 
             if (!res.error) {
               alert_mes.innerText = "Login Successful";
+        
               let datastorage = JSON.parse(
                 localStorage.getItem("username_AJIO")
               );
-              datastorage.username = user_data.username;
+              datastorage.username = res.user.username;
               localStorage.setItem(
                 "username_AJIO",
                 JSON.stringify(datastorage)
@@ -304,7 +305,7 @@ let steone = setTimeout(() => {
     e.preventDefault();
     let form = document.getElementById("form");
     let alert_mes = document.getElementById("login_signup_alert");
-
+  
     if (form.name.value == "") {
       alert_mes.innerText = "Please Enter Name";
     } else if (form.email.value == "") {
@@ -319,15 +320,14 @@ let steone = setTimeout(() => {
       let user_data = {
         name: form.name.value,
         email: form.email.value,
-        password: form.password.value,
         username: form.username.value,
-        mobile: form.mobile.value,
-        description: form.name.value,
+        password: form.password.value,
+        mobile: form.mobile.value
       };
 
       user_data = JSON.stringify(user_data);
 
-      fetch("https://masai-api-mocker.herokuapp.com/auth/register", {
+      fetch("/register", {
         method: "POST",
 
         body: user_data,
@@ -357,6 +357,19 @@ let steone = setTimeout(() => {
     }
   }
   signup_btn.addEventListener("click", signup);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   //display cart cart_contents
   let items = JSON.parse(localStorage.getItem("Cart_AJIO"));

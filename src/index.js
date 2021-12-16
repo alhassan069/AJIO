@@ -1,25 +1,36 @@
 const express = require('express');
-
 const cors = require("cors");
-
+const path = require('path');
+const bodyParser = require("body-parser")
 const app = express();
+
+const registerController= require("./controllers/register.controller")
+const loginController = require("./controllers/login.controller")
+const productController = require("./controllers/product.controller");
+const wishlistController = require("./controllers/wishlist.controller")
+const cartController = require("./controllers/cart.controller");
+const userController=require("./controllers/user.controller");
+
 
 app.use(express.json());
 app.use(cors());
-const productController = require("./controllers/product.controller");
+app.set("view engine", "ejs")
+app.set('views', path.join(__dirname, 'views'));
+app.use(express.static(__dirname + '/Public'));
+app.use(bodyParser.urlencoded({ extended: true }));
+
 
 app.use("/products", productController);
 
-const userController = require("./controllers/user.controller");
+app.use("/register", registerController);
 
-app.use("/user", userController)
-
-const cartController = require("./controllers/cart.controller");
+app.use("/login", loginController);
 
 app.use("/cart", cartController);
 
-const wishlistController = require("./controllers/wishlist.controller")
-
 app.use("/wishlist",wishlistController)
+
+app.use("/users", userController);
+
 
 module.exports = app;

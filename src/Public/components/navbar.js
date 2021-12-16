@@ -181,21 +181,21 @@ function navbar() {
         </div>
     </div>
     <div id="change_form">
-        <form id="form">
+        <form id="form" action="/register" method="post" enctype:"multipart/form-data">
             <p>Name</p>
-            <input type="text" id="name">
+            <input type="text" name="name" id="name">
     
             <p>Email</p>
-            <input type="text" id="email">
+            <input type="text" name="email" id="email">
 
             <p>Username</p>
-            <input type="text" id="username">
+            <input type="text" name="username" id="username">
     
             <p>Password</p>
-            <input type="password" id="password">
+            <input type="password" name="password" id="password">
     
             <p>Mobile Number</p>
-            <input type="number" id="mobile">
+            <input type="text" name="mobile" id="mobile">
             <p id=login_signup_alert></p>
             <div>
                 <button id="signup">Sign Up</button>
