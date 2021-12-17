@@ -353,7 +353,10 @@
             })
             .then(response => response.json())
 
-            .then(json => console.log(json));
+            .then((json) => {
+                console.log(json)
+                window.location.reload()
+            });
               getData();        }
             let dele1 = document.createElement('button');
             dele1.innerHTML=`<i class="fa fa-heart-o" aria-hidden="true"></i>`;
