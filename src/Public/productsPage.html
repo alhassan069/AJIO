@@ -1360,8 +1360,8 @@
   ];
    
 */
-    var final = [];
-    var finalD = [];
+    var array = [];
+    var arrayDisplay = [];
     getData();
 
     async function getData() {
@@ -1369,15 +1369,26 @@
       console.log("res",res);
 
       let data = await res.json();
-      console.log("data", data.products);
+      console.log(data,"whfcvd");
 
-      final.push(data.products);
-      finalD.push(data.products);
+      data.products.forEach(ele => {
+        array.push(ele);
+        arrayDisplay.push(ele);
+      });
+
+      // final.push(data);
+      // finalD.push(data.products);
       // console.log("arra",array[0]);
       // console.log("display",arrayDisplay[0]);
+    }
+console.log(array,"12352345");
+console.log(arrayDisplay,"3452346346");
+      // console.log(final, "sagdgv");
+      // console.log(final[0].products, "sagdgv");
+      // console.log(final.products, "sagdgv");
 
-      let array = final[0];
-      let arrayDisplay = finalD[0];
+      // let array = final[0];
+      // let arrayDisplay = finalD[0];
 
       let parent = document.getElementById("data");
       displayProducts(array);
@@ -1894,6 +1905,7 @@
       }
 
       function displayProducts(array) {
+        console.log(array,"fin1111111111111");
         array.forEach(function (data) {
           let div = document.createElement("div");
           let finalDiv = document.createElement("div");
@@ -2139,7 +2151,7 @@
           rightSize.style.display = "none";
         }
       };
-    }
+    
   </script>
 
   <script type="module">
