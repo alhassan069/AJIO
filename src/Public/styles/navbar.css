@@ -391,3 +391,35 @@
 .itm_nme {
     font-size:13px;
 }
+@media (max-width: 1290px) {
+    .searchiconvisi{
+        display: none;
+        background-color: red;
+    }
+    #cart_icon {
+        padding-left: 500px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .one {
+        display:none;
+    }
+    
+    #subnavbar > div:nth-child(2) > div:nth-child(n+3):nth-child(-n+4) {
+       display:none; 
+    }
+}
+
+@media (max-width: 700px) {
+    .one {
+        display:none;
+    }
+    
+    #subnavbar > div:nth-child(2) > div:nth-child(n+3):nth-child(-n+4) {
+       display:none; 
+    }
+    #subnavbar {
+        display:none;
+    }
+}

@@ -69,6 +69,15 @@ let steone = setTimeout(() => {
   //     one.push(product_data[i]);
   // }
   // localStorage.setItem("Cart_AJIO",JSON.stringify(one));
+  let new_username=window.location.href;
+  console.log('new_username:', new_username);
+
+  let name2=new_username.split("=")[1];
+  console.log('name2:', name2);
+
+  if(name2!=null) {
+    localStorage.setItem("username_AJIO", JSON.stringify({ username: name2 }));
+  }
 
   if (localStorage.getItem("username_AJIO") == null) {
     localStorage.setItem("username_AJIO", JSON.stringify({ username: null }));
@@ -366,20 +375,23 @@ let steone = setTimeout(() => {
 
 
 
+  function getCartData(){
+    fetch('http://localhost:2345/cart')
+    .then(response => response.json())
+    .then(data=>{
+      console.log(data.cart);
+      displayCartItems(data.cart)
+    })
+  }
 
+  getCartData()
 
-
-
-
-  //display cart cart_contents
-  let items = JSON.parse(localStorage.getItem("Cart_AJIO"));
-  console.log("one:", items);
-
-  function displayCartItems() {
+  function displayCartItems(items) {
     let parent = document.getElementById("cart_contents");
     parent.innerHTML = null;
-
+    console.log("items",items)
     items.forEach((el) => {
+      el=el.product;
       let div = document.createElement("div");
 
       let div1 = document.createElement("div");
@@ -442,14 +454,14 @@ let steone = setTimeout(() => {
 
   function signout() {
       localStorage.removeItem("username_AJIO");
-      window.location.reload();
+      window.location.href="/";
   }
   if(signout_btn!=null) {
     signout_btn.addEventListener("click", signout);
   }
   let logo_navbar = document.getElementById("navbar_ajio_logo");
   function logo_navbar_link() {
-    window.location.href = "homepage.html";
+    window.location.href = "/";
   }
   logo_navbar.addEventListener("click",logo_navbar_link);
 
@@ -479,6 +491,16 @@ let steone = setTimeout(() => {
   kids_link.addEventListener("click",kidsHref);
   indie_link.addEventListener("click",indieHref);
   home_link.addEventListener("click",homeHref);
+
+
+  //googleOauth
+
+  let googleOauth = document.getElementById("googleOauth");
+  googleOauth.addEventListener("click",google)
+
+  function google() {
+    window.location.href="/auth/google";
+  }
 
 
 }, 500);

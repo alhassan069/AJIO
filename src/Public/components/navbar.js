@@ -28,10 +28,10 @@ function navbar() {
             </div>
         </div>
         <div>
-            <div>
+            <div class="searchiconvisi">
                 <input type="text" placeholder="Search AJIO" id="search_box">
             </div>
-            <div>
+            <div class="searchiconvisi">
                 <span class="material-icons-outlined">
                     search
                 </span>
@@ -171,7 +171,7 @@ function navbar() {
                 <h5>FACEBOOK</h5>
             </div>
         </div>
-        <div>
+        <div id="googleOauth">
             <div>
                 <img src="./images/google_icon.png">
             </div>
