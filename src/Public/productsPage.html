@@ -123,6 +123,7 @@
         padding: 10px;
         border-bottom: 1px solid #dfdfdf;
         border-top: 1px solid #dfdfdf;
+        display:flex;
       }
       #select-tab > select {
         width: 150px;
@@ -214,6 +215,22 @@
       }
       .alignment {
         margin-left: 700px;
+      }
+      #pagination {
+        display:flex;
+        width: 100px;
+        cursor: pointer;
+        margin-left:10px;
+      }
+      #pagination > div {
+        flex-basis: 30px;
+        text-align:center;
+        border: 1px solid gray;
+      }
+      #pagination >div:nth-child(2) {
+        margin-left:10px;
+        flex-basis: 40px;
+        margin-right:10px;
       }
     </style>
   </head>
@@ -453,7 +470,7 @@
         </div>
         <div id="container">
           <div>
-            <div></div>
+            
           </div>
           <div id="select-tab">
             <label for="" class="alignment">SORT BY</label>
@@ -468,6 +485,11 @@
                 Price(lowest first)
               </option>
             </select>
+            <div id="pagination">
+              <div onclick="decrementPage()"><</div>
+              <div><p id="pageValue">1</p></div>
+              <div onclick="incrementPage()">></div>
+            </div>
           </div>
         </div>
         &nbsp;
@@ -1361,42 +1383,54 @@
    
 */
     var array = [];
+    let page=1;
+    let TotalPages=0;
+    let parent = document.getElementById("data");
+    let pageValue= document.getElementById("pageValue");
+   
     var arrayDisplay = [];
-    getData();
+    function decrementPage() {
+      if(page>1) {
+        page--;
+        array=[];
+        parent.innerHTML = "";
+        pageValue.innerHTML = page;
+        getData(page)
+      } else {
+        alert("Already on first Page")
+      }
+    }  
 
-    async function getData() {
-      let res = await fetch("http://localhost:2345/products/cat/men");
-      console.log("res",res);
+    function incrementPage() {
+      if(page<TotalPages) {
+        page++;
+        array=[];
+        parent.innerHTML = "";
+        pageValue.innerHTML = page;
+        getData(page)
+      } else {
+        alert("You are on last page")
+      }
+    }
+
+    async function getData(pageno) {
+      let res = await fetch(`http://localhost:2345/products/cat/men?page=${pageno}&size=9`);
 
       let data = await res.json();
-      console.log(data,"whfcvd");
 
+      TotalPages=data.totalPages;
       data.products.forEach(ele => {
         array.push(ele);
         arrayDisplay.push(ele);
       });
-
-      // final.push(data);
-      // finalD.push(data.products);
-      // console.log("arra",array[0]);
-      // console.log("display",arrayDisplay[0]);
-    }
-console.log(array,"12352345");
-console.log(arrayDisplay,"3452346346");
-      // console.log(final, "sagdgv");
-      // console.log(final[0].products, "sagdgv");
-      // console.log(final.products, "sagdgv");
-
-      // let array = final[0];
-      // let arrayDisplay = finalD[0];
-      // let array = final[0];
-      //console.log('array:', array);
-      // let arrayDisplay = finalD[0];
-
-      let parent = document.getElementById("data");
       displayProducts(array);
+    }
+
+    getData(page);
+    
+
+         
       var select = document.getElementById("select");
-      console.log(select);
       // console.log(select.value);
 
       select.onchange = () => {
@@ -1908,7 +1942,7 @@ console.log(arrayDisplay,"3452346346");
       }
 
       function displayProducts(array) {
-        console.log(array,"fin1111111111111");
+        console.log(array,"display array");
         array.forEach(function (data) {
           let div = document.createElement("div");
           let finalDiv = document.createElement("div");
