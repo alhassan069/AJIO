@@ -155,6 +155,7 @@ async function addProductTocart() {
   var addToCart = data.products;
   console.log("addToCart", addToCart)
   addTocart(addToCart);
+  window.location.reload();
 }
 function addTocart(data) {
     console.log("data",data)

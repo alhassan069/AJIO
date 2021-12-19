@@ -72,11 +72,11 @@ let steone = setTimeout(() => {
   let new_username=window.location.href;
   console.log('new_username:', new_username);
 
-  let name2=new_username.split("=")[1];
+  let name2=new_username.split("=");
   console.log('name2:', name2);
 
-  if(name2!=null) {
-    localStorage.setItem("username_AJIO", JSON.stringify({ username: name2 }));
+  if(name2[1]!=null && name2[0]=="http://localhost:2345/?user_name") {
+    localStorage.setItem("username_AJIO", JSON.stringify({ username: name2[1] }));
   }
 
   if (localStorage.getItem("username_AJIO") == null) {
@@ -389,7 +389,7 @@ let steone = setTimeout(() => {
   function displayCartItems(items) {
     let parent = document.getElementById("cart_contents");
     parent.innerHTML = null;
-    console.log("items",items)
+   
     items.forEach((el) => {
       el=el.product;
       let div = document.createElement("div");
