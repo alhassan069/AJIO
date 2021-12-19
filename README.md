@@ -9,9 +9,9 @@ Disclamer:This Clone is used for only Educational Purposes.
 
 ![App Screenshot](https://github.com/alhassan069/AJIO/blob/7c7fb9d7278c56694344f8f7fc19ef345476515a/images/img22.gif)
 
-![App Screenshot](images/img33.png)
+![App Screenshot](src/Public/images/img33.png)
 
-![App Screenshot](images/img45.png)
+![App Screenshot](src/Public/images/img45.png)
 
 ## Technologies Used
 
