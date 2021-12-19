@@ -1,6 +1,6 @@
 Clone Ajio.com
 
-This is the clone of Ajio.com ,which we made during the UNIT III Construct Week.
+This is the clone of Ajio.com ,which we made during the UNIT IV Construct Week.
 ```
 Disclamer:This Clone is used for only Educational Purposes.
 ```
@@ -15,19 +15,23 @@ Disclamer:This Clone is used for only Educational Purposes.
 
 ## Technologies Used
 
+- JavaScript
+- NodeJS
+- MongoDB
+- Mongoose
+- Express
 - HTML
 - CSS
 - Tailwind CSS
-- JavaScript
 - Import Export Modules
-- Masai Authentication API
-- Local Storage
 
 ## Functional Things :
 * User Signup Popup/model.
 * User Login Popup/model.
 * Navbar Using Import Export Modules.
 * Products Page.
+* Pagination.
+* Signout function.
 * Quick View Popup/model
 * All types of Sort/Filter Functionality.
 * Add to cart Button.
@@ -43,7 +47,15 @@ Prerequisites
   ```
   Git Clone - https://github.com/alhassan069/AJIO
   ```
-
+- Open the Project directory in terminal
+  ```
+  npm install
+  npm run server
+  ```
+- Open Browser and use this URL
+  ```
+  http://localhost:2345/
+  ```
 ## Website Flow :
 
 ![App Screenshot](https://github.com/alhassan069/AJIO/blob/1d601e255827f728fcbd1c2a55ff6579e92e78da/images/img55.gif)
