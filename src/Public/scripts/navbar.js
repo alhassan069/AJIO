@@ -69,14 +69,20 @@ let steone = setTimeout(() => {
   //     one.push(product_data[i]);
   // }
   // localStorage.setItem("Cart_AJIO",JSON.stringify(one));
-  let new_username=window.location.href;
-  console.log('new_username:', new_username);
+  let new_username = window.location.href;
+  console.log("new_username:", new_username);
 
-  let name2=new_username.split("=");
-  console.log('name2:', name2);
+  let name2 = new_username.split("=");
+  console.log("name2:", name2);
 
-  if(name2[1]!=null && name2[0]=="http://localhost:2345/?user_name") {
-    localStorage.setItem("username_AJIO", JSON.stringify({ username: name2[1] }));
+  if (
+    name2[1] != null &&
+    name2[0] == "https://ajioclone.herokuapp.com/?user_name"
+  ) {
+    localStorage.setItem(
+      "username_AJIO",
+      JSON.stringify({ username: name2[1] })
+    );
   }
 
   if (localStorage.getItem("username_AJIO") == null) {
@@ -105,7 +111,7 @@ let steone = setTimeout(() => {
     let div3 = document.createElement("div");
     let p3 = document.createElement("p");
     p3.innerText = "Sign Out";
-    p3.id="sign_out_btn";
+    p3.id = "sign_out_btn";
     div3.append(p3);
 
     let div4 = document.createElement("div");
@@ -122,14 +128,14 @@ let steone = setTimeout(() => {
   function displayNavContainer() {
     mask.style.visibility = "visible";
     flycontainer.style.visibility = "visible";
-    mask.style.animationName="animate1";
-    mask.style.animationDuration="0.6s";
+    mask.style.animationName = "animate1";
+    mask.style.animationDuration = "0.6s";
   }
   function hideNavContainer() {
     mask.style.visibility = "hidden";
     flycontainer.style.visibility = "hidden";
-    mask.style.animationName="";
-    mask.style.animationDuration="";
+    mask.style.animationName = "";
+    mask.style.animationDuration = "";
   }
   let menu_options = document.getElementsByClassName("one");
   for (let i = 0; i < menu_options.length; i++) {
@@ -161,16 +167,16 @@ let steone = setTimeout(() => {
     login_popup.style.visibility = "visible";
     mask.style.zIndex = 11;
     mask.style.visibility = "visible";
-    mask.style.animationName="animate1";
-    mask.style.animationDuration="0.6s";
+    mask.style.animationName = "animate1";
+    mask.style.animationDuration = "0.6s";
   }
 
   function hideSigninPopup() {
     login_popup.style.visibility = "hidden";
     mask.style.zIndex = 9;
     mask.style.visibility = "hidden";
-    mask.style.animationName="";
-    mask.style.animationDuration="";
+    mask.style.animationName = "";
+    mask.style.animationDuration = "";
   }
   if (name1 == null) {
     navbarSignIn.addEventListener("click", displaySigninPopup);
@@ -254,7 +260,7 @@ let steone = setTimeout(() => {
 
             if (!res.error) {
               alert_mes.innerText = "Login Successful";
-        
+
               let datastorage = JSON.parse(
                 localStorage.getItem("username_AJIO")
               );
@@ -314,7 +320,7 @@ let steone = setTimeout(() => {
     e.preventDefault();
     let form = document.getElementById("form");
     let alert_mes = document.getElementById("login_signup_alert");
-  
+
     if (form.name.value == "") {
       alert_mes.innerText = "Please Enter Name";
     } else if (form.email.value == "") {
@@ -331,7 +337,7 @@ let steone = setTimeout(() => {
         email: form.email.value,
         username: form.username.value,
         password: form.password.value,
-        mobile: form.mobile.value
+        mobile: form.mobile.value,
       };
 
       user_data = JSON.stringify(user_data);
@@ -367,31 +373,23 @@ let steone = setTimeout(() => {
   }
   signup_btn.addEventListener("click", signup);
 
-
-
-
-
-
-
-
-
-  function getCartData(){
-    fetch('http://localhost:2345/cart')
-    .then(response => response.json())
-    .then(data=>{
-      console.log(data.cart);
-      displayCartItems(data.cart)
-    })
+  function getCartData() {
+    fetch("https://ajioclone.herokuapp.com/cart")
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data.cart);
+        displayCartItems(data.cart);
+      });
   }
 
-  getCartData()
+  getCartData();
 
   function displayCartItems(items) {
     let parent = document.getElementById("cart_contents");
     parent.innerHTML = null;
-   
+
     items.forEach((el) => {
-      el=el.product;
+      el = el.product;
       let div = document.createElement("div");
 
       let div1 = document.createElement("div");
@@ -440,30 +438,30 @@ let steone = setTimeout(() => {
     }, 500);
   }
   function cartOnClick() {
-    console.log("yes")
-    window.location.href="cart.html";
+    console.log("yes");
+    window.location.href = "cart.html";
   }
-  cart_btn.addEventListener("click",cartOnClick);
+  cart_btn.addEventListener("click", cartOnClick);
   cart_btn.addEventListener("mouseenter", displayCartContainer);
   cart_btn.addEventListener("mouseleave", hideCartContainer);
   cart_container.addEventListener("mouseenter", displayCartContainer);
   cart_container.addEventListener("mouseleave", hideCartContainer);
 
-  //signout 
-  let signout_btn=document.getElementById("sign_out_btn");
+  //signout
+  let signout_btn = document.getElementById("sign_out_btn");
 
   function signout() {
-      localStorage.removeItem("username_AJIO");
-      window.location.href="/";
+    localStorage.removeItem("username_AJIO");
+    window.location.href = "/";
   }
-  if(signout_btn!=null) {
+  if (signout_btn != null) {
     signout_btn.addEventListener("click", signout);
   }
   let logo_navbar = document.getElementById("navbar_ajio_logo");
   function logo_navbar_link() {
     window.location.href = "/";
   }
-  logo_navbar.addEventListener("click",logo_navbar_link);
+  logo_navbar.addEventListener("click", logo_navbar_link);
 
   let men_link = document.getElementById("men_link");
   let women_link = document.getElementById("women_link");
@@ -475,7 +473,7 @@ let steone = setTimeout(() => {
     window.location.href = "productsPage.html";
   }
   function womenHref() {
-    window.location.href = "womensDressesPage.html"
+    window.location.href = "womensDressesPage.html";
   }
   function kidsHref() {
     window.location.href = "kidsToysPage.html";
@@ -486,21 +484,18 @@ let steone = setTimeout(() => {
   function homeHref() {
     window.location.href = "productsPage.html";
   }
-  men_link.addEventListener("click",menHref);
-  women_link.addEventListener("click",womenHref);
-  kids_link.addEventListener("click",kidsHref);
-  indie_link.addEventListener("click",indieHref);
-  home_link.addEventListener("click",homeHref);
-
+  men_link.addEventListener("click", menHref);
+  women_link.addEventListener("click", womenHref);
+  kids_link.addEventListener("click", kidsHref);
+  indie_link.addEventListener("click", indieHref);
+  home_link.addEventListener("click", homeHref);
 
   //googleOauth
 
   let googleOauth = document.getElementById("googleOauth");
-  googleOauth.addEventListener("click",google)
+  googleOauth.addEventListener("click", google);
 
   function google() {
-    window.location.href="/auth/google";
+    window.location.href = "/auth/google";
   }
-
-
 }, 500);

@@ -114,7 +114,6 @@
         width: 46%;
         height: 30px;
         margin-left: 5px;
-        
       }
       #select-tab {
         background-color: #f9f9f9;
@@ -127,11 +126,11 @@
         /* width: 150px; */
       }
       #sortUp {
-          /* border: 2px solid blue; */
-          width: 300px;
-          margin-top: -35px;
-          margin-left: 730px;
-          margin-bottom: 15px;
+        /* border: 2px solid blue; */
+        width: 300px;
+        margin-top: -35px;
+        margin-left: 730px;
+        margin-bottom: 15px;
       }
       #refine {
         font-weight: 500;
@@ -225,35 +224,35 @@
         display: none;
       }
       .boxcols {
-          display : grid;
-          grid-template-columns: 10px 10px 10px;
-          border: 1px solid black;
-          width: 34px;
+        display: grid;
+        grid-template-columns: 10px 10px 10px;
+        border: 1px solid black;
+        width: 34px;
       }
       .box {
-          border: 1px solid brown;
-          width: 6px;
-          margin: 3px;
-          /* background-color: #ffffff; */
-          background-color: rgb(177, 225, 246);
-          height: 15px;
+        border: 1px solid brown;
+        width: 6px;
+        margin: 3px;
+        /* background-color: #ffffff; */
+        background-color: rgb(177, 225, 246);
+        height: 15px;
       }
       .boxcols5 {
-          display : grid;
-          grid-template-columns: 10px 10px 10px 10px 10px;
-          border: 1px solid black;
-          width: 54px;
+        display: grid;
+        grid-template-columns: 10px 10px 10px 10px 10px;
+        border: 1px solid black;
+        width: 54px;
       }
       .box5 {
-          border: 1px solid brown;
-          width: 6px;
-          margin: 3px;
-          /* background-color: #ffffff; */
-          background-color: rgb(108, 132, 143);
-          height: 15px;
+        border: 1px solid brown;
+        width: 6px;
+        margin: 3px;
+        /* background-color: #ffffff; */
+        background-color: rgb(108, 132, 143);
+        height: 15px;
       }
       #rows {
-          /* border: 5px solid yellow; */
+        /* border: 5px solid yellow; */
         display: grid;
         grid-template-columns: 25px 15px 35px 55px 450px;
         /* padding: 50px; */
@@ -507,39 +506,38 @@
           </div>
           <div id="select-tab">
             <!-- <button id="grid3" onclick="cols3()">3 cols</button> -->
-            
+
             <div id="rows">
-                <label for="">GRID</label>
-                <div></div>
-                <div class="boxcols" onclick="cols3()">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                </div>
-                <div class="boxcols5" onclick="cols5()">
-                    <div class="box5"></div>
-                    <div class="box5"></div>
-                    <div class="box5"></div>
-                    <div class="box5"></div>
-                    <div class="box5"></div>
-                </div>
+              <label for="">GRID</label>
+              <div></div>
+              <div class="boxcols" onclick="cols3()">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+              </div>
+              <div class="boxcols5" onclick="cols5()">
+                <div class="box5"></div>
+                <div class="box5"></div>
+                <div class="box5"></div>
+                <div class="box5"></div>
+                <div class="box5"></div>
+              </div>
             </div>
             <!-- <button id="grid5" onclick="cols5()">5 cols</button> -->
             <div id="sortUp">
-                <label for="" class="alignment">SORT BY</label>
-                <select name="" id="select">
-                  <option value="What's New" id="new">What's New</option>
-                  <option value="Relevance" id="relevance">Relevance</option>
-                  <option value="Discount" id="discount">Discount</option>
-                  <option value="Price(highest first)" id="high">
-                    Price(highest first)
-                  </option>
-                  <option value="Price(lowest first)" id="low">
-                    Price(lowest first)
-                  </option>
-                </select>
+              <label for="" class="alignment">SORT BY</label>
+              <select name="" id="select">
+                <option value="What's New" id="new">What's New</option>
+                <option value="Relevance" id="relevance">Relevance</option>
+                <option value="Discount" id="discount">Discount</option>
+                <option value="Price(highest first)" id="high">
+                  Price(highest first)
+                </option>
+                <option value="Price(lowest first)" id="low">
+                  Price(lowest first)
+                </option>
+              </select>
             </div>
-           
           </div>
         </div>
         &nbsp;
@@ -1132,22 +1130,22 @@
     displayProducts(array);
 
     function cols5() {
-        parent.innerHTML = "";
-        let grid5 = document.getElementById("grid5");
+      parent.innerHTML = "";
+      let grid5 = document.getElementById("grid5");
 
-            parent.style.display = "grid";
-            parent.style.gridTemplateColumns = "18% 18% 18% 18% 18%";
-            parent.style.gap = "20px";
-            displayProducts(array);
+      parent.style.display = "grid";
+      parent.style.gridTemplateColumns = "18% 18% 18% 18% 18%";
+      parent.style.gap = "20px";
+      displayProducts(array);
     }
-    
+
     function cols3() {
-        parent.innerHTML = "";
-        let grid3 = document.getElementById("grid3");
-            parent.style.display = "grid";
-            parent.style.gridTemplateColumns = " 31% 31% 31%";
-            parent.style.gap = "20px";
-            displayProducts(array);
+      parent.innerHTML = "";
+      let grid3 = document.getElementById("grid3");
+      parent.style.display = "grid";
+      parent.style.gridTemplateColumns = " 31% 31% 31%";
+      parent.style.gap = "20px";
+      displayProducts(array);
     }
 
     var select = document.getElementById("select");

@@ -340,7 +340,7 @@
         var bagdiscount=0;
         let discount=0;
         var bagtotal=0;
-        fetch('http://localhost:2345/cart')
+        fetch('https://ajioclone.herokuapp.com/cart')
         .then(response => response.json())
         .then(data=>{
             let d = data.cart;

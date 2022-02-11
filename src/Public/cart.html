@@ -242,7 +242,7 @@
         var bagdiscount=0;
         let discount=0;
         var bagtotal=0;
-        fetch('http://localhost:2345/cart')
+        fetch('https://ajioclone.herokuapp.com/cart')
         .then(response => response.json())
         .then(data=>{
             let d = data.cart;
@@ -344,7 +344,7 @@
             let dele = document.createElement('button');
             dele.innerText="Delete";
             dele.onclick=()=>{
-                fetch(`http://localhost:2345/cart/${product_id}`,{
+                fetch(`https://ajioclone.herokuapp.com/cart/${product_id}`,{
                 method: "DELETE",
                 headers: {
                 'Accept': 'application/json',

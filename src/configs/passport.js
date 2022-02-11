@@ -6,8 +6,8 @@ const { uuid } = require("uuidv4");
 const User = require("../models/user.model");
 const jwt = require("jsonwebtoken");
 const newToken = (user) => {
-  return token = jwt.sign({ user: user }, "ajioproject");
-}
+  return (token = jwt.sign({ user: user }, "ajioproject"));
+};
 
 passport.use(
   new GoogleStrategy(
@@ -22,8 +22,8 @@ passport.use(
       let user = await User.findOne({ email: profile?._json?.email })
         .lean()
         .exec();
-      if(user) {
-        return done(null, { user});
+      if (user) {
+        return done(null, { user });
       }
       if (!user) {
         user = await User.create({
@@ -31,7 +31,7 @@ passport.use(
           email: profile?._json?.email,
           username: profile?._json?.given_name,
           password: "sdaljfsdlf",
-          mobile:"default",
+          mobile: "default",
         });
       }
       const token = newToken(user);
